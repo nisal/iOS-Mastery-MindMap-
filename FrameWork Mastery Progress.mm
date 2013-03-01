@@ -465,7 +465,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362142453187" ID="ID_327350068" LINK="https://developer.apple.com/library/ios/#documentation/ContactData/Conceptual/AddressBookProgrammingGuideforiPhone/Chapters/BasicObjects.html#//apple_ref/doc/uid/TP40007744-CH3-SW1" MODIFIED="1362142490310" TEXT="AddressBook Programming Guide"/>
 </node>
-<node COLOR="#990000" CREATED="1362142977888" FOLDED="true" ID="ID_1681807273" MODIFIED="1362143467215" TEXT="ABSource Reference">
+<node COLOR="#990000" CREATED="1362142977888" ID="ID_1681807273" MODIFIED="1362149297963" TEXT="ABSource Reference">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362143077021" ID="ID_1518843989" MODIFIED="1362143088262" TEXT="Sources of contact information are represented by instances of the ABRecordRef opaque type, whose record type is kABSourceType. Examples of sources include the local address book database, CardDAV servers, and social networking sites.  "/>
 <node COLOR="#111111" CREATED="1362143088266" ID="ID_485012516" MODIFIED="1362143088267" TEXT="Not all sources support groups. Each record in the address book database can belong to only one source. Folders from Exchange accounts are represented in the address book database as sources."/>
@@ -514,7 +514,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1362142988606" FOLDED="true" ID="ID_1364008240" MODIFIED="1362145975835" TEXT="ABPerson Reference">
+<node COLOR="#990000" CREATED="1362142988606" ID="ID_1364008240" MODIFIED="1362149299265" TEXT="ABPerson Reference">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362143473034" ID="ID_1150795862" MODIFIED="1362143672398" TEXT="Creating Person Records">
 <node COLOR="#111111" CREATED="1362143672399" ID="ID_1210248204" MODIFIED="1362143686454" TEXT="ABPersonCreate">
@@ -616,7 +616,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1362142990447" FOLDED="true" ID="ID_541264648" MODIFIED="1362146770730" TEXT="ABGroup Reference">
+<node COLOR="#990000" CREATED="1362142990447" ID="ID_541264648" MODIFIED="1362149296307" TEXT="ABGroup Reference">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362145990424" ID="ID_1344252851" MODIFIED="1362146025514" TEXT="Creating Groups">
 <node COLOR="#111111" CREATED="1362146026976" ID="ID_1278559984" MODIFIED="1362146033762" TEXT="ABGroupCreate    ">
@@ -659,7 +659,7 @@
 </node>
 <node COLOR="#111111" CREATED="1362146180772" ID="ID_1003459634" MODIFIED="1362146182183" TEXT="kABGroupNameProperty"/>
 </node>
-<node COLOR="#990000" CREATED="1362143005854" FOLDED="true" ID="ID_161882522" MODIFIED="1362148579998" TEXT="ABRecord Reference">
+<node COLOR="#990000" CREATED="1362143005854" ID="ID_161882522" MODIFIED="1362149293924" TEXT="ABRecord Reference">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362146773472" ID="ID_1082227365" MODIFIED="1362146782529" TEXT="Getting Record Information     ">
 <node COLOR="#111111" CREATED="1362146783640" ID="ID_975338858" MODIFIED="1362146789146" TEXT=" ABRecordGetRecordID     ">
@@ -759,9 +759,98 @@
 </node>
 <node COLOR="#990000" CREATED="1362143016133" ID="ID_1991432809" MODIFIED="1362143023901" TEXT="ABMultiValue Reference">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362149359275" ID="ID_994977699" MODIFIED="1362149374248" TEXT="Getting Values and Labels      ">
+<node COLOR="#111111" CREATED="1362149375202" ID="ID_1767028756" MODIFIED="1362149380428" TEXT=" ABMultiValueCopyValueAtIndex     ">
+<node COLOR="#111111" CREATED="1362149456401" ID="ID_265392737" MODIFIED="1362149457614" TEXT="Returns the value at a particular location within a multivalue property."/>
+<node COLOR="#111111" CREATED="1362149464928" ID="ID_1010422498" MODIFIED="1362149465842" TEXT="This function takes an index. If you have an identifier, use the ABMultiValueGetIndexForIdentifier function to get the corresponding index."/>
+</node>
+<node COLOR="#111111" CREATED="1362149380429" ID="ID_942279095" MODIFIED="1362149384508" TEXT="ABMultiValueCopyArrayOfAllValues     ">
+<node COLOR="#111111" CREATED="1362149478007" ID="ID_1252452576" MODIFIED="1362149479458" TEXT="Returns an array with the values in a multivalue property."/>
+</node>
+<node COLOR="#111111" CREATED="1362149384509" ID="ID_716140892" MODIFIED="1362149389655" TEXT="ABMultiValueGetCount     ">
+<node COLOR="#111111" CREATED="1362149489343" ID="ID_313610329" MODIFIED="1362149490002" TEXT="Returns the number of values in a multivalue property."/>
+</node>
+<node COLOR="#111111" CREATED="1362149390586" ID="ID_1928806499" MODIFIED="1362149396133" TEXT="ABMultiValueGetFirstIndexOfValue     ">
+<node COLOR="#111111" CREATED="1362149504407" ID="ID_98133755" MODIFIED="1362149505203" TEXT="Returns the first location of a value in a multivalue property."/>
+</node>
+<node COLOR="#111111" CREATED="1362149396673" ID="ID_998959017" MODIFIED="1362149397254" TEXT="ABMultiValueCopyLabelAtIndex ">
+<node COLOR="#111111" CREATED="1362149522031" ID="ID_830970096" MODIFIED="1362149522819" TEXT="Returns the label for a value in a multivalue property."/>
+<node COLOR="#111111" CREATED="1362149536735" ID="ID_186632126" MODIFIED="1362149543098" TEXT="If there is no label for the value at index, returns NULL.  "/>
+<node COLOR="#111111" CREATED="1362149543099" ID="ID_1391165839" MODIFIED="1362149543101" TEXT="This function takes an index. If you have an identifier, use the ABMultiValueGetIndexForIdentifier function to get the corresponding index."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362149366918" ID="ID_1858258630" MODIFIED="1362149406581" TEXT="Getting Value Identifiers      ">
+<node COLOR="#111111" CREATED="1362149408281" ID="ID_1315766168" MODIFIED="1362149414280" TEXT="ABMultiValueGetIdentifierAtIndex     ">
+<node COLOR="#111111" CREATED="1362149561454" ID="ID_818536248" MODIFIED="1362149562184" TEXT="Returns the identifier of a value in a multivalue property."/>
+</node>
+<node COLOR="#111111" CREATED="1362149415570" ID="ID_163265126" MODIFIED="1362149416485" TEXT="ABMultiValueGetIndexForIdentifier  ">
+<node COLOR="#111111" CREATED="1362149572445" ID="ID_250259633" MODIFIED="1362149573313" TEXT="Returns the location (within a multivalue property) of a value with a given identifier."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362149401272" ID="ID_1551765244" MODIFIED="1362149425218" TEXT="Getting Property Information  ">
+<node COLOR="#111111" CREATED="1362149425219" ID="ID_569883677" MODIFIED="1362149426468" TEXT=" ABMultiValueGetPropertyType">
+<node COLOR="#111111" CREATED="1362149588116" ID="ID_1219437861" MODIFIED="1362149589450" TEXT="Returns the type of the values contained in a multivalue property."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362149598797" ID="ID_48657582" MODIFIED="1362149602393" TEXT="Data Types">
+<node COLOR="#111111" CREATED="1362149603333" ID="ID_1235367411" MODIFIED="1362149616449" TEXT="ABMultiValueRef  Reference to a multivalue property."/>
+<node COLOR="#111111" CREATED="1362149627964" ID="ID_193789713" MODIFIED="1362149629163" TEXT="ABMultiValueIdentifier  Identifies multivalue properties."/>
+<node COLOR="#111111" CREATED="1362149649004" ID="ID_588055738" MODIFIED="1362149653651" TEXT="kABMultiValueInvalidIdentifier      Invalid multivalue property. (constant)"/>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1362143038045" ID="ID_435161696" MODIFIED="1362143039390" TEXT="ABAddressBook Reference">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362149675170" ID="ID_1905637245" MODIFIED="1362151011474" TEXT="Managing Address Books      ">
+<node COLOR="#111111" CREATED="1362151013538" ID="ID_1205597621" MODIFIED="1362151018450" TEXT="ABAddressBookCreate     "/>
+<node COLOR="#111111" CREATED="1362151018451" ID="ID_1555767999" MODIFIED="1362151022952" TEXT="ABAddressBookCreateWithOptions    "/>
+<node COLOR="#111111" CREATED="1362151022952" ID="ID_1296478849" MODIFIED="1362151026136" TEXT=" ABAddressBookGetAuthorizationStatus    "/>
+<node COLOR="#111111" CREATED="1362151026136" ID="ID_662534934" MODIFIED="1362151046108" TEXT=" ABAddressBookRequestAccessWithCompletion      "/>
+<node COLOR="#111111" CREATED="1362151046794" ID="ID_1996406184" MODIFIED="1362151047720" TEXT="ABAddressBookHasUnsavedChanges    "/>
+<node COLOR="#111111" CREATED="1362151040318" ID="ID_1973168555" MODIFIED="1362151040319" TEXT="ABAddressBookSave  "/>
+<node COLOR="#111111" CREATED="1362151035539" ID="ID_228555110" MODIFIED="1362151035540" TEXT="   ABAddressBookRevert  "/>
+</node>
+<node COLOR="#111111" CREATED="1362151000369" ID="ID_1379361336" MODIFIED="1362151063646" TEXT="Managing Address Book Records       ">
+<node COLOR="#111111" CREATED="1362151065090" ID="ID_1758123355" MODIFIED="1362151072779" TEXT="ABAddressBookAddRecord     "/>
+<node COLOR="#111111" CREATED="1362151073266" ID="ID_489789151" MODIFIED="1362151074167" TEXT="ABAddressBookRemoveRecord "/>
+</node>
+<node COLOR="#111111" CREATED="1362150994992" ID="ID_629489361" MODIFIED="1362151080829" TEXT="Getting Address Book Change Notifications      ">
+<node COLOR="#111111" CREATED="1362151081913" ID="ID_1683637521" MODIFIED="1362151086902" TEXT="ABAddressBookRegisterExternalChangeCallback  "/>
+<node COLOR="#111111" CREATED="1362151086903" ID="ID_1519473041" MODIFIED="1362151086904" TEXT="   ABAddressBookUnregisterExternalChangeCallback  "/>
+</node>
+<node COLOR="#111111" CREATED="1362150989116" ID="ID_1926857553" MODIFIED="1362151103555" TEXT="Localizing Text    ">
+<node COLOR="#111111" CREATED="1362151104529" ID="ID_311273555" MODIFIED="1362151105606" TEXT=" ABAddressBookCopyLocalizedLabel"/>
+</node>
+<node COLOR="#111111" CREATED="1362151238693" ID="ID_1446177631" MODIFIED="1362151239722" TEXT="Callbacks">
+<node COLOR="#111111" CREATED="1362151705703" ID="ID_1083298808" MODIFIED="1362151706645" TEXT="ABExternalChangeCallback">
+<node COLOR="#111111" CREATED="1362151711998" ID="ID_1355153653" MODIFIED="1362151713562" TEXT="Prototype for a function callback invoked on an address book when the Address Book database is modified by another address book instance."/>
+<node COLOR="#111111" CREATED="1362151725791" ID="ID_1420014265" MODIFIED="1362151734437" TEXT="Use ABAddressBookRegisterExternalChangeCallback to register and ABAddressBookUnregisterExternalChangeCallback to unregister the callback function. "/>
+<node COLOR="#111111" CREATED="1362151734440" ID="ID_1985719927" MODIFIED="1362151742554" TEXT=" You can register for a callback with different contexts or callback functions. The run loop on the thread that registered the callback invokes the callback.  "/>
+<node COLOR="#111111" CREATED="1362151742557" ID="ID_1464568656" MODIFIED="1362151742567" TEXT="The addressBook object does not take any action to flush or synchronize cached state with the Address Book database. If you want to ensure that addressBook doesn&#x2019;t contain stale values, use ABAddressBookRevert."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362151246070" ID="ID_276611033" MODIFIED="1362151246912" TEXT="Data Types">
+<node COLOR="#111111" CREATED="1362151632424" ID="ID_552799711" MODIFIED="1362151633416" TEXT="ABAddressBookRef  Reference to an object used to interact with the Address Book database."/>
+<node COLOR="#111111" CREATED="1362151644649" ID="ID_846518207" MODIFIED="1362151645724" TEXT="ABAddressBookRequestAccessCompletionHandler  Definition for a block callback invoked when an access request has completed.">
+<node COLOR="#111111" CREATED="1362151665440" ID="ID_1911346886" MODIFIED="1362151667483" TEXT="Address book request access completion handler blocks are used with ABAddressBookCreateWithOptions. If you had a view controller that wanted to display the count of users with the name &#x201c;Smith&#x201d; in the address book, you might implement something like the code shown in the following code listing."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362151253221" ID="ID_1481310957" MODIFIED="1362151253960" TEXT="Constants">
+<node COLOR="#111111" CREATED="1362151307260" ID="ID_1304738606" MODIFIED="1362151308491" TEXT="Address Book Errors">
+<node COLOR="#111111" CREATED="1362151530990" ID="ID_352296093" MODIFIED="1362151538664" TEXT="kABOperationNotPermittedByStoreError      The operation is not allowed by the Address Book database, because the contact&#x2019;s source does not support it.       "/>
+<node COLOR="#111111" CREATED="1362151538667" ID="ID_760316975" MODIFIED="1362151538670" TEXT=" kABOperationNotPermittedByUserError      The operation is not allowed because the user denied access to the Address Book database."/>
+</node>
+<node COLOR="#111111" CREATED="1362151319675" ID="ID_1427637045" MODIFIED="1362151320622" TEXT="ABAuthorizationStatus">
+<node COLOR="#111111" CREATED="1362151386697" ID="ID_819894279" MODIFIED="1362151387568" TEXT="Different possible values for the authorization status of an app with respect to address book data."/>
+<node COLOR="#111111" CREATED="1362151406177" ID="ID_1650342000" MODIFIED="1362151420006" TEXT="kABAuthorizationStatusNotDetermined      No authorization status could be determined.      "/>
+<node COLOR="#111111" CREATED="1362151420007" ID="ID_1497537968" MODIFIED="1362151430478" TEXT=" kABAuthorizationStatusRestricted      The app is not authorized to access address book data. The user cannot change this access, possibly due to restrictions such as parental controls.      "/>
+<node COLOR="#111111" CREATED="1362151430481" ID="ID_1114325455" MODIFIED="1362151437706" TEXT=" kABAuthorizationStatusDenied      The user explicitly denied access to address book data for this app.      "/>
+<node COLOR="#111111" CREATED="1362151437709" ID="ID_420876515" MODIFIED="1362151437710" TEXT=" kABAuthorizationStatusAuthorized      The app is authorized to access address book data."/>
+</node>
+<node COLOR="#111111" CREATED="1362151325259" ID="ID_321982942" MODIFIED="1362151326002" TEXT="Address Book Error Domain">
+<node COLOR="#111111" CREATED="1362151336435" ID="ID_1222459042" MODIFIED="1362151337584" TEXT="Error domain under which Address Book errors are grouped."/>
+<node COLOR="#111111" CREATED="1362151573337" ID="ID_1375112802" MODIFIED="1362151574477" TEXT="ABAddressBookErrorDomain      The main error domain for Address Book framework operations."/>
+</node>
+</node>
 </node>
 </node>
 </node>
