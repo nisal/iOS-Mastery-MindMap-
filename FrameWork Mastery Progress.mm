@@ -659,7 +659,7 @@
 </node>
 <node COLOR="#111111" CREATED="1362146180772" ID="ID_1003459634" MODIFIED="1362146182183" TEXT="kABGroupNameProperty"/>
 </node>
-<node COLOR="#990000" CREATED="1362143005854" ID="ID_161882522" MODIFIED="1362143006687" TEXT="ABRecord Reference">
+<node COLOR="#990000" CREATED="1362143005854" FOLDED="true" ID="ID_161882522" MODIFIED="1362148579998" TEXT="ABRecord Reference">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362146773472" ID="ID_1082227365" MODIFIED="1362146782529" TEXT="Getting Record Information     ">
 <node COLOR="#111111" CREATED="1362146783640" ID="ID_975338858" MODIFIED="1362146789146" TEXT=" ABRecordGetRecordID     ">
@@ -723,6 +723,39 @@
 </node>
 <node COLOR="#990000" CREATED="1362143012837" ID="ID_1977742783" MODIFIED="1362143013928" TEXT="ABMutableMultiValue Reference">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362148585804" ID="ID_726253001" MODIFIED="1362148644005" TEXT="Creating Properties      ">
+<node COLOR="#111111" CREATED="1362148645171" ID="ID_848916440" MODIFIED="1362148647068" TEXT="ABMultiValueCreateMutable  ">
+<node COLOR="#111111" CREATED="1362148710090" ID="ID_1793698806" MODIFIED="1362148710988" TEXT="Returns a new, empty, mutable multivalue property."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362148597891" ID="ID_159011433" MODIFIED="1362148652853" TEXT="Getting Properties      ">
+<node COLOR="#111111" CREATED="1362148653858" ID="ID_1453345452" MODIFIED="1362148654661" TEXT="ABMultiValueCreateMutableCopy ">
+<node COLOR="#111111" CREATED="1362148719960" ID="ID_1926016899" MODIFIED="1362148721114" TEXT="Returns a mutable copy of a multivalue property."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362148602594" ID="ID_1027179496" MODIFIED="1362148609723" TEXT=" Managing Property Values      ">
+<node COLOR="#111111" CREATED="1362148611172" ID="ID_1327617332" MODIFIED="1362148616719" TEXT="ABMultiValueAddValueAndLabel     ">
+<node COLOR="#111111" CREATED="1362148676562" ID="ID_146954897" MODIFIED="1362148677445" TEXT="Adds a value and its corresponding label to a multivalue property."/>
+<node COLOR="#111111" CREATED="1362148688273" ID="ID_540124964" MODIFIED="1362148689212" TEXT="This function performs no type checking. It allows the addition of values whose type does not match the type declared for multiValue."/>
+</node>
+<node COLOR="#111111" CREATED="1362148616719" ID="ID_1265064829" MODIFIED="1362148620487" TEXT="ABMultiValueReplaceValueAtIndex     ">
+<node COLOR="#111111" CREATED="1362149060657" ID="ID_863065522" MODIFIED="1362149061629" TEXT="Replaces a value in a multivalue property with another value."/>
+<node COLOR="#111111" CREATED="1362149067072" ID="ID_1267398685" MODIFIED="1362149067970" TEXT="This function takes an index. If you have an identifier, use the ABMultiValueGetIndexForIdentifier function to get the corresponding index."/>
+</node>
+<node COLOR="#111111" CREATED="1362148620487" ID="ID_892668028" MODIFIED="1362148623444" TEXT="ABMultiValueReplaceLabelAtIndex    ">
+<node COLOR="#111111" CREATED="1362148794503" ID="ID_1774683232" MODIFIED="1362148795638" TEXT="Replaces a label in a multivalue property with another label."/>
+<node COLOR="#111111" CREATED="1362148800216" ID="ID_478055971" MODIFIED="1362148801117" TEXT="This function takes an index. If you have an identifier, use the ABMultiValueGetIndexForIdentifier function to get the corresponding index."/>
+</node>
+<node COLOR="#111111" CREATED="1362148623445" ID="ID_502507788" MODIFIED="1362148628583" TEXT=" ABMultiValueInsertValueAndLabelAtIndex     ">
+<node COLOR="#111111" CREATED="1362149097776" ID="ID_191107625" MODIFIED="1362149098970" TEXT="Inserts a value and a label into a multivalue property."/>
+<node COLOR="#111111" CREATED="1362149106200" ID="ID_904464454" MODIFIED="1362149111907" TEXT="This function performs no type checking. It allows the insertion of values whose type does not match the type declared for multiValue.  "/>
+<node COLOR="#111111" CREATED="1362149111910" ID="ID_590401106" MODIFIED="1362149111911" TEXT="This function takes an index. If you have an identifier, use the ABMultiValueGetIndexForIdentifier function to get the corresponding index. "/>
+</node>
+<node COLOR="#111111" CREATED="1362148629066" ID="ID_1049175143" MODIFIED="1362148629766" TEXT="ABMultiValueRemoveValueAndLabelAtIndex">
+<node COLOR="#111111" CREATED="1362148774735" ID="ID_1031039690" MODIFIED="1362148775649" TEXT="Removes a value from a multivalue property."/>
+<node COLOR="#111111" CREATED="1362148782239" ID="ID_654244217" MODIFIED="1362148783258" TEXT="This function takes an index. If you have an identifier, use the ABMultiValueGetIndexForIdentifier function to get the corresponding index."/>
+</node>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1362143016133" ID="ID_1991432809" MODIFIED="1362143023901" TEXT="ABMultiValue Reference">
 <font NAME="SansSerif" SIZE="14"/>
