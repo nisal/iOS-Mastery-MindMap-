@@ -746,6 +746,43 @@
 <node COLOR="#111111" CREATED="1362254342401" ID="ID_1268393619" MODIFIED="1362254342401" TEXT="UINib Class Reference - Describes an object for unarchiving and instantiating a nib file."/>
 <node COLOR="#111111" CREATED="1362254342402" ID="ID_144845881" MODIFIED="1362254342402" TEXT="UITableViewDataSource Protocol Reference - Describes the interface for providing a table view with items to display."/>
 </node>
+<node COLOR="#990000" CREATED="1362254658607" ID="ID_1450173454" MODIFIED="1362254665298" TEXT="Part 9">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362254668166" ID="ID_1225699049" MODIFIED="1362254668167" TEXT="UILocalNotification Class Reference - Describes the class for sending local notifications on a device."/>
+<node COLOR="#111111" CREATED="1362254668168" ID="ID_506123923" MODIFIED="1362254668168" TEXT="UIPickerViewAccessibilityDelegate Protocol Reference - Describes the protocol for getting accessibility information for individual components in a picker view."/>
+<node COLOR="#111111" CREATED="1362254668171" ID="ID_1081697960" MODIFIED="1362254668172" TEXT="UIAccessibilityFocus Protocol Reference - Describes a way to discern when an assistive technology, such as VoiceOver, has virtual focus on an element."/>
+<node COLOR="#111111" CREATED="1362254668175" ID="ID_1920516685" MODIFIED="1362254668175" TEXT="UIAccessibilityElement Class Reference - Describes the class that represents accessible user interface elements in an iPhone application."/>
+<node COLOR="#111111" CREATED="1362254668178" ID="ID_1781375125" MODIFIED="1362254668178" TEXT="UIAccessibilityContainer Protocol Reference - Describes a way for container views to supply accessibility information to assistive applications."/>
+<node COLOR="#111111" CREATED="1362254668180" ID="ID_273750274" MODIFIED="1362254668180" TEXT="UIActionSheet Class Reference - Describes the class used to present a sheet to the user."/>
+<node COLOR="#111111" CREATED="1362254668181" ID="ID_1695247192" MODIFIED="1362254668181" TEXT="UISearchBarDelegate Protocol Reference - Describes the protocol for making a search bar control functional."/>
+<node COLOR="#111111" CREATED="1362254668184" ID="ID_133104193" MODIFIED="1362254668184" TEXT="UIAcceleration Class Reference - Describes a device acceleration event."/>
+<node COLOR="#111111" CREATED="1362254668187" ID="ID_1429473543" MODIFIED="1362254668187" TEXT="NSBundle UIKit Additions Reference - Describes additions for loading nib files in iPhone applications."/>
+<node COLOR="#111111" CREATED="1362254668188" ID="ID_433283450" MODIFIED="1362254668188" TEXT="UITextInputTokenizer Protocol Reference - Describes the interface to the text input system for evaluating units of text of varying granularity."/>
+<node COLOR="#111111" CREATED="1362254668191" ID="ID_1707792439" MODIFIED="1362254668191" TEXT="UITextInputDelegate Protocol Reference - Describes the interface for notifying the text system of changes in text and selection."/>
+<node COLOR="#111111" CREATED="1362254668193" ID="ID_1087802668" MODIFIED="1362254668193" TEXT="UIKeyInput Protocol Reference - Describes the protocol adopted by classes to enable simple text entry."/>
+<node COLOR="#111111" CREATED="1362254668196" ID="ID_1121573458" MODIFIED="1362254668196" TEXT="UITextRange Class Reference - Describes the base class used for objects that represent ranges in a text document."/>
+<node COLOR="#111111" CREATED="1362254668198" ID="ID_426274669" MODIFIED="1362254668198" TEXT="UITextPosition Class Reference - Describes the base class for objects that represent locations in a text document."/>
+<node COLOR="#111111" CREATED="1362254668201" ID="ID_1877198200" MODIFIED="1362254668201" TEXT="UITextInputStringTokenizer Class Reference - Describes the class that provides a default implementation of the UITextInputTokenizer protocol."/>
+<node COLOR="#111111" CREATED="1362254668203" ID="ID_1199649016" MODIFIED="1362254668203" TEXT="UIScreenMode Class Reference - Describes the attributes of a screen."/>
+<node COLOR="#111111" CREATED="1362254668204" ID="ID_1233551914" MODIFIED="1362254668205" TEXT="UIMenuItem Class Reference - Describes the class for creating and configuring items of the editing menu."/>
+<node COLOR="#111111" CREATED="1362254668207" ID="ID_43235300" MODIFIED="1362254668207" TEXT="UISearchDisplayDelegate Protocol Reference - Describes the delegate methods for UISearchDisplayController objects."/>
+<node COLOR="#111111" CREATED="1362254668209" ID="ID_192870333" MODIFIED="1362254668209" TEXT="UIPickerViewDataSource Protocol Reference - Describes the interface for receiving data requests from a picker view."/>
+<node COLOR="#111111" CREATED="1362254668212" ID="ID_406128749" MODIFIED="1362254668212" TEXT="Detecting phone numbers and links in an iPhone application - QA1495: Describes how to detect phone numbers and links in an iPhone application."/>
+<node COLOR="#111111" CREATED="1362254668216" ID="ID_597342583" MODIFIED="1362254668216" TEXT="Using UIWebView to display select document types - QA1630: Describes how you can use a UIWebView to display select document types in your application"/>
+<node COLOR="#111111" CREATED="1362254668219" ID="ID_1828237366" MODIFIED="1362254668220" TEXT="UIPickerView Class Reference - Describes a view for selecting values by rotating wheels."/>
+<node COLOR="#111111" CREATED="1362254668221" ID="ID_175179179" MODIFIED="1362254668221" TEXT="UIVideoEditorController Class Reference - Describes a controller that presents and manages a simple movie editor."/>
+<node COLOR="#111111" CREATED="1362254668223" ID="ID_1277647772" MODIFIED="1362254668223" TEXT="UITabBarControllerDelegate Protocol Reference - Describes the protocol for augmenting the behavior of a customized tab bar."/>
+<node COLOR="#111111" CREATED="1362254668225" ID="ID_1191215323" MODIFIED="1362254668226" TEXT="UIVideoEditorControllerDelegate Protocol Reference - Describes the interface for receiving the path to a movie edited by the user."/>
+<node COLOR="#111111" CREATED="1362254668228" ID="ID_1959088331" MODIFIED="1362254668228" TEXT="Launching your Application in Landscape - TN2244: Describes how to start your application in landscape orientation at launch time."/>
+<node COLOR="#111111" CREATED="1362254668230" ID="ID_233197701" MODIFIED="1362254668231" TEXT="UINavigationControllerDelegate Protocol Reference - Describes the protocol used to implement a navigation controller delegate."/>
+<node COLOR="#111111" CREATED="1362254668233" ID="ID_1057478001" MODIFIED="1362254668233" TEXT="UITextFieldDelegate Protocol Reference - Describes the interface for receiving editing-related delegate messages in UITextField objects."/>
+<node COLOR="#111111" CREATED="1362254668235" ID="ID_1915362272" MODIFIED="1362254668236" TEXT="UIActionSheetDelegate Protocol Reference - Describes the UIActionSheetDelegate protocol."/>
+<node COLOR="#111111" CREATED="1362254668236" ID="ID_1336066555" MODIFIED="1362254668237" TEXT="UIAccelerometerDelegate Protocol Reference - Describes the interface for receiving acceleration-related data from the system."/>
+<node COLOR="#111111" CREATED="1362254668239" ID="ID_143109222" MODIFIED="1362254668239" TEXT="UIAccelerometer Class Reference - Describes the system object that provides acceleration data."/>
+<node COLOR="#111111" CREATED="1362254668240" ID="ID_1228423276" MODIFIED="1362254668240" TEXT="UITabBarDelegate Protocol Reference - Describes the protocol for customizing a tab bar."/>
+<node COLOR="#111111" CREATED="1362254668241" ID="ID_1500337343" MODIFIED="1362254668241" TEXT="NSObject UIKit Additions Reference - Describes additions for supporting nib files in UIKit."/>
+<node COLOR="#111111" CREATED="1362254668242" ID="ID_1169208596" MODIFIED="1362254668242" TEXT="UINavigationBarDelegate Protocol Reference - Describes the protocol defining optional methods that a UINavigationBar delegate implements to update its views."/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1362128788829" ID="ID_711789647" MODIFIED="1362254254731" TEXT="iAd">
 <edge STYLE="bezier" WIDTH="thin"/>
