@@ -325,7 +325,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1362128774782" ID="ID_1733681097" MODIFIED="1362129365560" TEXT="MapKit">
+<node COLOR="#00b439" CREATED="1362128774782" FOLDED="true" ID="ID_1733681097" MODIFIED="1362192201828" TEXT="MapKit">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1362192065016" ID="ID_563224089" MODIFIED="1362192130406" TEXT="MKLocalSearchResponse Class Reference Describes a map-based search response.">
@@ -443,6 +443,27 @@
 <node COLOR="#00b439" CREATED="1362128779398" ID="ID_840542795" MODIFIED="1362129365560" TEXT="MessageUI">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362192285247" ID="ID_355531874" MODIFIED="1362192286863" TEXT="MFMessageComposeViewController Class Reference Describes an SMS composition interface.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192300047" ID="ID_508690820" MODIFIED="1362192300911" TEXT="Message UI Framework Reference Describes the classes of the Message UI framework.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192309095" ID="ID_733185481" MODIFIED="1362192309999" TEXT="MFMessageComposeViewControllerDelegate Protocol Reference Describes the delegate methods for an SMS composition interface.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192317391" ID="ID_77503167" MODIFIED="1362192317895" TEXT="System Messaging Programming Topics for iOS Explains how to send mail and SMS messages from your app.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192323012" ID="ID_1316021478" MODIFIED="1362192323574" TEXT="MessageComposer demonstrates how to target older OS versions while building with newly released APIs.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192330238" ID="ID_1016731115" MODIFIED="1362192330791" TEXT="MFMailComposeViewController Class Reference Describes an email composition controller.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192336342" ID="ID_107203195" MODIFIED="1362192337510" TEXT="MFMailComposeViewControllerDelegate Protocol Reference Describes an interface for managing email compositions.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1362128781838" ID="ID_1491894348" MODIFIED="1362129365561" TEXT="Twitter">
 <edge STYLE="bezier" WIDTH="thin"/>
