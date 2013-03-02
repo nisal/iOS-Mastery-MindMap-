@@ -549,6 +549,36 @@
 </node>
 <node COLOR="#990000" CREATED="1362253901554" ID="ID_530372955" MODIFIED="1362253904523" TEXT="Part 3">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362254035101" ID="ID_1187112644" MODIFIED="1362254035102" TEXT="UINavigationBar Class Reference - Describes the class used to implement a control for navigating hierarchical content."/>
+<node COLOR="#111111" CREATED="1362254035105" ID="ID_1457257757" MODIFIED="1362254035105" TEXT="UILabel Class Reference - Describes a control for displaying static text."/>
+<node COLOR="#111111" CREATED="1362254035106" ID="ID_738918030" MODIFIED="1362254035107" TEXT="UIKit Function Reference - Describes the functions of the UIKit framework."/>
+<node COLOR="#111111" CREATED="1362254035108" ID="ID_544300173" MODIFIED="1362254035108" TEXT="UIKit Framework Reference - Describes the primary API for implementing the user interface in an iOS app."/>
+<node COLOR="#111111" CREATED="1362254035111" ID="ID_824657307" MODIFIED="1362254035111" TEXT="UIImageView Class Reference - Describes a control for displaying or animating images."/>
+<node COLOR="#111111" CREATED="1362254035112" ID="ID_1639944696" MODIFIED="1362254035112" TEXT="UIButton Class Reference - Describes a control that responds to taps."/>
+<node COLOR="#111111" CREATED="1362254035113" ID="ID_645547106" MODIFIED="1362254035113" TEXT="UIBezierPath Class Reference - Describes a vector-based path consisting of line and curve segments."/>
+<node COLOR="#111111" CREATED="1362254035114" ID="ID_1751959986" MODIFIED="1362254035114" TEXT="UIBarButtonItem Class Reference - Describes a button in a toolbar or navigation bar."/>
+<node COLOR="#111111" CREATED="1362254035115" ID="ID_1982047101" MODIFIED="1362254035115" TEXT="UIApplicationDelegate Protocol Reference - Describes the interface for receiving app life-cycle messages."/>
+<node COLOR="#111111" CREATED="1362254035118" ID="ID_432798390" MODIFIED="1362254035118" TEXT="UIAccessibilityAction Protocol Reference - Describes a way for certain views, such as sliders, to make their adjustments accessible."/>
+<node COLOR="#111111" CREATED="1362254035126" ID="ID_31962142" MODIFIED="1362254035127" TEXT="UIAccessibility Protocol Reference - Describes the interface for providing accessibility information about accessible user interface elements in an iPhone application."/>
+<node COLOR="#111111" CREATED="1362254035130" ID="ID_1277167516" MODIFIED="1362254035130" TEXT="NSShadow Class Reference - Describes a drop shadow for a drawing operation."/>
+<node COLOR="#111111" CREATED="1362254035131" ID="ID_514970980" MODIFIED="1362254035131" TEXT="NSParagraphStyle Class Reference - Describes an immutable paragraph style."/>
+<node COLOR="#111111" CREATED="1362254035132" ID="ID_915195313" MODIFIED="1362254035132" TEXT="NSMutableParagraphStyle Class Reference - Describes a mutable paragraph style."/>
+<node COLOR="#111111" CREATED="1362254035132" ID="ID_265736895" MODIFIED="1362254035133" TEXT="NSIndexPath UIKit Additions - Describes the additions to the NSIndexPath class in the UIKit framework."/>
+<node COLOR="#111111" CREATED="1362254035135" ID="ID_1950643793" MODIFIED="1362254035135" TEXT="UIWindow Class Reference - Describes the view that manages a window."/>
+<node COLOR="#111111" CREATED="1362254035136" ID="ID_1657682662" MODIFIED="1362254035136" TEXT="UIRotationGestureRecognizer Class - Describes the UIGestureRecognizer subclass that recognizes rotation gestures."/>
+<node COLOR="#111111" CREATED="1362254035139" ID="ID_1443233047" MODIFIED="1362254035139" TEXT="UIPageViewControllerDelegate Protocol Reference - Describes the protocol used to respond to page view controller events."/>
+<node COLOR="#111111" CREATED="1362254035142" ID="ID_1506354602" MODIFIED="1362254035142" TEXT="UIGestureRecognizer Class Reference - Describes the abstract base class for gesture recognizers."/>
+<node COLOR="#111111" CREATED="1362254035143" ID="ID_34068978" MODIFIED="1362254035143" TEXT="UIDevice Class Reference - Describes a representation of a device."/>
+<node COLOR="#111111" CREATED="1362254035144" ID="ID_527286793" MODIFIED="1362254035144" TEXT="UITextSelectionRect Class Reference - Describes an annotated selection rectangle."/>
+<node COLOR="#111111" CREATED="1362254035145" ID="ID_1518122067" MODIFIED="1362254035145" TEXT="UITableViewHeaderFooterView Class Reference - Describes a header/footer view for a table view."/>
+<node COLOR="#111111" CREATED="1362254035146" ID="ID_35597916" MODIFIED="1362254035146" TEXT="UIRefreshControl Class Reference - Describes a control for refreshing a table."/>
+<node COLOR="#111111" CREATED="1362254035147" ID="ID_638993128" MODIFIED="1362254035147" TEXT="UICollectionViewUpdateItem Class Reference - Describes the items to update during a collection view refresh."/>
+<node COLOR="#111111" CREATED="1362254035150" ID="ID_979707531" MODIFIED="1362254035150" TEXT="UICollectionViewLayout Class Reference - Describes a class for specifying custom collection view layouts."/>
+<node COLOR="#111111" CREATED="1362254035153" ID="ID_1332318498" MODIFIED="1362254035153" TEXT="UICollectionViewFlowLayout Class Reference - Describes a flow-based layout manager for a collection view."/>
+<node COLOR="#111111" CREATED="1362254035156" ID="ID_1995319836" MODIFIED="1362254035156" TEXT="UICollectionViewController Class Reference - Describes a view controller for managing a collection view."/>
+<node COLOR="#111111" CREATED="1362254035167" ID="ID_870109038" MODIFIED="1362254035167" TEXT="UICollectionViewCell Class Reference - Describes a view that provides custom content for a collection view."/>
+<node COLOR="#111111" CREATED="1362254035170" ID="ID_1078726483" MODIFIED="1362254035170" TEXT="UICollectionView Class Reference - Describes a collection of views that displays content in a grid."/>
+<node COLOR="#111111" CREATED="1362254035182" ID="ID_911867817" MODIFIED="1362254035182" TEXT="UICollectionReusableView Class Reference - Describes a view that can be used to present content in a collection view."/>
 </node>
 <node COLOR="#990000" CREATED="1362253905242" ID="ID_554019174" MODIFIED="1362253920146" TEXT="Part 4">
 <font NAME="SansSerif" SIZE="14"/>
