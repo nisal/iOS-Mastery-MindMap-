@@ -194,6 +194,132 @@
 <node COLOR="#00b439" CREATED="1362128761694" ID="ID_1813765939" MODIFIED="1362129365559" TEXT="EventKitUI">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362154736683" ID="ID_1891733307" MODIFIED="1362188608502" TEXT="CLASSES">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362187175740" FOLDED="true" ID="ID_39596295" MODIFIED="1362187731773" TEXT=" EKCalendarChooser ">
+<node COLOR="#111111" CREATED="1362187534379" ID="ID_290895385" MODIFIED="1362187536453" TEXT="An instance of the EKCalendarChooser class is a view controller that displays an interface for selecting one or more calendars in an event store. This view controller can be pushed on a navigation stack or presented modally. Use a delegate that conforms to the EKCalendarChooserDelegate protocol to receive callbacks when the user selects calendars or cancels the operation."/>
+<node COLOR="#111111" CREATED="1362187272694" ID="ID_1173231051" MODIFIED="1362187278356" TEXT="Accessing Properties        ">
+<node COLOR="#111111" CREATED="1362187278357" ID="ID_646299314" MODIFIED="1362187283345" TEXT="delegate  property       ">
+<node COLOR="#111111" CREATED="1362187415822" ID="ID_165968238" MODIFIED="1362187416776" TEXT="The calendar chooser&#x2019;s delegate."/>
+<node COLOR="#111111" CREATED="1362187422654" ID="ID_1889897202" MODIFIED="1362187423512" TEXT="This object should conform to the EKCalendarChooserDelegate protocol."/>
+</node>
+<node COLOR="#111111" CREATED="1362187283345" ID="ID_1693805693" MODIFIED="1362187287866" TEXT="selectedCalendars  property       ">
+<node COLOR="#111111" CREATED="1362187444013" ID="ID_278845438" MODIFIED="1362187444624" TEXT="The calendars selected by the user."/>
+</node>
+<node COLOR="#111111" CREATED="1362187287866" ID="ID_625686627" MODIFIED="1362187292924" TEXT="selectionStyle  property  ">
+<node COLOR="#111111" CREATED="1362187455917" ID="ID_1706560292" MODIFIED="1362187456478" TEXT="Determines whether multiple selections are allowed. (read-only)"/>
+<node COLOR="#111111" CREATED="1362187462901" ID="ID_1800527514" MODIFIED="1362187463623" TEXT="Possible values are described in &#x201c;EKCalendarChooserSelectionStyle.&#x201d;"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362187292925" ID="ID_393656171" MODIFIED="1362187300897" TEXT="Changing the Appearance        ">
+<node COLOR="#111111" CREATED="1362187300898" ID="ID_1418452455" MODIFIED="1362187309403" TEXT="showsCancelButton  property       ">
+<node COLOR="#111111" CREATED="1362187476037" ID="ID_179196392" MODIFIED="1362187488535" TEXT="A Boolean value that determines whether the Cancel button is shown when this controller is presented modally by a navigation controller."/>
+</node>
+<node COLOR="#111111" CREATED="1362187309905" ID="ID_1045853805" MODIFIED="1362187311139" TEXT="showsDoneButton  property">
+<node COLOR="#111111" CREATED="1362187508196" ID="ID_68982216" MODIFIED="1362187508822" TEXT="A Boolean value that determines whether the Done button is shown when this controller is presented modally by a navigation controller."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362187249859" ID="ID_745206001" MODIFIED="1362187561691" TEXT="Initializing Calendar Choosers      ">
+<node COLOR="#111111" CREATED="1362187263312" ID="ID_1465828190" MODIFIED="1362187331691" TEXT="&#x2013; initWithSelectionStyle:displayStyle:eventStore:     ">
+<node COLOR="#111111" CREATED="1362187591714" ID="ID_424075104" MODIFIED="1362187593060" TEXT="Initializes a newly created calendar chooser."/>
+</node>
+<node COLOR="#111111" CREATED="1362187331691" ID="ID_1434560131" MODIFIED="1362187331693" TEXT="&#x2013; initWithSelectionStyle:displayStyle:entityType:eventStore:  ">
+<node COLOR="#111111" CREATED="1362187619577" ID="ID_484114206" MODIFIED="1362187620915" TEXT="Initializes a newly created calendar chooser for a specific entity type."/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362187184860" FOLDED="true" ID="ID_14183330" MODIFIED="1362187927242" TEXT="EKEventEditViewController ">
+<node COLOR="#111111" CREATED="1362187764236" ID="ID_434776646" MODIFIED="1362187769869" TEXT="Setting and Getting Properties        ">
+<node COLOR="#111111" CREATED="1362187769870" ID="ID_211657941" MODIFIED="1362187777064" TEXT="editViewDelegate  property       ">
+<node COLOR="#111111" CREATED="1362187832242" ID="ID_265669458" MODIFIED="1362187833164" TEXT="The delegate that is notified when editing is done."/>
+</node>
+<node COLOR="#111111" CREATED="1362187777065" ID="ID_1349662481" MODIFIED="1362187788037" TEXT="event  property       ">
+<node COLOR="#111111" CREATED="1362187845345" ID="ID_1308040475" MODIFIED="1362187845959" TEXT="The event the user creates or edits using this view controller."/>
+</node>
+<node COLOR="#111111" CREATED="1362187788658" ID="ID_1246072436" MODIFIED="1362187802635" TEXT="eventStore  property  ">
+<node COLOR="#111111" CREATED="1362187855457" ID="ID_840491918" MODIFIED="1362187856308" TEXT="The event store used to save the event."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362187803635" ID="ID_608591818" MODIFIED="1362187805032" TEXT="Canceling Edits to Events      &#x2013; cancelEditing">
+<node COLOR="#111111" CREATED="1362187865753" ID="ID_1235980149" MODIFIED="1362187866475" TEXT="Ends the editing session discarding any changes to the event."/>
+<node COLOR="#111111" CREATED="1362187887449" ID="ID_474055382" MODIFIED="1362187888593" TEXT="This method is the programmatic equivalent of the user tapping the Cancel button. The delegate will not receive the eventEditViewController:didCompleteWithAction: message, so you must dismiss the controller after calling this method."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362187199317" ID="ID_498042900" MODIFIED="1362187200598" TEXT="EKEventViewController">
+<node COLOR="#111111" CREATED="1362187929759" ID="ID_933770370" MODIFIED="1362187935630" TEXT="Getting and Setting the Event        ">
+<node COLOR="#111111" CREATED="1362187935630" ID="ID_1980996424" MODIFIED="1362187941020" TEXT="event  property  ">
+<node COLOR="#111111" CREATED="1362188069259" ID="ID_1559632435" MODIFIED="1362188069774" TEXT="The event this view controller displays to the user."/>
+<node COLOR="#111111" CREATED="1362188076147" ID="ID_923616937" MODIFIED="1362188076805" TEXT="This property must be set before the view is displayed."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362187941020" ID="ID_1273854973" MODIFIED="1362187945444" TEXT="Enabling Features        ">
+<node COLOR="#111111" CREATED="1362187945445" ID="ID_835449002" MODIFIED="1362187951608" TEXT="allowsCalendarPreview  property       ">
+<node COLOR="#111111" CREATED="1362187997454" ID="ID_647385899" MODIFIED="1362187998415" TEXT="A Boolean value that determines whether the user can view the event in a calendar day preview."/>
+<node COLOR="#111111" CREATED="1362188027117" ID="ID_1585519720" MODIFIED="1362188027794" TEXT="If the event is an invitation and this property is YES, then a table cell appears allowing the user to preview the event along with other events on the same day. If NO (the default), the calendar day preview does not appear. This property applies only to invitations."/>
+</node>
+<node COLOR="#111111" CREATED="1362187951608" ID="ID_1836154607" MODIFIED="1362187963264" TEXT="allowsEditing  property  ">
+<node COLOR="#111111" CREATED="1362188039157" ID="ID_1633590139" MODIFIED="1362188039966" TEXT="A Boolean value that determines whether the user is allowed to edit the event."/>
+<node COLOR="#111111" CREATED="1362188049772" ID="ID_1289433614" MODIFIED="1362188050798" TEXT="If NO (the default), the event is not editable. If YES, the Edit button appears and the user is allowed to change properties of the event. This property applies only to events in an editable calendar that were created by the user. For example, it doesn&#x2019;t apply to invitations sent by another user. "/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362187964319" ID="ID_768109027" MODIFIED="1362187973432" TEXT="Acessing the Delegate        ">
+<node COLOR="#111111" CREATED="1362187976310" ID="ID_1278536673" MODIFIED="1362187977344" TEXT="delegate  property">
+<node COLOR="#111111" CREATED="1362188059850" ID="ID_1781104766" MODIFIED="1362188060422" TEXT="The event view controller&#x2019;s delegate."/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362187158974" ID="ID_1717601527" MODIFIED="1362187162111" TEXT="PROTOCOLS">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362188105667" ID="ID_1273434586" MODIFIED="1362188128692" TEXT="EKCalendarChooserDelegate ">
+<node COLOR="#111111" CREATED="1362188431369" ID="ID_608918713" MODIFIED="1362188439474" TEXT="The EKCalendarChooserDelegate protocol defines methods that a calendar chooser&#x2019;s delegate may optionally implement to be notified when a user finishes selecting calendars or cancels the process."/>
+<node COLOR="#111111" CREATED="1362188448409" ID="ID_1602892559" MODIFIED="1362188454198" TEXT="Selecting Calendars      ">
+<node COLOR="#111111" CREATED="1362188454199" ID="ID_593773810" MODIFIED="1362188485069" TEXT="&#x2013; calendarChooserSelectionDidChange:  required method  ">
+<node COLOR="#111111" CREATED="1362188551894" ID="ID_181490930" MODIFIED="1362188557296" TEXT="Sent when a user has changed the selection. (required)"/>
+<node COLOR="#111111" CREATED="1362188563549" ID="ID_1295965822" MODIFIED="1362188564384" TEXT="Use the selectedCalendars property to get the current selection."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362188485070" ID="ID_1289852350" MODIFIED="1362188485072" TEXT="Finishing and Canceling Calendar Selection      ">
+<node COLOR="#111111" CREATED="1362188470262" ID="ID_387462345" MODIFIED="1362188470264" TEXT="&#x2013; calendarChooserDidFinish:  required method     ">
+<node COLOR="#111111" CREATED="1362188530647" ID="ID_129757376" MODIFIED="1362188531937" TEXT="Sent when a user has finished selecting one or more calendars. (required)"/>
+</node>
+<node COLOR="#111111" CREATED="1362188463790" ID="ID_1780300897" MODIFIED="1362188463791" TEXT="&#x2013; calendarChooserDidCancel:  required method">
+<node COLOR="#111111" CREATED="1362188513646" ID="ID_1064554750" MODIFIED="1362188514545" TEXT="Sent when the user cancels the selection of calendars. (required)"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362188136986" FOLDED="true" ID="ID_1741119602" MODIFIED="1362188500256" TEXT="EKEventEditViewDelegate ">
+<node COLOR="#111111" CREATED="1362188291429" ID="ID_1359148808" MODIFIED="1362188292279" TEXT="Delegates of an EKEventEditViewController object conform to this protocol. Use an EKEventEditViewController object to allow the user to either create an event or edit an existing event. To be notified when the user finishes editing the event, set the delegate to an object conforming to this protocol."/>
+<node COLOR="#111111" CREATED="1362188302365" ID="ID_1159063457" MODIFIED="1362188310472" TEXT="Finishing an Edit      ">
+<node COLOR="#111111" CREATED="1362188310472" ID="ID_130894648" MODIFIED="1362188314532" TEXT="&#x2013; eventEditViewController:didCompleteWithAction:  ">
+<node COLOR="#111111" CREATED="1362188344628" ID="ID_747187436" MODIFIED="1362188346141" TEXT="Invoked with the user is finished editing the event. (required)"/>
+<node COLOR="#111111" CREATED="1362188353308" ID="ID_1014801933" MODIFIED="1362188354549" TEXT="You must implement this method to dismiss the event edit view controller that was presented modally."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362188314533" ID="ID_1995039361" MODIFIED="1362188320372" TEXT="Getting the Default Calendar        ">
+<node COLOR="#111111" CREATED="1362188320373" ID="ID_978792906" MODIFIED="1362188321958" TEXT="&#x2013; eventEditViewControllerDefaultCalendarForNewEvents:">
+<node COLOR="#111111" CREATED="1362188365291" ID="ID_1122362421" MODIFIED="1362188365949" TEXT="Returns the calendar to use as the default calendar for new events. (required)"/>
+<node COLOR="#111111" CREATED="1362188373963" ID="ID_296977288" MODIFIED="1362188374636" TEXT="If the delegate does not implement this method, the defaultCalendarForNewEvents property of the event store is used."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362188386194" ID="ID_1800177937" MODIFIED="1362188387229" TEXT="typedef enum {    EKEventEditViewActionCanceled,    EKEventEditViewActionSaved,    EKEventEditViewActionDeleted } EKEventEditViewAction;">
+<node COLOR="#111111" CREATED="1362188396091" ID="ID_292494095" MODIFIED="1362188396787" TEXT="EKEventEditViewActionCanceled      The user canceled the changes made to the event."/>
+<node COLOR="#111111" CREATED="1362188407729" ID="ID_1145605094" MODIFIED="1362188408156" TEXT="EKEventEditViewActionSaved      The user saved the changes made to the event."/>
+<node COLOR="#111111" CREATED="1362188414002" ID="ID_220890293" MODIFIED="1362188414532" TEXT="EKEventEditViewActionDeleted      The user deleted the event."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362188142945" FOLDED="true" ID="ID_1201507491" MODIFIED="1362188283898" TEXT="EKEventViewDelegate ">
+<node COLOR="#111111" CREATED="1362188154881" ID="ID_50395226" MODIFIED="1362188155923" TEXT="Delegates of an EKEventViewController object conform to this protocol. An event view controller&#x2019;s delegate is notified when the event view controller should be closed. It is your responsibility to close the event view controller and perform any additional desired tasks within this protocol&#x2019;s method. "/>
+<node COLOR="#111111" CREATED="1362188176072" ID="ID_72153798" MODIFIED="1362188180610" TEXT="Delegate Method      &#x2013; eventViewController:didCompleteWithAction: ">
+<node COLOR="#111111" CREATED="1362188186424" ID="ID_524907383" MODIFIED="1362188187085" TEXT="Invoked when the event view controller should be closed. (required)"/>
+</node>
+<node COLOR="#111111" CREATED="1362188232949" ID="ID_695284367" MODIFIED="1362188234072" TEXT="typedef enum {    EKEventViewActionDone,    EKEventViewActionResponded,    EKEventViewActionDeleted } EKEventViewAction;">
+<node COLOR="#111111" CREATED="1362188236607" ID="ID_1278533218" MODIFIED="1362188252480" TEXT="EKEventViewActionDone      The user tapped the Done button."/>
+<node COLOR="#111111" CREATED="1362188262166" ID="ID_1633840550" MODIFIED="1362188262915" TEXT="EKEventViewActionResponded      The user responded to a pending event invitation and saved it."/>
+<node COLOR="#111111" CREATED="1362188268998" ID="ID_113627150" MODIFIED="1362188269624" TEXT="EKEventViewActionDeleted      The event was deleted."/>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1362128771069" ID="ID_221628968" MODIFIED="1362129365559" TEXT="GameKit">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -458,7 +584,7 @@
 <node COLOR="#0033ff" CREATED="1362142125890" ID="ID_427294143" MODIFIED="1362142131334" POSITION="left" TEXT="OTHER">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1362142132962" ID="ID_1099856391" LINK="The Address Book framework provides access to a centralized contacts database, called the Address Book database, that stores a user&#x2019;s contacts. Applications such as Mail and Messages use this database to present information about known and unknown persons." MODIFIED="1362142920882" TEXT="AddressBook">
+<node COLOR="#00b439" CREATED="1362142132962" FOLDED="true" ID="ID_1099856391" LINK="The Address Book framework provides access to a centralized contacts database, called the Address Book database, that stores a user&#x2019;s contacts. Applications such as Mail and Messages use this database to present information about known and unknown persons." MODIFIED="1362154725788" TEXT="AddressBook">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1362142448273" ID="ID_794582692" MODIFIED="1362142452354" TEXT="LINKS">
