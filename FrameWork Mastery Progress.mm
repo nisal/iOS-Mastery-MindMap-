@@ -8,7 +8,7 @@
 <node COLOR="#0033ff" CREATED="1362128446766" ID="ID_681906256" MODIFIED="1362130238268" POSITION="right" TEXT="COCOA TOUCH LAYER">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1362128754510" ID="ID_202494856" MODIFIED="1362139836545" TEXT="AddressBookUI">
+<node COLOR="#00b439" CREATED="1362128754510" FOLDED="true" ID="ID_202494856" MODIFIED="1362251755793" TEXT="AddressBookUI">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1362130036272" ID="ID_1698909205" MODIFIED="1362130117887" TEXT="FUNCTIONS">
@@ -19,7 +19,7 @@
 </node>
 <node COLOR="#990000" CREATED="1362130072112" ID="ID_721527548" MODIFIED="1362130075639" TEXT="CLASSES">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1362129565511" FOLDED="true" ID="ID_818882905" LINK="Person view controllers must be used with a navigation controller in order to function properly." MODIFIED="1362138510039" TEXT="ABPersonViewController Class">
+<node COLOR="#111111" CREATED="1362129565511" ID="ID_818882905" LINK="Person view controllers must be used with a navigation controller in order to function properly." MODIFIED="1362206107652" TEXT="ABPersonViewController Class">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1362130321057" ID="ID_1191167491" MODIFIED="1362130322363" TEXT="Displaying Person Properties">
 <node COLOR="#111111" CREATED="1362130350048" ID="ID_1521715025" MODIFIED="1362130372770" TEXT="diplayedPerson">
@@ -128,7 +128,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1362130076215" FOLDED="true" ID="ID_1542990884" MODIFIED="1362139837637" TEXT="PROTOCOLS">
+<node COLOR="#990000" CREATED="1362130076215" ID="ID_1542990884" MODIFIED="1362206111570" TEXT="PROTOCOLS">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362130013305" ID="ID_1505585324" LINK="The ABPeoplePickerNavigationControllerDelegate protocol describes the interface ABPeoplePickerNavigationController delegates must adopt to respond to people-picker user events." MODIFIED="1362139495380" TEXT="ABPeoplePickerNavigationControllerDelegate Protocol">
 <font NAME="SansSerif" SIZE="12"/>
@@ -150,7 +150,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1362130048000" FOLDED="true" ID="ID_67842796" LINK="The ABUnknownPersonViewControllerDelegate protocol describes the interface ABUnknownPersonViewController delegates must adopt to respond to unknown-person view user events." MODIFIED="1362139472579" TEXT="ABUnknownPersonViewControllerDelegate Protocol ">
+<node COLOR="#111111" CREATED="1362130048000" ID="ID_67842796" LINK="The ABUnknownPersonViewControllerDelegate protocol describes the interface ABUnknownPersonViewController delegates must adopt to respond to unknown-person view user events." MODIFIED="1362206113271" TEXT="ABUnknownPersonViewControllerDelegate Protocol ">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1362139370942" ID="ID_1762715525" MODIFIED="1362139372741" TEXT="Responding to User Events">
 <node COLOR="#111111" CREATED="1362139372742" ID="ID_625783096" MODIFIED="1362139386712" TEXT="unknownPersonViewController:didResolveToPerson:">
@@ -164,7 +164,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1362130054808" FOLDED="true" ID="ID_1073187628" LINK="The ABPersonViewControllerDelegate protocol declares the interface that must be implemented by ABPersonViewController delegates." MODIFIED="1362139350838" TEXT="ABPersonViewControllerDelegate Protocol ">
+<node COLOR="#111111" CREATED="1362130054808" ID="ID_1073187628" LINK="The ABPersonViewControllerDelegate protocol declares the interface that must be implemented by ABPersonViewController delegates." MODIFIED="1362206116440" TEXT="ABPersonViewControllerDelegate Protocol ">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1362139216034" ID="ID_377504650" MODIFIED="1362139224265" TEXT="Responding to User Events">
 <node COLOR="#111111" CREATED="1362139229098" ID="ID_1217672736" MODIFIED="1362139230494" TEXT="personViewController:shouldPerformDefaultActionForPerson:property:identifier:">
@@ -174,7 +174,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1362130070344" FOLDED="true" ID="ID_1884180936" LINK="The ABNewPersonViewControllerDelegate protocol declares the interface that ABNewPersonViewController delegates must implement." MODIFIED="1362139163686" TEXT="ABNewPersonViewControllerDelegate Protocol ">
+<node COLOR="#111111" CREATED="1362130070344" ID="ID_1884180936" LINK="The ABNewPersonViewControllerDelegate protocol declares the interface that ABNewPersonViewController delegates must implement." MODIFIED="1362206117878" TEXT="ABNewPersonViewControllerDelegate Protocol ">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1362139097045" ID="ID_1434493735" MODIFIED="1362139098844" TEXT="Responding to User Events">
 <node COLOR="#111111" CREATED="1362139104069" ID="ID_1482139480" MODIFIED="1362139105206" TEXT="newPersonViewController:didCompleteWithNewPerson:">
@@ -191,10 +191,10 @@
 <node COLOR="#111111" CREATED="1362139855987" ID="ID_1856490518" LINK="https://developer.apple.com/library/ios/#documentation/ContactData/Conceptual/AddressBookProgrammingGuideforiPhone/Chapters/QuickStart.html#//apple_ref/doc/uid/TP40007744-CH2-SW1" MODIFIED="1362139886742" TEXT="Quick Start Tutorial"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1362128761694" ID="ID_1813765939" MODIFIED="1362129365559" TEXT="EventKitUI">
+<node COLOR="#00b439" CREATED="1362128761694" ID="ID_1813765939" MODIFIED="1362251758969" TEXT="EventKitUI">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1362154736683" FOLDED="true" ID="ID_1891733307" MODIFIED="1362191338473" TEXT="CLASSES">
+<node COLOR="#990000" CREATED="1362154736683" FOLDED="true" ID="ID_1891733307" MODIFIED="1362251761947" TEXT="CLASSES">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362187175740" FOLDED="true" ID="ID_39596295" MODIFIED="1362187731773" TEXT=" EKCalendarChooser ">
 <node COLOR="#111111" CREATED="1362187534379" ID="ID_290895385" MODIFIED="1362187536453" TEXT="An instance of the EKCalendarChooser class is a view controller that displays an interface for selecting one or more calendars in an event store. This view controller can be pushed on a navigation stack or presented modally. Use a delegate that conforms to the EKCalendarChooserDelegate protocol to receive callbacks when the user selects calendars or cancels the operation."/>
@@ -440,7 +440,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1362128779398" ID="ID_840542795" MODIFIED="1362129365560" TEXT="MessageUI">
+<node COLOR="#00b439" CREATED="1362128779398" FOLDED="true" ID="ID_840542795" MODIFIED="1362198211439" TEXT="MessageUI">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1362192285247" ID="ID_355531874" MODIFIED="1362192286863" TEXT="MFMessageComposeViewController Class Reference Describes an SMS composition interface.">
@@ -465,17 +465,141 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1362128781838" ID="ID_1491894348" MODIFIED="1362129365561" TEXT="Twitter">
+<node COLOR="#00b439" CREATED="1362128781838" FOLDED="true" ID="ID_1491894348" MODIFIED="1362251768322" TEXT="Twitter">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362198230619" ID="ID_611333869" MODIFIED="1362198232211" TEXT="Send tweets from your app using the Twitter framework. You can also use this framework to simplify the authorization process when using the Twitter API. ">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362198214364" ID="ID_900153683" MODIFIED="1362198216451" TEXT="TWTweetComposeViewController Class Reference View controller for displaying and sending tweets.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362198244483" ID="ID_1829392262" MODIFIED="1362198245451" TEXT="TWRequest Class Reference Class used to send Twitter requests.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1362128785918" ID="ID_1864374232" MODIFIED="1362129365561" TEXT="UIKit">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362253893242" ID="ID_1468509457" MODIFIED="1362253897187" TEXT="Part 1">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362253997548" ID="ID_679080022" MODIFIED="1362253997548" TEXT="Tabster - An eclectic-style application designed to show how to build a tab-bar based iOS application."/>
+<node COLOR="#111111" CREATED="1362253997553" ID="ID_612299364" MODIFIED="1362253997553" TEXT="PageControl - Demonstrates how to display pages of data differently between the iPhone and iPad."/>
+<node COLOR="#111111" CREATED="1362253997554" ID="ID_1124629728" MODIFIED="1362253997555" TEXT="AlternateViews - Demonstrates how to implement alternate or distinguishing view controllers for each particular device orientation."/>
+<node COLOR="#111111" CREATED="1362253997558" ID="ID_606975667" MODIFIED="1362253997558" TEXT="Guide for iOS - Describes how applications can handle multitouch, motion, and other events."/>
+<node COLOR="#111111" CREATED="1362253997559" ID="ID_910257431" MODIFIED="1362253997559" TEXT="UIMenuController Class Reference - Describes the class used to present the menu interface."/>
+<node COLOR="#111111" CREATED="1362253997560" ID="ID_121070312" MODIFIED="1362253997560" TEXT="UIImage Class Reference - Describes an immutable representation of an image for display."/>
+<node COLOR="#111111" CREATED="1362253997561" ID="ID_1404983779" MODIFIED="1362253997561" TEXT="NSAttributedString UIKit Additions Reference - Describes additions for drawing attributed strings."/>
+<node COLOR="#111111" CREATED="1362253997562" ID="ID_659854398" MODIFIED="1362253997562" TEXT="Simple Gesture Recognizers - Shows how to use standard gesture recognizers."/>
+<node COLOR="#111111" CREATED="1362253997563" ID="ID_1758764603" MODIFIED="1362253997563" TEXT="KeyboardAccessory - Shows how to use a keyboard accessory view."/>
+<node COLOR="#111111" CREATED="1362253997563" ID="ID_1815686580" MODIFIED="1362253997564" TEXT="Accessory - Demonstrates how to implement a custom accessory view for your UITableView in the form of a checkmark button."/>
+<node COLOR="#111111" CREATED="1362253997566" ID="ID_1243390418" MODIFIED="1362253997566" TEXT="DateCell - Demonstrates formatted display of date objects in UITableViewCells and using UIDatePicker to edit those values."/>
+<node COLOR="#111111" CREATED="1362253997569" ID="ID_1758701913" MODIFIED="1362253997569" TEXT="View Controller Programming Guide for iOS - Explains how to use view controllers to implement radio, navigation, and modal interfaces."/>
+<node COLOR="#111111" CREATED="1362253997572" ID="ID_213398735" MODIFIED="1362253997572" TEXT="Table View Programming Guide for iOS - Describes how to create and manage table views for applications running iOS."/>
+<node COLOR="#111111" CREATED="1362253997575" ID="ID_1331217777" MODIFIED="1362253997575" TEXT="Multiple Display Programming Guide for iOS - Describes how to use window and screen objects in an iOS app."/>
+<node COLOR="#111111" CREATED="1362253997578" ID="ID_413931550" MODIFIED="1362253997578" TEXT="UITabBarController Class Reference - Describes the class that implements a controller managing all aspects of a radio interface in a tab bar."/>
+<node COLOR="#111111" CREATED="1362253997581" ID="ID_1858517208" MODIFIED="1362253997581" TEXT="UISplitViewController Class Reference- Describes a view controller that presents distinct left and right panes."/>
+<node COLOR="#111111" CREATED="1362253997585" ID="ID_1580102890" MODIFIED="1362253997585" TEXT="UIScreen Class Reference - Describes the recommended frame rectangles for an application&apos;s window."/>
+<node COLOR="#111111" CREATED="1362253997588" ID="ID_1139412833" MODIFIED="1362253997588" TEXT="UIPageViewControllerDataSource Protocol Reference - Describes the protocol used to supply data to a page view controller."/>
+<node COLOR="#111111" CREATED="1362253997591" ID="ID_342772840" MODIFIED="1362253997591" TEXT="UIPageViewController Class Reference - Describes a class for paging through view controllers."/>
+<node COLOR="#111111" CREATED="1362253997592" ID="ID_1850564742" MODIFIED="1362253997592" TEXT="UINavigationController Class Reference - Describes a view controller for navigating a hierarchy of views."/>
+<node COLOR="#111111" CREATED="1362253997594" ID="ID_1096573589" MODIFIED="1362253997595" TEXT="UIFont Class Reference - Describes a representation of a font and the font system."/>
+<node COLOR="#111111" CREATED="1362253997597" ID="ID_1945399690" MODIFIED="1362253997597" TEXT="UIColor Class Reference - Describes a representation of color and opacity (alpha value)."/>
+<node COLOR="#111111" CREATED="1362253997598" ID="ID_1980562076" MODIFIED="1362253997598" TEXT="UICollectionViewLayoutAttributes Class Reference - Describes metrics used to lay out views in a collection view."/>
+<node COLOR="#111111" CREATED="1362253997601" ID="ID_556295586" MODIFIED="1362253997601" TEXT="UIApplication Class Reference - Describes the object representing an app."/>
+<node COLOR="#111111" CREATED="1362253997602" ID="ID_1571290286" MODIFIED="1362253997602" TEXT="NSString UIKit Additions Reference - Describes additions to support character string drawing in UIKit."/>
+<node COLOR="#111111" CREATED="1362253997603" ID="ID_1002379630" MODIFIED="1362253997603" TEXT="UIKit Printing with UIPrintInteractionController and UIViewPrintFormatter - &quot;PrintWebView&quot; demonstrates using UIPrintInteractionController to print content from a web view formatted with UIViewPrintFormatter."/>
+<node COLOR="#111111" CREATED="1362253997605" ID="ID_1119054" MODIFIED="1362253997606" TEXT="PhotoScroller - Demonstrates the use of embedded UIScrollViews and CATiledLayer to create a rich user experience for displaying and paginating photos."/>
+<node COLOR="#111111" CREATED="1362253997608" ID="ID_856183454" MODIFIED="1362253997608" TEXT="Popovers - This sample demonstrates proper use of UIPopoverController in iOS."/>
+<node COLOR="#111111" CREATED="1362253997609" ID="ID_1937680448" MODIFIED="1362253997609" TEXT="WWDC 2012: Accessibility for iOS - Best practices for working with VoiceOver and how to integrate accessibility into your apps."/>
+<node COLOR="#111111" CREATED="1362253997612" ID="ID_1111881331" MODIFIED="1362253997612" TEXT="TableMultiSelect - Demonstrates how to use multiple selection of table cells in UITableView."/>
 </node>
-<node COLOR="#00b439" CREATED="1362128788829" ID="ID_711789647" MODIFIED="1362129365561" TEXT="iAd">
+<node COLOR="#990000" CREATED="1362253897993" ID="ID_1845886743" MODIFIED="1362253900482" TEXT="Part 2">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362253901554" ID="ID_530372955" MODIFIED="1362253904523" TEXT="Part 3">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362253905242" ID="ID_554019174" MODIFIED="1362253920146" TEXT="Part 4">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362253908434" ID="ID_260129719" MODIFIED="1362253913450" TEXT="Part 5">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1362128788829" FOLDED="true" ID="ID_711789647" MODIFIED="1362251773370" TEXT="iAd">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362198357897" ID="ID_570754583" MODIFIED="1362198363100" TEXT="iAd Implementation Best Practices ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362198363100" ID="ID_1614926763" MODIFIED="1362198365248" TEXT="TN2264: Provides an overview of best practices and guidelines designed to help you maximize revenue and customer experience in your app(s).">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362198373256" ID="ID_520250789" MODIFIED="1362198385912" TEXT="iAdSuite ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362198385912" ID="ID_1895290548" MODIFIED="1362198387711" TEXT="iAdSuite is a set of samples demonstrating how to manage an ADBannerView in many common scenarios.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362198399952" ID="ID_1354628111" MODIFIED="1362198406295" TEXT="WWDC 2012: Tools, Services, and APIs for iTunes Affiliate Program Marketing ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362198406296" ID="ID_574444515" MODIFIED="1362198407967" TEXT="Use APIs and Services to link to content in the iTunes Store.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362198414479" ID="ID_357221999" MODIFIED="1362198424341" TEXT="WWDC 2012: Producing Rich Media Advertisements for iAd ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362198424341" ID="ID_1875081414" MODIFIED="1362198441197" TEXT="Create immersive, interactive, rich media ads for iAd to deliver a unique customer experience.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362198484366" ID="ID_89866358" MODIFIED="1362198489693" TEXT="iAdInterstitialSuite ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362198489694" ID="ID_666688374" MODIFIED="1362198491907" TEXT="Simple applications that demonstrate the usage of the ADInterstitialAd">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362198500541" ID="ID_1132563460" MODIFIED="1362198519682" TEXT="ADInterstitialAdDelegate Protocol Reference.">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362198519683" ID="ID_884023672" MODIFIED="1362198521805" TEXT=" A delegate for an interstitial ad"/>
+</node>
+<node COLOR="#990000" CREATED="1362198529269" ID="ID_128552176" MODIFIED="1362198536201" TEXT="ADBannerViewDelegate Protocol Reference">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362198536202" ID="ID_1226256961" MODIFIED="1362198540325" TEXT=" Describes a delegate for a banner view."/>
+</node>
+<node COLOR="#990000" CREATED="1362198542156" ID="ID_1309807026" MODIFIED="1362198558121" TEXT="iAd Programming Guide ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362198558122" ID="ID_1464021515" MODIFIED="1362198559452" TEXT="Describes how to display ads in your application."/>
+</node>
+<node COLOR="#990000" CREATED="1362198572548" ID="ID_194196168" MODIFIED="1362198577845" TEXT="Implementing a Shared iAd Banner ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362198577846" ID="ID_460622896" MODIFIED="1362198580269" TEXT="TN2286: describes best practices for implementing a shared iAd banner across multiple views.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362198586563" ID="ID_1373853892" MODIFIED="1362198593305" TEXT="ADInterstitialAd Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362198593306" ID="ID_1561718784" MODIFIED="1362198594196" TEXT="Describes an interstitial ad."/>
+</node>
+<node COLOR="#990000" CREATED="1362198602147" ID="ID_545348640" MODIFIED="1362198608156" TEXT="iAd Framework Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362198608156" ID="ID_870463367" MODIFIED="1362198610338" TEXT="Reference collection for classes in the iAd framework, which are used to display advertisements to users.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362198617123" ID="ID_1702946162" MODIFIED="1362198622062" TEXT="ADBannerView Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362198622063" ID="ID_547024451" MODIFIED="1362198623953" TEXT="Describes a class that prevents a banner advertisement.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362198631395" ID="ID_1141286351" MODIFIED="1362198637956" TEXT="Hiding iAd banners when ads are not available ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362198637956" ID="ID_513731914" MODIFIED="1362198639957" TEXT="QA1641: describes how to hide an iAd banner views when ads are not available.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1362128460862" ID="ID_881948832" MODIFIED="1362129365562" POSITION="right" TEXT="MEDIA LAYER">
@@ -716,7 +840,7 @@
 <node COLOR="#0033ff" CREATED="1362142125890" ID="ID_427294143" MODIFIED="1362142131334" POSITION="left" TEXT="OTHER">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1362142132962" FOLDED="true" ID="ID_1099856391" LINK="The Address Book framework provides access to a centralized contacts database, called the Address Book database, that stores a user&#x2019;s contacts. Applications such as Mail and Messages use this database to present information about known and unknown persons." MODIFIED="1362154725788" TEXT="AddressBook">
+<node COLOR="#00b439" CREATED="1362142132962" FOLDED="true" ID="ID_1099856391" LINK="The Address Book framework provides access to a centralized contacts database, called the Address Book database, that stores a user&#x2019;s contacts. Applications such as Mail and Messages use this database to present information about known and unknown persons." MODIFIED="1362206095585" TEXT="AddressBook">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1362142448273" ID="ID_794582692" MODIFIED="1362142452354" TEXT="LINKS">
