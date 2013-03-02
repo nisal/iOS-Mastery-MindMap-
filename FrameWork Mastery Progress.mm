@@ -194,7 +194,7 @@
 <node COLOR="#00b439" CREATED="1362128761694" ID="ID_1813765939" MODIFIED="1362129365559" TEXT="EventKitUI">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1362154736683" ID="ID_1891733307" MODIFIED="1362188608502" TEXT="CLASSES">
+<node COLOR="#990000" CREATED="1362154736683" FOLDED="true" ID="ID_1891733307" MODIFIED="1362191338473" TEXT="CLASSES">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362187175740" FOLDED="true" ID="ID_39596295" MODIFIED="1362187731773" TEXT=" EKCalendarChooser ">
 <node COLOR="#111111" CREATED="1362187534379" ID="ID_290895385" MODIFIED="1362187536453" TEXT="An instance of the EKCalendarChooser class is a view controller that displays an interface for selecting one or more calendars in an event store. This view controller can be pushed on a navigation stack or presented modally. Use a delegate that conforms to the EKCalendarChooserDelegate protocol to receive callbacks when the user selects calendars or cancels the operation."/>
@@ -269,7 +269,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1362187158974" ID="ID_1717601527" MODIFIED="1362187162111" TEXT="PROTOCOLS">
+<node COLOR="#990000" CREATED="1362187158974" FOLDED="true" ID="ID_1717601527" MODIFIED="1362191281118" TEXT="PROTOCOLS">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362188105667" ID="ID_1273434586" MODIFIED="1362188128692" TEXT="EKCalendarChooserDelegate ">
 <node COLOR="#111111" CREATED="1362188431369" ID="ID_608918713" MODIFIED="1362188439474" TEXT="The EKCalendarChooserDelegate protocol defines methods that a calendar chooser&#x2019;s delegate may optionally implement to be notified when a user finishes selecting calendars or cancels the process."/>
@@ -288,7 +288,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1362188136986" FOLDED="true" ID="ID_1741119602" MODIFIED="1362188500256" TEXT="EKEventEditViewDelegate ">
+<node COLOR="#111111" CREATED="1362188136986" ID="ID_1741119602" MODIFIED="1362191279403" TEXT="EKEventEditViewDelegate ">
 <node COLOR="#111111" CREATED="1362188291429" ID="ID_1359148808" MODIFIED="1362188292279" TEXT="Delegates of an EKEventEditViewController object conform to this protocol. Use an EKEventEditViewController object to allow the user to either create an event or edit an existing event. To be notified when the user finishes editing the event, set the delegate to an object conforming to this protocol."/>
 <node COLOR="#111111" CREATED="1362188302365" ID="ID_1159063457" MODIFIED="1362188310472" TEXT="Finishing an Edit      ">
 <node COLOR="#111111" CREATED="1362188310472" ID="ID_130894648" MODIFIED="1362188314532" TEXT="&#x2013; eventEditViewController:didCompleteWithAction:  ">
@@ -328,6 +328,117 @@
 <node COLOR="#00b439" CREATED="1362128774782" ID="ID_1733681097" MODIFIED="1362129365560" TEXT="MapKit">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362192065016" ID="ID_563224089" MODIFIED="1362192130406" TEXT="MKLocalSearchResponse Class Reference Describes a map-based search response.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065021" ID="ID_763494877" MODIFIED="1362192065022" TEXT="MKLocalSearchRequest Class Reference Describes map-based search parameters.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065024" ID="ID_1785510881" MODIFIED="1362192065024" TEXT="MKLocalSearch Class Reference Describes a map-based search object.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065026" ID="ID_567123924" MODIFIED="1362192065027" TEXT="Map Kit Framework Reference Describes the classes, methods, and functions for embedding maps directly into your own windows and views.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065029" ID="ID_662500897" MODIFIED="1362192065030" TEXT="MapCallouts Demonstrates the use of the MapKit framework, displaying a map view with custom">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065042" ID="ID_360964386" MODIFIED="1362192065043" TEXT="MKAnnotations each with custom callouts. CurrentAddress Demonstrates basic use of MapKit with CLGeocoder, displaying a map view and setting its region to current location.  Breadcrumb Demonstrates how to draw a path using the Map Kit overlay,">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065047" ID="ID_1877925380" MODIFIED="1362192065048" TEXT="MKOverlayView, that follows and tracks the user&apos;s current location.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065049" ID="ID_897540051" MODIFIED="1362192065050" TEXT="NSValue MapKit Additions Reference Describes extensions to the NSValue class to support map data.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065053" ID="ID_820832685" MODIFIED="1362192065054" TEXT="MKMapItem Class Reference Describes a map location.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065055" ID="ID_1033575354" MODIFIED="1362192065056" TEXT="MKDirectionsRequest Class Reference Describes route information obtained from a URL.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065059" ID="ID_635265841" MODIFIED="1362192065060" TEXT="WWDC 2012: Getting Around Using Map Kit Integrate your app with the built in Maps application.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065063" ID="ID_1286692584" MODIFIED="1362192065064" TEXT="KMLViewer Demonstrates how to display KML files on top of a MKMapView.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065065" ID="ID_772322402" MODIFIED="1362192065066" TEXT="MKUserTrackingBarButtonItem Class Reference A specialized bar button item allowing the user to toggle through the user tracking modes">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065069" ID="ID_333052386" MODIFIED="1362192065070" TEXT="MKUserLocation Class Reference Describes the annotation for the user&apos;s current location.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065073" ID="ID_1930586396" MODIFIED="1362192065073" TEXT="MKShape Class Reference Describes an abstract shape for annotations.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065074" ID="ID_1753301319" MODIFIED="1362192065075" TEXT="MKReverseGeocoderDelegate Protocol Reference Describes the interface for receiving placemark information.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065078" ID="ID_212876016" MODIFIED="1362192065078" TEXT="MKReverseGeocoder Class Reference Describes a service for transforming coordinates into placemark information.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065081" ID="ID_1122273576" MODIFIED="1362192065083" TEXT="MKPlacemark Class Reference Describes placemark information for a coordinate.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065084" ID="ID_710960920" MODIFIED="1362192065087" TEXT="MKMapViewDelegate Protocol Reference Describes the interface for responding to map changes.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065090" ID="ID_1382841032" MODIFIED="1362192065091" TEXT="MKMapView Class Reference Describes a map you can embed in your user interface.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065092" ID="ID_579573567" MODIFIED="1362192065092" TEXT="MKAnnotation Protocol Reference Describes the interface for managing map annotations.  Regions Demonstrates region monitoring, significant location changes, and handling location events in the background on iOS.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065095" ID="ID_404255261" MODIFIED="1362192065096" TEXT="MKAnnotationView Class Reference Describes a view that presents map annotations. HazardMap Demonstrates how to create a custom Map Kit overlay to display USGS earthquake hazard data. WeatherMap Demonstrates the use of the MapKit, displaying a map view with custom">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065099" ID="ID_1073127273" MODIFIED="1362192065099" TEXT="MKAnnotationViews. Map Kit Data Types Reference Describes the map-related data types.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065102" ID="ID_1340703467" MODIFIED="1362192065103" TEXT="Map Kit Constants Reference Describes map-related constants.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065104" ID="ID_903892835" MODIFIED="1362192065104" TEXT="MKPolylineView Class Reference Describes a view for displaying a polyline overlay.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065105" ID="ID_1502183148" MODIFIED="1362192065105" TEXT="MKPolyline Class Reference Describes an overlay composed of lines">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065106" ID="ID_931657854" MODIFIED="1362192065107" TEXT="MKPolygonView Class Reference Describes a view for displaying a polygon overlay.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065107" ID="ID_830334942" MODIFIED="1362192065108" TEXT="MKPolygon Class Reference Describes a polygon overlay.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065109" ID="ID_639894627" MODIFIED="1362192065109" TEXT="MKPointAnnotation Class Reference Describes a single-point shape annotation.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065110" ID="ID_299263049" MODIFIED="1362192065110" TEXT="MKOverlayPathView Class Reference Describes a path-based map overlay.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065111" ID="ID_1266607637" MODIFIED="1362192065111" TEXT="MKOverlay Protocol Reference Describes interfaces for implementing a map overlay.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065112" ID="ID_1204307130" MODIFIED="1362192065112" TEXT="MKMultiPoint Class Reference Describes a point-based shape annotation.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065113" ID="ID_1214665040" MODIFIED="1362192065114" TEXT="MKCircleView Class Reference Describes a circular overlay view.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065114" ID="ID_1750761319" MODIFIED="1362192065115" TEXT="MKCircle Class Reference Describes a circular map overlay.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065116" ID="ID_176707851" MODIFIED="1362192065116" TEXT="Map Kit Functions Reference Describes the functions of the MapKit framework.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065117" ID="ID_1512209247" MODIFIED="1362192065118" TEXT="MKOverlayView Class Reference Describes a view for displaying map overlays.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362192065118" ID="ID_1314675392" MODIFIED="1362192065119" TEXT="MKPinAnnotationView Class Reference Describes an annotation reflected graphically using a pin.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1362128779398" ID="ID_840542795" MODIFIED="1362129365560" TEXT="MessageUI">
 <edge STYLE="bezier" WIDTH="thin"/>
