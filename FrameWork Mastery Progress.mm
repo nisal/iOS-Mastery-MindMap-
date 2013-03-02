@@ -582,12 +582,172 @@
 </node>
 <node COLOR="#990000" CREATED="1362253905242" ID="ID_554019174" MODIFIED="1362253920146" TEXT="Part 4">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362254260992" ID="ID_1519997052" MODIFIED="1362254260993" TEXT="UIActivityViewController Class Reference - Describes a view controller that presents the available app services to the user."/>
+<node COLOR="#111111" CREATED="1362254260996" ID="ID_885658856" MODIFIED="1362254260996" TEXT="UIActivityItemProvider Class Reference - Describes an object that provides app data for activities."/>
+<node COLOR="#111111" CREATED="1362254260997" ID="ID_545834433" MODIFIED="1362254260997" TEXT="UIActivity Class Reference - Describes a custom application service."/>
+<node COLOR="#111111" CREATED="1362254260998" ID="ID_976809058" MODIFIED="1362254260998" TEXT="NSStringDrawingContext Class Reference - Describes metrics used during string drawing."/>
+<node COLOR="#111111" CREATED="1362254260999" ID="ID_8992765" MODIFIED="1362254260999" TEXT="UIPopoverBackgroundView Class Reference - Describes the customization view for a popover."/>
+<node COLOR="#111111" CREATED="1362254261000" ID="ID_136676573" MODIFIED="1362254261000" TEXT="UIPageControl Class Reference - Describes a control that allows users to move to the next or previous page."/>
+<node COLOR="#111111" CREATED="1362254261002" ID="ID_590794784" MODIFIED="1362254261002" TEXT="UIPinchGestureRecognizer Class Reference - Describes the UIGestureRecognizer subclass that recognizes pinching gestures."/>
+<node COLOR="#111111" CREATED="1362254261005" ID="ID_1314452129" MODIFIED="1362254261005" TEXT="UIPanGestureRecognizer Class Reference - Describes the UIGestureRecognizer subclass that recognizes pan gestures."/>
+<node COLOR="#111111" CREATED="1362254261008" ID="ID_1569301202" MODIFIED="1362254261008" TEXT="WWDC 2012: iPhoto for iOS: UI Progression and Animation Design - See how the interface for iPhoto for iOS was brought to life through animation."/>
+<node COLOR="#111111" CREATED="1362254261010" ID="ID_1516208440" MODIFIED="1362254261010" TEXT="WWDC 2012: iOS User Interface Design - Avoid common UI pitfalls to create an intuitive and beautiful app."/>
+<node COLOR="#111111" CREATED="1362254261013" ID="ID_723429826" MODIFIED="1362254261013" TEXT="WWDC 2012: Using iCloud with UIDocument - See how UIDocument can help your document-based app adopt iCloud Storage."/>
+<node COLOR="#111111" CREATED="1362254261016" ID="ID_743970237" MODIFIED="1362254261016" TEXT="WWDC 2012: The Evolution of View Controllers on iOS - Explore view controllers by examining the problems they address, and where they&apos;re going next."/>
+<node COLOR="#111111" CREATED="1362254261019" ID="ID_550938182" MODIFIED="1362254261019" TEXT="WWDC 2012: Saving and Restoring Application State on iOS - Discover the new application state restoration feature in iOS 6."/>
+<node COLOR="#111111" CREATED="1362254261021" ID="ID_790277888" MODIFIED="1362254261022" TEXT="WWDC 2012: Polishing Your Interface Rotations - Best practices for getting maximum performance and smooth transitions between interface orientations."/>
+<node COLOR="#111111" CREATED="1362254261024" ID="ID_287988466" MODIFIED="1362254261024" TEXT="WWDC 2012: Keyboard Input in iOS  - Leverage what&apos;s new in iOS to improve the onscreen keyboard and text editing experience."/>
+<node COLOR="#111111" CREATED="1362254261027" ID="ID_1106361110" MODIFIED="1362254261027" TEXT="WWDC 2012: Introduction to Auto Layout for iOS and OS X - Covers the basic concepts, IB support, and API to get started using auto layout."/>
+<node COLOR="#111111" CREATED="1362254261030" ID="ID_75316996" MODIFIED="1362254261030" TEXT="WWDC 2012: Introducing Collection Views - Get started with collection views and the UICollectionViewFlowLayout class to organize data in layouts."/>
+<node COLOR="#111111" CREATED="1362254261032" ID="ID_153018993" MODIFIED="1362254261032" TEXT="WWDC 2012: Enhancing User Experience with Scroll Views - Present scrolling content in a page view controller, and enhance OpenGL games."/>
+<node COLOR="#111111" CREATED="1362254261035" ID="ID_1581975958" MODIFIED="1362254261035" TEXT="WWDC 2012: Debugging UIWebViews and Websites on iOS - See how to connect the Web Inspector to iPhone or iPad to optimize web content."/>
+<node COLOR="#111111" CREATED="1362254261038" ID="ID_5583851" MODIFIED="1362254261038" TEXT="WWDC 2012: Building Concurrent User Interfaces on iOS - Use concurrency in UIKit to perform drawing and other common operations."/>
+<node COLOR="#111111" CREATED="1362254261041" ID="ID_501996584" MODIFIED="1362254261041" TEXT="WWDC 2012: Building Advanced Gesture Recognizers - Best practices for controlling gesture interactions in your apps to avoid common pitfalls."/>
+<node COLOR="#111111" CREATED="1362254261044" ID="ID_1194029686" MODIFIED="1362254261045" TEXT="WWDC 2012: Best Practices for Mastering Auto Layout - Create sophisticated and dynamic layouts in OS X and iOS apps using auto layout."/>
+<node COLOR="#111111" CREATED="1362254261050" ID="ID_1509513307" MODIFIED="1362254261051" TEXT="WWDC 2012: Auto Layout by Example - Build a wide range of interfaces using auto layout."/>
+<node COLOR="#111111" CREATED="1362254261052" ID="ID_567613760" MODIFIED="1362254261052" TEXT="WWDC 2012: AirPrint - Covers AirPrint and best practices for adding printing to iOS apps."/>
+<node COLOR="#111111" CREATED="1362254261053" ID="ID_1364437361" MODIFIED="1362254261053" TEXT="WWDC 2012: Advanced Collection Views and Building Custom Layouts - Write customized layouts that push the boundaries of interfaces in your apps."/>
+<node COLOR="#111111" CREATED="1362254261056" ID="ID_1034689536" MODIFIED="1362254261056" TEXT="WWDC 2012: Advanced Appearance Customization on iOS - Tips and tricks for customizing UIKit controls."/>
+<node COLOR="#111111" CREATED="1362254261061" ID="ID_1748464859" MODIFIED="1362254261061" TEXT="WWDC 2012: Adopting Storyboards in Your App - Use Storyboards to go from concept to a fully functional iOS app."/>
+<node COLOR="#111111" CREATED="1362254261065" ID="ID_1021448055" MODIFIED="1362254261065" TEXT="MultipleDetailViews - Illustrates how to use a split view controller with multiple detail views and a multi-level navigation hierarchy."/>
+<node COLOR="#111111" CREATED="1362254261071" ID="ID_1444727093" MODIFIED="1362254261071" TEXT="LazyTableImages - Asynchronously downloads images for a UITableView so the UI is more responsive."/>
+<node COLOR="#111111" CREATED="1362254261074" ID="ID_169595881" MODIFIED="1362254261074" TEXT="PhotoPicker - Demonstrates choosing images from the photo library, take a picture with the camera, and how to customize the camera."/>
+<node COLOR="#111111" CREATED="1362254261076" ID="ID_1686072779" MODIFIED="1362254261077" TEXT="QA1587: Describes how to add document types to iOS applications so they can be opened from the Open in... menu."/>
 </node>
 <node COLOR="#990000" CREATED="1362253908434" ID="ID_260129719" MODIFIED="1362253913450" TEXT="Part 5">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362254280863" ID="ID_737552488" MODIFIED="1362254280865" TEXT="Camera Programming Topics for iOS - Explains how to perform still image and video capture, and how to pick items from the photo library."/>
+<node COLOR="#111111" CREATED="1362254280872" ID="ID_640506312" MODIFIED="1362254280872" TEXT="Touches -Demonstrates how to handle multiple touches."/>
+<node COLOR="#111111" CREATED="1362254280874" ID="ID_631187577" MODIFIED="1362254280874" TEXT="UIManagedDocument Class Reference - Describes a concrete subclass of UIDocument that integrates with Core Data."/>
+<node COLOR="#111111" CREATED="1362254280877" ID="ID_1384356854" MODIFIED="1362254280877" TEXT="UIImagePickerController Class Reference - Describes a system object for choosing and taking pictures and movies."/>
+<node COLOR="#111111" CREATED="1362254280879" ID="ID_1603894588" MODIFIED="1362254280879" TEXT="UIAccessibilityReadingContent Protocol Reference - Describes a UIAccessibility protocol that allows applications to enable a continuous reading experience for VoiceOver users."/>
+<node COLOR="#111111" CREATED="1362254280882" ID="ID_1284529764" MODIFIED="1362254280882" TEXT="UIDictationPhrase Class Reference - Describes the returned text, and alternative text interpretations, resulting from user dictation."/>
+<node COLOR="#111111" CREATED="1362254280885" ID="ID_1864539951" MODIFIED="1362254280885" TEXT="SimpleDrillDown - Illustrates a simple drill-down application using a UITableView and a storyboard."/>
+<node COLOR="#111111" CREATED="1362254280886" ID="ID_1191739923" MODIFIED="1362254280886" TEXT="View Controller Catalog for iOS - Describes the container view controllers available in UIKit, and how to use them."/>
+<node COLOR="#111111" CREATED="1362254280888" ID="ID_131914050" MODIFIED="1362254280888" TEXT="Accessibility Programming Guide for iOS - Describes how to make an iPhone application accessible to users with disabilities."/>
+<node COLOR="#111111" CREATED="1362254280891" ID="ID_489293954" MODIFIED="1362254280891" TEXT="DocInteraction - Demonstrates how to use UIDocumentInteractionController to obtain information about documents and how to preview them."/>
+<node COLOR="#111111" CREATED="1362254280894" ID="ID_812234206" MODIFIED="1362254280894" TEXT="Views incorrectly draw underneath the status bar = QA1723: Describes the conditions that can cause views to draw underneath the status bar."/>
+<node COLOR="#111111" CREATED="1362254280897" ID="ID_692072208" MODIFIED="1362254280897" TEXT="NavBar -Demonstrates how to use UINavigationController and UIViewController classes as building blocks to your application&apos;s user interface."/>
+<node COLOR="#111111" CREATED="1362254280900" ID="ID_848706445" MODIFIED="1362254280900" TEXT="UIReferenceLibraryViewController Class Reference - View controller that provides definitions for terms."/>
+<node COLOR="#111111" CREATED="1362254280903" ID="ID_1322847223" MODIFIED="1362254280903" TEXT="ToolbarSearch - Shows how to use a search field in a toolbar and present a list of recent searches in a popover."/>
+<node COLOR="#111111" CREATED="1362254280906" ID="ID_778271350" MODIFIED="1362254280906" TEXT="UIAppearanceContainer Protocol Reference - Describes the protocol a class must adopt to support appearance customization."/>
+<node COLOR="#111111" CREATED="1362254280909" ID="ID_1351535029" MODIFIED="1362254280909" TEXT="UIAppearance Protocol Reference - Describes the protocol used to retrieve class appearance proxy objects."/>
+<node COLOR="#111111" CREATED="1362254280912" ID="ID_1192926405" MODIFIED="1362254280912" TEXT="UIAccessibilityIdentification Protocol Reference - Describes the accessibility protocol views can implement to allow them to be queried via automation interfaces."/>
+<node COLOR="#111111" CREATED="1362254280915" ID="ID_982594852" MODIFIED="1362254280915" TEXT="Converting to Storyboards - Release Notes"/>
+<node COLOR="#111111" CREATED="1362254280916" ID="ID_727470177" MODIFIED="1362254280916" TEXT="CIImage UIKit Additions Reference - Describes additions for manipulating Cocoa Touch images."/>
+<node COLOR="#111111" CREATED="1362254280917" ID="ID_223168875" MODIFIED="1362254280917" TEXT="CIColor UIKit Additions Reference - Describes additions to support UIKit color information."/>
+<node COLOR="#111111" CREATED="1362254280918" ID="ID_841650519" MODIFIED="1362254280918" TEXT="UITextInputTraits Protocol Reference - Describes the interface for traits associated with keyboard input."/>
+<node COLOR="#111111" CREATED="1362254280922" ID="ID_1843459245" MODIFIED="1362254280922" TEXT="UITabBarItem Class Reference - Describes the class implementing items on tab bars, which allow one item to be selected at a time."/>
+<node COLOR="#111111" CREATED="1362254280925" ID="ID_679146622" MODIFIED="1362254280925" TEXT="UISplitViewControllerDelegate Protocol Reference - Describes methods for responding to split view controller changes."/>
+<node COLOR="#111111" CREATED="1362254280927" ID="ID_1548758382" MODIFIED="1362254280927" TEXT="UISlider Class Reference - Describes a control for selecting a value from a continuous range of values."/>
+<node COLOR="#111111" CREATED="1362254280928" ID="ID_1287353765" MODIFIED="1362254280929" TEXT="UISegmentedControl Class Reference - Describes a horizontal button divided into multiple segments"/>
+<node COLOR="#111111" CREATED="1362254280929" ID="ID_1367754008" MODIFIED="1362254280930" TEXT="UISearchDisplayController Class Reference - Describes a controller that manages display of a search interface."/>
+<node COLOR="#111111" CREATED="1362254280932" ID="ID_1658492918" MODIFIED="1362254280932" TEXT="UIScrollViewDelegate Protocol Reference - Describes the interface for receiving scroll and zoom messages."/>
+<node COLOR="#111111" CREATED="1362254280934" ID="ID_1760141180" MODIFIED="1362254280935" TEXT="UIProgressView Class Reference - Describes a view that displays the progress of a task over time."/>
+<node COLOR="#111111" CREATED="1362254280935" ID="ID_376359190" MODIFIED="1362254280936" TEXT="UINavigationItem Class Reference - Describes an item on a navigation bar."/>
+<node COLOR="#111111" CREATED="1362254280936" ID="ID_1754463281" MODIFIED="1362254280936" TEXT="UIKit Data Types Reference - Describes the data types of the UIKit framework."/>
+</node>
+<node COLOR="#990000" CREATED="1362254284400" ID="ID_234564938" MODIFIED="1362254289193" TEXT="Part 6">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362254313123" ID="ID_323299466" MODIFIED="1362254313123" TEXT="UIKit Constants Reference - Describes the constants of the UIKit framework."/>
+<node COLOR="#111111" CREATED="1362254313125" ID="ID_1565004807" MODIFIED="1362254313125" TEXT="UICatalog - This sample is a catalog exhibiting many of the UI elements found in the iOS UIKit framework."/>
+<node COLOR="#111111" CREATED="1362254313127" ID="ID_1961102328" MODIFIED="1362254313127" TEXT="UIBarItem Class Reference - Describes the abstract superclass for items in a tab bar or navigation bar."/>
+<node COLOR="#111111" CREATED="1362254313130" ID="ID_1541060114" MODIFIED="1362254313130" TEXT="UIAlertViewDelegate Protocol Reference - Describes the UIAlertViewDelegate protocol."/>
+<node COLOR="#111111" CREATED="1362254313131" ID="ID_705661527" MODIFIED="1362254313131" TEXT="UIAlertView Class Reference - Describes a view for presenting an alert message."/>
+<node COLOR="#111111" CREATED="1362254313132" ID="ID_1689863926" MODIFIED="1362254313132" TEXT="UIActivityIndicatorView Class Reference - Describes a view that displays indeterminate progress for a task."/>
+<node COLOR="#111111" CREATED="1362254313135" ID="ID_1432506787" MODIFIED="1362254313135" TEXT="Table View Animations and Gestures - Shows how to use gesture recognizers and animated update blocks with a table view."/>
+<node COLOR="#111111" CREATED="1362254313137" ID="ID_791569843" MODIFIED="1362254313137" TEXT="PrintPhoto - PrintPhoto demonstrates how to print photos in iOS 4.2 or later."/>
+<node COLOR="#111111" CREATED="1362254313138" ID="ID_1532408310" MODIFIED="1362254313139" TEXT="NSValue UIKit Additions Reference - Describes additions to support geometry conversions in UIKit."/>
+<node COLOR="#111111" CREATED="1362254313139" ID="ID_294564037" MODIFIED="1362254313139" TEXT="NSCoder UIKit Additions Reference - Describes additions for archiving data types used in UIKit."/>
+<node COLOR="#111111" CREATED="1362254313140" ID="ID_594819643" MODIFIED="1362254313140" TEXT="UITableViewCell Class Reference - Describes a view that represents an item in a table view."/>
+<node COLOR="#111111" CREATED="1362254313141" ID="ID_899245238" MODIFIED="1362254313141" TEXT="UIPopoverController Class Reference - Describes the interface for managing popovers."/>
+<node COLOR="#111111" CREATED="1362254313142" ID="ID_1623465437" MODIFIED="1362254313142" TEXT="UIStoryboardSegue Class Reference - Describes a storyboard transition."/>
+<node COLOR="#111111" CREATED="1362254313143" ID="ID_1547434937" MODIFIED="1362254313143" TEXT="UIStoryboardPopoverSegue Class Reference - Describes a popover-based transition."/>
+<node COLOR="#111111" CREATED="1362254313144" ID="ID_753961997" MODIFIED="1362254313144" TEXT="UIStoryboard Class Reference - Describes a storyboard resource file."/>
+<node COLOR="#111111" CREATED="1362254313144" ID="ID_1090914948" MODIFIED="1362254313144" TEXT="UIDocument Class Reference - Describes the base class for documents in Cocoa Touch."/>
+<node COLOR="#111111" CREATED="1362254313145" ID="ID_19682482" MODIFIED="1362254313145" TEXT="UIControl Class Reference - Describes the interface for views that respond to touches by sending action messages."/>
+<node COLOR="#111111" CREATED="1362254313148" ID="ID_1952325771" MODIFIED="1362254313148" TEXT="Troubleshooting Push Notifications - TN2265: describes steps developers can take to troubleshoot sending and receiving of push notifications."/>
+<node COLOR="#111111" CREATED="1362254313151" ID="ID_1262893840" MODIFIED="1362254313151" TEXT="Recipes and Printing - Custom drawn page content by intermixing custom drawing routines with content rendered by architecture-provided print formatters."/>
+<node COLOR="#111111" CREATED="1362254313154" ID="ID_232577488" MODIFIED="1362254313154" TEXT="Accessing Image Metadata in iOS - QA1622: Describes how to access image metadata using the UIImagePickerController and the Assets Library Framework."/>
+<node COLOR="#111111" CREATED="1362254313158" ID="ID_1229582425" MODIFIED="1362254313159" TEXT="StreetScroller -Demonstrates how a UIScrollView subclass can scroll infinitely in the horizontal direction."/>
+<node COLOR="#111111" CREATED="1362254313161" ID="ID_957017792" MODIFIED="1362254313162" TEXT="UIPopoverControllerDelegate Protocol Reference- Describes the methods for interacting with popovers."/>
+<node COLOR="#111111" CREATED="1362254313164" ID="ID_1821716183" MODIFIED="1362254313164" TEXT="Local and Push Notification Programming Guide - Describes how explains how applications can send and receive push notifications locally and remotely."/>
+<node COLOR="#111111" CREATED="1362254313167" ID="ID_589076544" MODIFIED="1362254313167" TEXT="Why does UILocalizedIndexedCollation not give localized results? - QA1739: provides a solution for a common problem when using UILocalizedIndexedCollation"/>
+<node COLOR="#111111" CREATED="1362254313170" ID="ID_500191760" MODIFIED="1362254313170" TEXT="App Icons on iPad and iPhone - QA1686: explains how the icon files in an application bundle are used on iPad and iPhone."/>
+<node COLOR="#111111" CREATED="1362254313173" ID="ID_414186139" MODIFIED="1362254313173" TEXT="Scroll View Programming Guide for iOS - Explains how to use scroll views to implement scrollable and zoomable user interfaces."/>
+<node COLOR="#111111" CREATED="1362254313187" ID="ID_831175245" MODIFIED="1362254313187" TEXT="UITextInputMode Class Reference - Describes the class whose instances represent the current input mode."/>
+<node COLOR="#111111" CREATED="1362254313191" ID="ID_412140486" MODIFIED="1362254313191" TEXT="UIWebViewDelegate Protocol Reference - Describes the interface for managing changes in a view displaying web content."/>
+<node COLOR="#111111" CREATED="1362254313194" ID="ID_1152311458" MODIFIED="1362254313194" TEXT="How to opt out of video mirroring -QA1738: Describes how to opt out of video mirroring."/>
+<node COLOR="#111111" CREATED="1362254313195" ID="ID_844180988" MODIFIED="1362254313195" TEXT="Screen Capture in UIKit Applications - QA1703: Demonstrates how to take a screenshot in an UIKit application"/>
+</node>
+<node COLOR="#990000" CREATED="1362254289681" ID="ID_1379801991" MODIFIED="1362254292479" TEXT="Part 7">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362254324148" ID="ID_1116691026" MODIFIED="1362254324148" TEXT="View Programming Guide for iOS - Describes the creation and management of visual interface elements."/>
+<node COLOR="#111111" CREATED="1362254324151" ID="ID_1202076246" MODIFIED="1362254324151" TEXT="UIDocumentInteractionController Class Reference - Describes a system object for interacting with file types not directly supported by your app."/>
+<node COLOR="#111111" CREATED="1362254324154" ID="ID_1458728017" MODIFIED="1362254324154" TEXT="Text, Web, and Editing Programming Guide for iOS - Describes the technologies and techniques for displaying and managing text and web content in iOS."/>
+<node COLOR="#111111" CREATED="1362254324156" ID="ID_38556323" MODIFIED="1362254324156" TEXT="UIResponder Class Reference - Describes the interface for handling events."/>
+<node COLOR="#111111" CREATED="1362254324157" ID="ID_1610749668" MODIFIED="1362254324158" TEXT="ExternalDisplay - How to show content on an external display."/>
+<node COLOR="#111111" CREATED="1362254324158" ID="ID_655944166" MODIFIED="1362254324158" TEXT="SimpleTextInput - SimpleTextInput is a text-editing application that demonstrates customized text display and text input handling."/>
+<node COLOR="#111111" CREATED="1362254324161" ID="ID_658012536" MODIFIED="1362254324161" TEXT="TopPaid - This sample demonstrates how to build a universal application capable of running on both the iPhone and iPad."/>
+<node COLOR="#111111" CREATED="1362254324163" ID="ID_243675153" MODIFIED="1362254324163" TEXT="AdvancedTableViewCells - AdvancedTableViewCells shows several methods for displaying complex content in UITableViewCells."/>
+<node COLOR="#111111" CREATED="1362254324166" ID="ID_620762839" MODIFIED="1362254324166" TEXT="Error Handling Programming Guide - Describes NSError objects, related Application Kit support for error handling, and how to use these features in your code."/>
+<node COLOR="#111111" CREATED="1362254324169" ID="ID_1699233979" MODIFIED="1362254324169" TEXT="UITextChecker Class Reference - Describes the class used for spell-checking documents and proposing word completions."/>
+<node COLOR="#111111" CREATED="1362254324172" ID="ID_1068091327" MODIFIED="1362254324172" TEXT="UITapGestureRecognizer Class Reference - Describes the UIGestureRecognizer subclass that recognizes tap gestures."/>
+<node COLOR="#111111" CREATED="1362254324174" ID="ID_44677803" MODIFIED="1362254324175" TEXT="UILocalizedIndexedCollation Class Reference - Describes the class that helps to organize data for table views with section indexes."/>
+<node COLOR="#111111" CREATED="1362254324177" ID="ID_771855251" MODIFIED="1362254324178" TEXT="Supporting orientations for iPad apps - QA1689: describes the recommended orientation support for iPad apps."/>
+<node COLOR="#111111" CREATED="1362254324180" ID="ID_739812009" MODIFIED="1362254324180" TEXT="Handling Popover Controllers During Orientation Changes - QA1694: Shows best practices for handling popover controllers during device orientation changes."/>
+<node COLOR="#111111" CREATED="1362254324183" ID="ID_1209288692" MODIFIED="1362254324184" TEXT="UILongPressGestureRecognizer Class Reference - Describes the subclass of UIGestureRecognizer that recognizes long presses."/>
+<node COLOR="#111111" CREATED="1362254324186" ID="ID_489807627" MODIFIED="1362254324186" TEXT="UIDatePicker Class Reference - Describes a control for selecting dates and times."/>
+<node COLOR="#111111" CREATED="1362254324187" ID="ID_615691835" MODIFIED="1362254324187" TEXT="Document Interaction Programming Topics for iOS - Explains how to provide item previews and how to register to open specific file types"/>
+<node COLOR="#111111" CREATED="1362254324190" ID="ID_1761409315" MODIFIED="1362254324190" TEXT="UIPrintInteractionControllerDelegate Protocol Reference - Describes the protocol implemented by the delegate to return paper size."/>
+<node COLOR="#111111" CREATED="1362254324192" ID="ID_239693102" MODIFIED="1362254324193" TEXT="UIDocumentInteractionControllerDelegate Protocol Reference - Describes the methods for working with a document interaction controller."/>
+<node COLOR="#111111" CREATED="1362254324195" ID="ID_1739077869" MODIFIED="1362254324195" TEXT="UISwipeGestureRecognizer Class Reference - Describes the UIGestureRecognizer subclass that recognizes swiping gestures."/>
+<node COLOR="#111111" CREATED="1362254324198" ID="ID_1259034830" MODIFIED="1362254324198" TEXT="UIInputViewAudioFeedback Protocol Reference"/>
+<node COLOR="#111111" CREATED="1362254324199" ID="ID_532994905" MODIFIED="1362254324199" TEXT="Icons - This sample demonstrates the proper use of application icons on iOS."/>
+<node COLOR="#111111" CREATED="1362254324200" ID="ID_782082937" MODIFIED="1362254324200" TEXT="ScrollViewSuite - A series of examples that illustrate how to use UIScrollView."/>
+<node COLOR="#111111" CREATED="1362254324201" ID="ID_1097589059" MODIFIED="1362254324201" TEXT="UIViewPrintFormatter Class Reference - Describes the class for formatting printing pages based on displayed view content."/>
+<node COLOR="#111111" CREATED="1362254324203" ID="ID_932646011" MODIFIED="1362254324203" TEXT="UISimpleTextPrintFormatter Class Reference - Describes the class for formatting simple text in printed pages."/>
+<node COLOR="#111111" CREATED="1362254324215" ID="ID_1297042481" MODIFIED="1362254324215" TEXT="UIPrintPaper Class Reference - Describes the class for specifying paper size for printing."/>
+<node COLOR="#111111" CREATED="1362254324216" ID="ID_503776832" MODIFIED="1362254324216" TEXT="UIPrintPageRenderer Class Reference - Describes the base class for objects that draw pages of printable content."/>
+<node COLOR="#111111" CREATED="1362254324219" ID="ID_100298677" MODIFIED="1362254324219" TEXT="UIPrintInteractionController Class Reference- Describes the class used to manage the printing user interface."/>
+<node COLOR="#111111" CREATED="1362254324221" ID="ID_490070475" MODIFIED="1362254324221" TEXT="UIPrintInfo Class Reference - Describes the class for capturing information about a print job&#x2014;for example, output type and orientation."/>
+<node COLOR="#111111" CREATED="1362254324224" ID="ID_1230461613" MODIFIED="1362254324224" TEXT="UIPrintFormatter Class Reference - Describes the base class for objects that format the pages of a print job."/>
+</node>
+<node COLOR="#990000" CREATED="1362254293191" ID="ID_646894875" MODIFIED="1362254295744" TEXT="Part 8">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362254342306" ID="ID_1087875962" MODIFIED="1362254342308" TEXT="UIMarkupTextPrintFormatter Class Reference - Describes the class for formatting markup text such as HTML when printing pages."/>
+<node COLOR="#111111" CREATED="1362254342313" ID="ID_1772071287" MODIFIED="1362254342314" TEXT="UITouch Class Reference - Describes a representation of a touch in the Multi-Touch event model."/>
+<node COLOR="#111111" CREATED="1362254342315" ID="ID_295631878" MODIFIED="1362254342315" TEXT="UIGestureRecognizerDelegate Protocol Reference - Describes the protocol adopted by the delegate of a gesture recognizer class."/>
+<node COLOR="#111111" CREATED="1362254342317" ID="ID_1777937849" MODIFIED="1362254342317" TEXT="How do I take a screenshot of my app that contains both UIKit and Camera elements? - QA1714: demonstrates how to take a screenshot in app that contains both UIKit and Camera elements."/>
+<node COLOR="#111111" CREATED="1362254342320" ID="ID_1306283789" MODIFIED="1362254342320" TEXT="UIImagePickerControllerDelegate Protocol Reference - Describes the interface for receiving images and movies picked by the user."/>
+<node COLOR="#111111" CREATED="1362254342322" ID="ID_242556926" MODIFIED="1362254342322" TEXT="SeismicXML - Demonstrates how to use NSXMLParser to parse XML documents."/>
+<node COLOR="#111111" CREATED="1362254342323" ID="ID_933096509" MODIFIED="1362254342324" TEXT="UITextViewDelegate Protocol Reference - Describes the interface for receiving editing-related delegate messages in UITextView objects."/>
+<node COLOR="#111111" CREATED="1362254342327" ID="ID_1425639768" MODIFIED="1362254342327" TEXT="UIPasteboard Class Reference - Describes the class or transferring data within and between applications."/>
+<node COLOR="#111111" CREATED="1362254342330" ID="ID_1940852479" MODIFIED="1362254342330" TEXT="UIEvent Class Reference - Describes the class whose instances represent multitouch, motion, and remote-control events."/>
+<node COLOR="#111111" CREATED="1362254342333" ID="ID_968628153" MODIFIED="1362254342333" TEXT="BatteryStatus - Demonstrates the use of the battery status properties and notifications provided via the iOS SDK."/>
+<node COLOR="#111111" CREATED="1362254342336" ID="ID_621940304" MODIFIED="1362254342337" TEXT="Why won&apos;t my UIViewController rotate with the device? - QA1688: Describes situations that can prevent view controllers from rotating."/>
+<node COLOR="#111111" CREATED="1362254342340" ID="ID_1153210802" MODIFIED="1362254342340" TEXT="Formulaic - Demonstrates how to use the iPhone Accessibility API to make an iPhone application accessible."/>
+<node COLOR="#111111" CREATED="1362254342353" ID="ID_1163859299" MODIFIED="1362254342353" TEXT="TouchCells - Demonstrates how to implement trackable-settable UIControls embedded in a UITableView."/>
+<node COLOR="#111111" CREATED="1362254342356" ID="ID_1951731550" MODIFIED="1362254342356" TEXT="HeaderFooter - Demonstrates how to implement and customize UITableView&apos;s header and footer views."/>
+<node COLOR="#111111" CREATED="1362254342360" ID="ID_309995597" MODIFIED="1362254342360" TEXT="AppPrefs - Demonstrates how to display your app&apos;s preferences or settings in the &quot;Settings&quot; system application."/>
+<node COLOR="#111111" CREATED="1362254342365" ID="ID_1554523275" MODIFIED="1362254342365" TEXT="CopyPasteTile - Demonstrates how to implement copy, cut, and paste in your application."/>
+<node COLOR="#111111" CREATED="1362254342366" ID="ID_1568664493" MODIFIED="1362254342366" TEXT="AccelerometerGraph - Demonstrates how to use the UIAccelerometer class and filter its results."/>
+<node COLOR="#111111" CREATED="1362254342367" ID="ID_1628736278" MODIFIED="1362254342368" TEXT="TransWeb - Demonstrates how to implement UIWebView with a transparent background."/>
+<node COLOR="#111111" CREATED="1362254342369" ID="ID_1016779971" MODIFIED="1362254342369" TEXT="WhichWayIsUp - Tracks the orientation of the device."/>
+<node COLOR="#111111" CREATED="1362254342369" ID="ID_765685001" MODIFIED="1362254342370" TEXT="TableViewSuite - Shows how to use UITableView through a progression of increasingly advanced applications."/>
+<node COLOR="#111111" CREATED="1362254342372" ID="ID_442769624" MODIFIED="1362254342372" TEXT="LaunchMe - Demonstrates how to register and service incoming requests of a new URL type."/>
+<node COLOR="#111111" CREATED="1362254342373" ID="ID_474057604" MODIFIED="1362254342373" TEXT="HelloWorld - Demonstrates how to edit text with a keyboard and how to display the text in a label."/>
+<node COLOR="#111111" CREATED="1362254342374" ID="ID_64635991" MODIFIED="1362254342374" TEXT="HeadsUpUI - Demonstrates how to implement a headsUp or HUD-like user interface over the app&apos;s primary view controller."/>
+<node COLOR="#111111" CREATED="1362254342387" ID="ID_1772009427" MODIFIED="1362254342387" TEXT="DrillDownSave - Demonstrates how to restore the user&apos;s current location in a drill-down list style user interface and restore that location when the app is relaunched."/>
+<node COLOR="#111111" CREATED="1362254342390" ID="ID_1335219581" MODIFIED="1362254342390" TEXT="TheElements - TheElements is a sample application that provides access to the data contained in the Periodic Table of the Elements."/>
+<node COLOR="#111111" CREATED="1362254342392" ID="ID_1575717963" MODIFIED="1362254342392" TEXT="Scrolling - Demonstrates how to implement two different style UIScrollViews: single image, and multiple images."/>
+<node COLOR="#111111" CREATED="1362254342395" ID="ID_1945374663" MODIFIED="1362254342395" TEXT="TableSearch - Demonstrates how to search contents of a UITableView using UISearchBar and UISearchDisplayController."/>
+<node COLOR="#111111" CREATED="1362254342398" ID="ID_357829893" MODIFIED="1362254342398" TEXT="International Mountains - This sample demonstrates ways to incorporate and manage localized data in an iPhone application."/>
+<node COLOR="#111111" CREATED="1362254342401" ID="ID_1268393619" MODIFIED="1362254342401" TEXT="UINib Class Reference - Describes an object for unarchiving and instantiating a nib file."/>
+<node COLOR="#111111" CREATED="1362254342402" ID="ID_144845881" MODIFIED="1362254342402" TEXT="UITableViewDataSource Protocol Reference - Describes the interface for providing a table view with items to display."/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1362128788829" FOLDED="true" ID="ID_711789647" MODIFIED="1362251773370" TEXT="iAd">
+<node COLOR="#00b439" CREATED="1362128788829" ID="ID_711789647" MODIFIED="1362254254731" TEXT="iAd">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1362198357897" ID="ID_570754583" MODIFIED="1362198363100" TEXT="iAd Implementation Best Practices ">
