@@ -516,6 +516,36 @@
 </node>
 <node COLOR="#990000" CREATED="1362253897993" ID="ID_1845886743" MODIFIED="1362253900482" TEXT="Part 2">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362254019173" ID="ID_296059411" MODIFIED="1362254019173" TEXT="Reflection - This sample shows how to implement a &quot;reflection&quot; special effect on a given UIImageView."/>
+<node COLOR="#111111" CREATED="1362254019174" ID="ID_857628746" MODIFIED="1362254019174" TEXT="CollectionView-Simple - Demonstrates how to use UICollectionView, a way to present ordered data to users in a grid-like fashion."/>
+<node COLOR="#111111" CREATED="1362254019178" ID="ID_1061936896" MODIFIED="1362254019178" TEXT="Collection View Programming Guide for iOS -Describes the use of collection views in iOS apps."/>
+<node COLOR="#111111" CREATED="1362254019179" ID="ID_484261791" MODIFIED="1362254019179" TEXT="Drawing and Printing Guide for iOS - Describes the APIs and techniques for drawing and printing on iOS."/>
+<node COLOR="#111111" CREATED="1362254019183" ID="ID_880721574" MODIFIED="1362254019183" TEXT="Document-Based App Programming Guide for iOS - Describes how to create an iOS application whose documents are integrated with iCloud storage."/>
+<node COLOR="#111111" CREATED="1362254019186" ID="ID_346742395" MODIFIED="1362254019186" TEXT="Cocoa Auto Layout Guide - Describes the constraint-based system for laying out user interface elements."/>
+<node COLOR="#111111" CREATED="1362254019189" ID="ID_1294543790" MODIFIED="1362254019189" TEXT="UIViewControllerRestoration Protocol Reference - Describes methods for restoring view controllers."/>
+<node COLOR="#111111" CREATED="1362254019191" ID="ID_1028689084" MODIFIED="1362254019191" TEXT="UIScrollViewAccessibilityDelegate Protocol Reference - Describes the protocol for getting accessibility information from a scroll view."/>
+<node COLOR="#111111" CREATED="1362254019194" ID="ID_1777586233" MODIFIED="1362254019194" TEXT="UIDataSourceModelAssociation Protocol Reference - Describes methods for finding objects in collection views."/>
+<node COLOR="#111111" CREATED="1362254019197" ID="ID_1127942287" MODIFIED="1362254019197" TEXT="UICollectionViewDelegateFlowLayout Protocol Reference - Describes the methods a delegate must implement to manage a flow-based layout in a collection view."/>
+<node COLOR="#111111" CREATED="1362254019200" ID="ID_804468188" MODIFIED="1362254019200" TEXT="UICollectionViewDelegate Protocol Reference - Describes a collection view delegate."/>
+<node COLOR="#111111" CREATED="1362254019201" ID="ID_1629629630" MODIFIED="1362254019201" TEXT="UICollectionViewDataSource Protocol Reference - Describes a collection view data source."/>
+<node COLOR="#111111" CREATED="1362254019202" ID="ID_1551753023" MODIFIED="1362254019202" TEXT="UIActivityItemSource Protocol Reference - Describes the source of data provider objects for activities."/>
+<node COLOR="#111111" CREATED="1362254019203" ID="ID_371489624" MODIFIED="1362254019203" TEXT="UIWebView Class Reference - Describes a view for displaying web content."/>
+<node COLOR="#111111" CREATED="1362254019204" ID="ID_1644882318" MODIFIED="1362254019204" TEXT="UIViewController Class Reference - Describes a responder that manages views."/>
+<node COLOR="#111111" CREATED="1362254019204" ID="ID_494102729" MODIFIED="1362254019205" TEXT="UIView Class Reference - Describes the interface for interactive rectangular areas on the screen."/>
+<node COLOR="#111111" CREATED="1362254019205" ID="ID_680440080" MODIFIED="1362254019205" TEXT="UIToolbar Class Reference - Describes the class that implements a control for selecting one of many buttons, called toolbar items."/>
+<node COLOR="#111111" CREATED="1362254019208" ID="ID_1104372290" MODIFIED="1362254019208" TEXT="UITextView Class Reference"/>
+<node COLOR="#111111" CREATED="1362254019209" ID="ID_1909872224" MODIFIED="1362254019209" TEXT="UITextInput Protocol Reference - Describes the interface for text-displaying objects that enables integration with the text input system."/>
+<node COLOR="#111111" CREATED="1362254019212" ID="ID_1236537773" MODIFIED="1362254019212" TEXT="UITextField Class Reference - Describes a control for displaying and editing a single line of text."/>
+<node COLOR="#111111" CREATED="1362254019213" ID="ID_987988180" MODIFIED="1362254019213" TEXT="UITableViewDelegate Protocol Reference - Describes the interface for dynamically altering the behavior and appearance of a table view."/>
+<node COLOR="#111111" CREATED="1362254019216" ID="ID_1259487839" MODIFIED="1362254019216" TEXT="UITableViewController Class Reference - Describes an object that manages a table view."/>
+<node COLOR="#111111" CREATED="1362254019217" ID="ID_1895112391" MODIFIED="1362254019217" TEXT="UITableView Class Reference - Describes a view for displaying and editing lists of items."/>
+<node COLOR="#111111" CREATED="1362254019219" ID="ID_1103309567" MODIFIED="1362254019219" TEXT="UITabBar Class Reference  - Describes the class that implements a control for selecting one of many buttons, called items."/>
+<node COLOR="#111111" CREATED="1362254019222" ID="ID_438252955" MODIFIED="1362254019222" TEXT="UISwitch Class Reference - Describes a control that acts as an On/Off button."/>
+<node COLOR="#111111" CREATED="1362254019228" ID="ID_1591684111" MODIFIED="1362254019228" TEXT="UIStepper Class Reference - Describes a control for incrementing or decrementing a value."/>
+<node COLOR="#111111" CREATED="1362254019229" ID="ID_425548143" MODIFIED="1362254019229" TEXT="UISearchBar Class Reference - Describes the class implementing a text field control for text-based searches."/>
+<node COLOR="#111111" CREATED="1362254019232" ID="ID_1745939925" MODIFIED="1362254019232" TEXT="UIScrollView Class Reference - Describes a view for displaying content larger than its bounds."/>
+<node COLOR="#111111" CREATED="1362254019233" ID="ID_758163338" MODIFIED="1362254019233" TEXT="UIResponderStandardEditActions Protocol Reference - Describes the interface for handling editing commands."/>
+<node COLOR="#111111" CREATED="1362254019236" ID="ID_1413094731" MODIFIED="1362254019236" TEXT="UIPickerViewDelegate Protocol Reference - Describes the interface for receiving requests for managing and configuring a picker view."/>
 </node>
 <node COLOR="#990000" CREATED="1362253901554" ID="ID_530372955" MODIFIED="1362253904523" TEXT="Part 3">
 <font NAME="SansSerif" SIZE="14"/>
