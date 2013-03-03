@@ -1010,9 +1010,107 @@
 <node COLOR="#111111" CREATED="1362294467179" ID="ID_125901896" MODIFIED="1362294468396" TEXT="Describes a network-based MIDI connection."/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1362128711591" ID="ID_488049737" MODIFIED="1362129365566" TEXT="CoreText">
+<node COLOR="#00b439" CREATED="1362128711591" FOLDED="true" ID="ID_488049737" MODIFIED="1362294926452" TEXT="CoreText">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362294600632" ID="ID_1650713474" MODIFIED="1362294605248" TEXT="Core Text Font Manager Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294605248" ID="ID_738535540" MODIFIED="1362294767275" TEXT="Describes the Core Text interface for managing fonts.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294612304" ID="ID_1534299232" MODIFIED="1362294772882" TEXT="CTFontCollection Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294774541" ID="ID_682324956" MODIFIED="1362294775405" TEXT="Describes a collection of fonts."/>
+</node>
+<node COLOR="#990000" CREATED="1362294621599" ID="ID_1595019163" MODIFIED="1362294782684" TEXT="Core Text Reference Collection ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294782685" ID="ID_933936089" MODIFIED="1362294783903" TEXT="Describes an API providing text and font services."/>
+</node>
+<node COLOR="#990000" CREATED="1362294627638" ID="ID_387304119" MODIFIED="1362294788738" TEXT="CTRunDelegate Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294788739" ID="ID_1764891764" MODIFIED="1362294790532" TEXT="Describes callbacks implemented by delegates of runs (CTRunRef).">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294634602" ID="ID_99286458" MODIFIED="1362294794480" TEXT="CTParagraphStyle Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294794481" ID="ID_487269176" MODIFIED="1362294797070" TEXT="Describes paragraph or ruler attributes in an attributed string.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294641758" ID="ID_1882226605" MODIFIED="1362294804308" TEXT="CTFramesetter Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294804309" ID="ID_190924949" MODIFIED="1362294806386" TEXT="Describes an opaque type that generates text frames."/>
+</node>
+<node COLOR="#990000" CREATED="1362294647646" ID="ID_1832269525" MODIFIED="1362294809716" TEXT="CTFrame Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294809717" ID="ID_607916802" MODIFIED="1362294811221" TEXT="Describes a multiline text frame."/>
+</node>
+<node COLOR="#990000" CREATED="1362294654517" ID="ID_1005992109" MODIFIED="1362294815516" TEXT="CTFont Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294816732" ID="ID_398180285" MODIFIED="1362294818044" TEXT="Describes a representation of a font."/>
+</node>
+<node COLOR="#990000" CREATED="1362294661391" ID="ID_596094900" MODIFIED="1362294827777" TEXT="WWDC 2012: Text and Linguistic Analysis ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294827778" ID="ID_1671329642" MODIFIED="1362294829347" TEXT="Use the linguistic APIs on iOS and OS X for analyzing text.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294667688" ID="ID_1983936452" MODIFIED="1362294838222" TEXT="CoreTextPageViewer ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294838223" ID="ID_987725880" MODIFIED="1362294839982" TEXT="Demonstrates various features of Core Text on iOS"/>
+</node>
+<node COLOR="#990000" CREATED="1362294677775" ID="ID_1975314933" MODIFIED="1362294844801" TEXT="How do I work-around an issue where some lines in my Core Text output have extra line spacing? ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294844803" ID="ID_160953574" MODIFIED="1362294853060" TEXT="QA1698: describes how to work-around an issue with Core Text output where some lines in a paragraph have a small amount of extra space between lines.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294684238" ID="ID_1343993860" MODIFIED="1362294858346" TEXT="CTGlyphInfo Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294858347" ID="ID_605470700" MODIFIED="1362294860842" TEXT="Describes an opaque type used to override a font&apos;s mapping from Unicode to glyph ID.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294693477" ID="ID_706052631" MODIFIED="1362294869954" TEXT="CTFontDescriptor Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294869955" ID="ID_181885573" MODIFIED="1362294871796" TEXT="Describes a dictionary that fully specifies a font."/>
+</node>
+<node COLOR="#990000" CREATED="1362294695110" ID="ID_870226358" MODIFIED="1362294876522" TEXT="Core Text Programming Guide ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294876523" ID="ID_1461097702" MODIFIED="1362294878514" TEXT="Explains how to do text layout and font-related operations using the Core Text programming interfaces.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294725918" ID="ID_904354240" MODIFIED="1362294883481" TEXT="Core Text Utilities Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294883482" ID="ID_931302886" MODIFIED="1362294885266" TEXT="Describes general Core Text functions and data types."/>
+</node>
+<node COLOR="#990000" CREATED="1362294733790" ID="ID_254398027" MODIFIED="1362294888656" TEXT="Core Text String Attributes Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294888656" ID="ID_62856530" MODIFIED="1362294891240" TEXT="Describes the string attributes recognized by Core Text.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294740350" ID="ID_1636473236" MODIFIED="1362294896633" TEXT="CTTypesetter Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294896634" ID="ID_188993789" MODIFIED="1362294898561" TEXT="Describes the opaque type that performs line layout."/>
+</node>
+<node COLOR="#990000" CREATED="1362294747134" ID="ID_588151896" MODIFIED="1362294903001" TEXT="CTTextTab Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294903002" ID="ID_552157490" MODIFIED="1362294904576" TEXT="Describes a tab in a paragraph style."/>
+</node>
+<node COLOR="#990000" CREATED="1362294755323" ID="ID_77608911" MODIFIED="1362294908295" TEXT="CTRun Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294908296" ID="ID_1303158705" MODIFIED="1362294916033" TEXT="Describes a set of consecutive glyphs sharing the same attributes and direction. ">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294761331" ID="ID_228951106" MODIFIED="1362294920180" TEXT="CTLine Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294920181" ID="ID_1744882635" MODIFIED="1362294922003" TEXT="Describes a line of text."/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1362128715623" ID="ID_1500883207" MODIFIED="1362129365566" TEXT="CoreVideo">
 <edge STYLE="bezier" WIDTH="thin"/>
