@@ -1177,6 +1177,36 @@
 <node COLOR="#00b439" CREATED="1362128723135" ID="ID_1755830352" MODIFIED="1362129365567" TEXT="ImageIO">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362295199403" ID="ID_909341478" MODIFIED="1362295285840" TEXT="CGImageSource Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295285841" ID="ID_1715030072" MODIFIED="1362295287209" TEXT="Describes the opaque type for reading image data."/>
+</node>
+<node COLOR="#990000" CREATED="1362295216954" ID="ID_1355473175" MODIFIED="1362295276033" TEXT="CGImageProperties Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295276034" ID="ID_1296717458" MODIFIED="1362295278107" TEXT="Describes property constants for source and destination images.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362295222570" ID="ID_1151226505" MODIFIED="1362295268937" TEXT="Accessing image properties with ImageIO ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295268937" ID="ID_252811560" MODIFIED="1362295271055" TEXT="QA1654: describes how to use the ImageIO framework to access image properties.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362295227242" ID="ID_530912332" MODIFIED="1362295262608" TEXT="Image I/O Programming Guide ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295262608" ID="ID_132584809" MODIFIED="1362295264320" TEXT="Explains how to read and write image data using the Image I/O framework.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362295232850" ID="ID_1902743523" MODIFIED="1362295255544" TEXT="Image I/O Reference Collection ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295255548" ID="ID_919441276" MODIFIED="1362295257462" TEXT="Describes the API for reading and writing image data."/>
+</node>
+<node COLOR="#990000" CREATED="1362295239723" ID="ID_845053956" MODIFIED="1362295247258" TEXT="CGImageDestination Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295247259" ID="ID_154542185" MODIFIED="1362295248067" TEXT="Describes the opaque type for writing image data."/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1362128726663" ID="ID_285530845" MODIFIED="1362129365567" TEXT="MediaPlayer">
 <edge STYLE="bezier" WIDTH="thin"/>
