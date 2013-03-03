@@ -1112,9 +1112,63 @@
 <node COLOR="#111111" CREATED="1362294920181" ID="ID_1744882635" MODIFIED="1362294922003" TEXT="Describes a line of text."/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1362128715623" ID="ID_1500883207" MODIFIED="1362129365566" TEXT="CoreVideo">
+<node COLOR="#00b439" CREATED="1362128715623" FOLDED="true" ID="ID_1500883207" MODIFIED="1362295145646" TEXT="CoreVideo">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362294985503" ID="ID_1383492128" MODIFIED="1362295141184" TEXT="CVOpenGLESTextureCache Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295141184" ID="ID_286916626" MODIFIED="1362295143017" TEXT="Describes the interface for caching CVOpenGLESTextures.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362295005934" ID="ID_242087971" MODIFIED="1362295133442" TEXT="CVOpenGLESTexture Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295133443" ID="ID_511059557" MODIFIED="1362295135174" TEXT="Describes the interface for working with OpenGLES texture-based image buffers.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362295030903" ID="ID_16238902" MODIFIED="1362295127400" TEXT="Core Video Constants Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295127401" ID="ID_930745347" MODIFIED="1362295129399" TEXT="Describes the result codes in the Core Video framework.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362295039982" ID="ID_137899357" MODIFIED="1362295122091" TEXT="CVPixelFormatDescription Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295122091" ID="ID_1802131794" MODIFIED="1362295124107" TEXT="Describes the API used to define custom pixel formats.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362295045742" ID="ID_476947462" MODIFIED="1362295116993" TEXT="CVPixelBufferPool Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295116994" ID="ID_742074137" MODIFIED="1362295118676" TEXT="Describes a utility object for managing pixel buffers for repeated use.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362295052440" ID="ID_1520588095" MODIFIED="1362295103953" TEXT="Core Video Framework Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295103954" ID="ID_472501784" MODIFIED="1362295106177" TEXT="Describes the API used to manage individual frames of digital video.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362295060373" ID="ID_904013749" MODIFIED="1362295111290" TEXT="CVTime Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295111291" ID="ID_514167933" MODIFIED="1362295113074" TEXT="Describes the structures for storing time values in Core Video."/>
+</node>
+<node COLOR="#990000" CREATED="1362295066445" ID="ID_809921815" MODIFIED="1362295096475" TEXT="CVPixelBuffer Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295098300" ID="ID_1317129643" MODIFIED="1362295099405" TEXT="Describes a buffer that holds pixels in main memory."/>
+</node>
+<node COLOR="#990000" CREATED="1362295073470" ID="ID_118016421" MODIFIED="1362295089313" TEXT="CVImageBuffer Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295089314" ID="ID_519157346" MODIFIED="1362295090766" TEXT="Describes the interface for buffers of image data in Core Video.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362295078348" ID="ID_893151423" MODIFIED="1362295084612" TEXT="CVBuffer Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295084614" ID="ID_1978580255" MODIFIED="1362295085449" TEXT="Describes the interface for buffers in Core Video."/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1362128718863" ID="ID_419208852" MODIFIED="1362129365566" TEXT="GLKit">
 <edge STYLE="bezier" WIDTH="thin"/>
