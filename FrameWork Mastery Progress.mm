@@ -478,10 +478,10 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1362128785918" ID="ID_1864374232" MODIFIED="1362129365561" TEXT="UIKit">
+<node COLOR="#00b439" CREATED="1362128785918" ID="ID_1864374232" MODIFIED="1362293962787" TEXT="UIKit">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1362253893242" ID="ID_1468509457" MODIFIED="1362253897187" TEXT="Part 1">
+<node COLOR="#990000" CREATED="1362253893242" FOLDED="true" ID="ID_1468509457" MODIFIED="1362293969438" TEXT="Part 1">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362253997548" ID="ID_679080022" MODIFIED="1362253997548" TEXT="Tabster - An eclectic-style application designed to show how to build a tab-bar based iOS application."/>
 <node COLOR="#111111" CREATED="1362253997553" ID="ID_612299364" MODIFIED="1362253997553" TEXT="PageControl - Demonstrates how to display pages of data differently between the iPhone and iPad."/>
@@ -514,7 +514,7 @@
 <node COLOR="#111111" CREATED="1362253997609" ID="ID_1937680448" MODIFIED="1362253997609" TEXT="WWDC 2012: Accessibility for iOS - Best practices for working with VoiceOver and how to integrate accessibility into your apps."/>
 <node COLOR="#111111" CREATED="1362253997612" ID="ID_1111881331" MODIFIED="1362253997612" TEXT="TableMultiSelect - Demonstrates how to use multiple selection of table cells in UITableView."/>
 </node>
-<node COLOR="#990000" CREATED="1362253897993" ID="ID_1845886743" MODIFIED="1362253900482" TEXT="Part 2">
+<node COLOR="#990000" CREATED="1362253897993" FOLDED="true" ID="ID_1845886743" MODIFIED="1362293972262" TEXT="Part 2">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362254019173" ID="ID_296059411" MODIFIED="1362254019173" TEXT="Reflection - This sample shows how to implement a &quot;reflection&quot; special effect on a given UIImageView."/>
 <node COLOR="#111111" CREATED="1362254019174" ID="ID_857628746" MODIFIED="1362254019174" TEXT="CollectionView-Simple - Demonstrates how to use UICollectionView, a way to present ordered data to users in a grid-like fashion."/>
@@ -547,7 +547,7 @@
 <node COLOR="#111111" CREATED="1362254019233" ID="ID_758163338" MODIFIED="1362254019233" TEXT="UIResponderStandardEditActions Protocol Reference - Describes the interface for handling editing commands."/>
 <node COLOR="#111111" CREATED="1362254019236" ID="ID_1413094731" MODIFIED="1362254019236" TEXT="UIPickerViewDelegate Protocol Reference - Describes the interface for receiving requests for managing and configuring a picker view."/>
 </node>
-<node COLOR="#990000" CREATED="1362253901554" ID="ID_530372955" MODIFIED="1362253904523" TEXT="Part 3">
+<node COLOR="#990000" CREATED="1362253901554" FOLDED="true" ID="ID_530372955" MODIFIED="1362293974632" TEXT="Part 3">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362254035101" ID="ID_1187112644" MODIFIED="1362254035102" TEXT="UINavigationBar Class Reference - Describes the class used to implement a control for navigating hierarchical content."/>
 <node COLOR="#111111" CREATED="1362254035105" ID="ID_1457257757" MODIFIED="1362254035105" TEXT="UILabel Class Reference - Describes a control for displaying static text."/>
@@ -580,7 +580,7 @@
 <node COLOR="#111111" CREATED="1362254035170" ID="ID_1078726483" MODIFIED="1362254035170" TEXT="UICollectionView Class Reference - Describes a collection of views that displays content in a grid."/>
 <node COLOR="#111111" CREATED="1362254035182" ID="ID_911867817" MODIFIED="1362254035182" TEXT="UICollectionReusableView Class Reference - Describes a view that can be used to present content in a collection view."/>
 </node>
-<node COLOR="#990000" CREATED="1362253905242" ID="ID_554019174" MODIFIED="1362253920146" TEXT="Part 4">
+<node COLOR="#990000" CREATED="1362253905242" FOLDED="true" ID="ID_554019174" MODIFIED="1362293977235" TEXT="Part 4">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362254260992" ID="ID_1519997052" MODIFIED="1362254260993" TEXT="UIActivityViewController Class Reference - Describes a view controller that presents the available app services to the user."/>
 <node COLOR="#111111" CREATED="1362254260996" ID="ID_885658856" MODIFIED="1362254260996" TEXT="UIActivityItemProvider Class Reference - Describes an object that provides app data for activities."/>
@@ -614,7 +614,7 @@
 <node COLOR="#111111" CREATED="1362254261074" ID="ID_169595881" MODIFIED="1362254261074" TEXT="PhotoPicker - Demonstrates choosing images from the photo library, take a picture with the camera, and how to customize the camera."/>
 <node COLOR="#111111" CREATED="1362254261076" ID="ID_1686072779" MODIFIED="1362254261077" TEXT="QA1587: Describes how to add document types to iOS applications so they can be opened from the Open in... menu."/>
 </node>
-<node COLOR="#990000" CREATED="1362253908434" ID="ID_260129719" MODIFIED="1362253913450" TEXT="Part 5">
+<node COLOR="#990000" CREATED="1362253908434" FOLDED="true" ID="ID_260129719" MODIFIED="1362293964349" TEXT="Part 5">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362254280863" ID="ID_737552488" MODIFIED="1362254280865" TEXT="Camera Programming Topics for iOS - Explains how to perform still image and video capture, and how to pick items from the photo library."/>
 <node COLOR="#111111" CREATED="1362254280872" ID="ID_640506312" MODIFIED="1362254280872" TEXT="Touches -Demonstrates how to handle multiple touches."/>
@@ -647,7 +647,7 @@
 <node COLOR="#111111" CREATED="1362254280935" ID="ID_376359190" MODIFIED="1362254280936" TEXT="UINavigationItem Class Reference - Describes an item on a navigation bar."/>
 <node COLOR="#111111" CREATED="1362254280936" ID="ID_1754463281" MODIFIED="1362254280936" TEXT="UIKit Data Types Reference - Describes the data types of the UIKit framework."/>
 </node>
-<node COLOR="#990000" CREATED="1362254284400" ID="ID_234564938" MODIFIED="1362254289193" TEXT="Part 6">
+<node COLOR="#990000" CREATED="1362254284400" FOLDED="true" ID="ID_234564938" MODIFIED="1362293982250" TEXT="Part 6">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362254313123" ID="ID_323299466" MODIFIED="1362254313123" TEXT="UIKit Constants Reference - Describes the constants of the UIKit framework."/>
 <node COLOR="#111111" CREATED="1362254313125" ID="ID_1565004807" MODIFIED="1362254313125" TEXT="UICatalog - This sample is a catalog exhibiting many of the UI elements found in the iOS UIKit framework."/>
@@ -680,7 +680,7 @@
 <node COLOR="#111111" CREATED="1362254313194" ID="ID_1152311458" MODIFIED="1362254313194" TEXT="How to opt out of video mirroring -QA1738: Describes how to opt out of video mirroring."/>
 <node COLOR="#111111" CREATED="1362254313195" ID="ID_844180988" MODIFIED="1362254313195" TEXT="Screen Capture in UIKit Applications - QA1703: Demonstrates how to take a screenshot in an UIKit application"/>
 </node>
-<node COLOR="#990000" CREATED="1362254289681" ID="ID_1379801991" MODIFIED="1362254292479" TEXT="Part 7">
+<node COLOR="#990000" CREATED="1362254289681" FOLDED="true" ID="ID_1379801991" MODIFIED="1362293985940" TEXT="Part 7">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362254324148" ID="ID_1116691026" MODIFIED="1362254324148" TEXT="View Programming Guide for iOS - Describes the creation and management of visual interface elements."/>
 <node COLOR="#111111" CREATED="1362254324151" ID="ID_1202076246" MODIFIED="1362254324151" TEXT="UIDocumentInteractionController Class Reference - Describes a system object for interacting with file types not directly supported by your app."/>
@@ -713,7 +713,7 @@
 <node COLOR="#111111" CREATED="1362254324221" ID="ID_490070475" MODIFIED="1362254324221" TEXT="UIPrintInfo Class Reference - Describes the class for capturing information about a print job&#x2014;for example, output type and orientation."/>
 <node COLOR="#111111" CREATED="1362254324224" ID="ID_1230461613" MODIFIED="1362254324224" TEXT="UIPrintFormatter Class Reference - Describes the base class for objects that format the pages of a print job."/>
 </node>
-<node COLOR="#990000" CREATED="1362254293191" ID="ID_646894875" MODIFIED="1362254295744" TEXT="Part 8">
+<node COLOR="#990000" CREATED="1362254293191" FOLDED="true" ID="ID_646894875" MODIFIED="1362293987266" TEXT="Part 8">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362254342306" ID="ID_1087875962" MODIFIED="1362254342308" TEXT="UIMarkupTextPrintFormatter Class Reference - Describes the class for formatting markup text such as HTML when printing pages."/>
 <node COLOR="#111111" CREATED="1362254342313" ID="ID_1772071287" MODIFIED="1362254342314" TEXT="UITouch Class Reference - Describes a representation of a touch in the Multi-Touch event model."/>
@@ -746,7 +746,7 @@
 <node COLOR="#111111" CREATED="1362254342401" ID="ID_1268393619" MODIFIED="1362254342401" TEXT="UINib Class Reference - Describes an object for unarchiving and instantiating a nib file."/>
 <node COLOR="#111111" CREATED="1362254342402" ID="ID_144845881" MODIFIED="1362254342402" TEXT="UITableViewDataSource Protocol Reference - Describes the interface for providing a table view with items to display."/>
 </node>
-<node COLOR="#990000" CREATED="1362254658607" ID="ID_1450173454" MODIFIED="1362254665298" TEXT="Part 9">
+<node COLOR="#990000" CREATED="1362254658607" FOLDED="true" ID="ID_1450173454" MODIFIED="1362293988362" TEXT="Part 9">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362254668166" ID="ID_1225699049" MODIFIED="1362254668167" TEXT="UILocalNotification Class Reference - Describes the class for sending local notifications on a device."/>
 <node COLOR="#111111" CREATED="1362254668168" ID="ID_506123923" MODIFIED="1362254668168" TEXT="UIPickerViewAccessibilityDelegate Protocol Reference - Describes the protocol for getting accessibility information for individual components in a picker view."/>
@@ -784,7 +784,7 @@
 <node COLOR="#111111" CREATED="1362254668242" ID="ID_1169208596" MODIFIED="1362254668242" TEXT="UINavigationBarDelegate Protocol Reference - Describes the protocol defining optional methods that a UINavigationBar delegate implements to update its views."/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1362128788829" ID="ID_711789647" MODIFIED="1362254254731" TEXT="iAd">
+<node COLOR="#00b439" CREATED="1362128788829" FOLDED="true" ID="ID_711789647" MODIFIED="1362294001942" TEXT="iAd">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1362198357897" ID="ID_570754583" MODIFIED="1362198363100" TEXT="iAd Implementation Best Practices ">
@@ -886,13 +886,129 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1362128700263" ID="ID_365104226" MODIFIED="1362129365565" TEXT="CoreImage">
+<node COLOR="#00b439" CREATED="1362128700263" FOLDED="true" ID="ID_365104226" MODIFIED="1362294322471" TEXT="CoreImage">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362294023573" ID="ID_1565463067" MODIFIED="1362294029729" TEXT="Core Image Programming Guide ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294029729" ID="ID_351466191" MODIFIED="1362294032515" TEXT="Provides an overview and explains how to use and create image filters and image units.">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#00b439" CREATED="1362128705767" ID="ID_1636621249" MODIFIED="1362129365565" TEXT="CoreMIDI">
+</node>
+<node COLOR="#990000" CREATED="1362294042014" ID="ID_982911866" MODIFIED="1362294046856" TEXT="CIColor Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294046856" ID="ID_1092572315" MODIFIED="1362294048616" TEXT="Describes the class used to manage color values and color spaces for Core Image filters. ">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294066278" ID="ID_104759195" MODIFIED="1362294070691" TEXT="CIFilter Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294070692" ID="ID_1791421833" MODIFIED="1362294072855" TEXT="Describes the class that processes image data and produces a Core Image image as output.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294085413" ID="ID_1982452887" MODIFIED="1362294090629" TEXT="Core Image Filter Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294090630" ID="ID_680822324" MODIFIED="1362294092360" TEXT="Describes the built-in image processing filters available through Core Image.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294101453" ID="ID_299865559" MODIFIED="1362294106578" TEXT="Core Image Reference Collection ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294106578" ID="ID_1506396402" MODIFIED="1362294108127" TEXT="Describes the Objective-C API for using and creating filters for image processing.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294120884" ID="ID_348399500" MODIFIED="1362294125742" TEXT="CIImage Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294125742" ID="ID_1440879153" MODIFIED="1362294128069" TEXT="Describes the class that represents an immutable Core Image image.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294149619" ID="ID_1930799861" MODIFIED="1362294154939" TEXT="CIFaceFeature Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294154940" ID="ID_986242974" MODIFIED="1362294157522" TEXT="Describes a class whose objects provide information about a face discovered in an image.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294168650" ID="ID_1213191313" MODIFIED="1362294173851" TEXT="CIDetector Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294173852" ID="ID_1691541477" MODIFIED="1362294175573" TEXT="Describes the class that provides the ability to detect features within an image.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294190641" ID="ID_1233092882" MODIFIED="1362294195346" TEXT="CIContext Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294195347" ID="ID_820742423" MODIFIED="1362294197144" TEXT="Describes the class that provides an evaluation context for rendering a Core Image image through Quartz 2D or OpenGL.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294204306" ID="ID_20070462" MODIFIED="1362294211715" TEXT="WWDC 2012: Getting Started with Core Image ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294211715" ID="ID_1317470245" MODIFIED="1362294214447" TEXT="Covers Core Image and the sophisticated effects you can build using built-in filters.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294221953" ID="ID_1074899582" MODIFIED="1362294229750" TEXT="WWDC 2012: Core Image Techniques ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294229750" ID="ID_846290660" MODIFIED="1362294231643" TEXT="Integrate Core Image with related graphics, media, and game technologies in iOS. ">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294242633" ID="ID_1509409557" MODIFIED="1362294252256" TEXT="PocketCoreImage ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294252257" ID="ID_285640407" MODIFIED="1362294253276" TEXT="Demonstrates applying Core Image filters to a still image."/>
+</node>
+<node COLOR="#990000" CREATED="1362294264056" ID="ID_238441411" MODIFIED="1362294269879" TEXT="CIFeature Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294269880" ID="ID_1163824738" MODIFIED="1362294271626" TEXT="Describes an base class for features discovered in an image by a detector.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294286089" ID="ID_681033002" MODIFIED="1362294295253" TEXT="CIVector Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294295253" ID="ID_67255382" MODIFIED="1362294302983" TEXT="Describes the class used to pass parameter values to Core Image filters.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1362128705767" FOLDED="true" ID="ID_1636621249" MODIFIED="1362294541484" TEXT="CoreMIDI">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362294356222" ID="ID_1175745182" MODIFIED="1362294363669" TEXT="MIDI Services Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294363670" ID="ID_289359973" MODIFIED="1362294364776" TEXT="Added descriptions for additional APIs in iOS 4.2."/>
+</node>
+<node COLOR="#990000" CREATED="1362294375406" ID="ID_1255719835" MODIFIED="1362294381130" TEXT="MIDI Thru Connection Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294381130" ID="ID_1023146505" MODIFIED="1362294382813" TEXT="Describes functions and data types for working with MIDI play-through connections.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294390189" ID="ID_77468362" MODIFIED="1362294396916" TEXT="MIDINetworkHost Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294396917" ID="ID_817519843" MODIFIED="1362294398279" TEXT="Describes a network-based MIDI host."/>
+</node>
+<node COLOR="#990000" CREATED="1362294408732" ID="ID_1627986748" MODIFIED="1362294414033" TEXT="MIDI Setup Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294414034" ID="ID_936783909" MODIFIED="1362294415997" TEXT="Describes functions and data types for customizing the global state of the MIDI system.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294423421" ID="ID_451378728" MODIFIED="1362294430011" TEXT="Core MIDI Framework Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294430012" ID="ID_1660178411" MODIFIED="1362294431031" TEXT="The API for MIDI system services."/>
+</node>
+<node COLOR="#990000" CREATED="1362294443133" ID="ID_739161455" MODIFIED="1362294450563" TEXT="MIDINetworkSession Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294450563" ID="ID_70278551" MODIFIED="1362294452467" TEXT="Describes a MIDI source-destination pair, known as a MIDI entity.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362294460867" ID="ID_865731904" MODIFIED="1362294467178" TEXT="MIDINetworkConnection Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362294467179" ID="ID_125901896" MODIFIED="1362294468396" TEXT="Describes a network-based MIDI connection."/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1362128711591" ID="ID_488049737" MODIFIED="1362129365566" TEXT="CoreText">
 <edge STYLE="bezier" WIDTH="thin"/>
