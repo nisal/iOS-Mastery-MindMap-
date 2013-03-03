@@ -1215,6 +1215,15 @@
 <node COLOR="#00b439" CREATED="1362128730431" ID="ID_190636183" MODIFIED="1362129365568" TEXT="OpenAL">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362295374943" ID="ID_707694931" MODIFIED="1362295375976" TEXT="Build compelling games for iOS using low-latency, positional audio playback. OpenAL enables you to immerse users in directional sound that tracks onscreen animations. Built upon Core Audio, OpenAL in iOS provides high performance and excellent audio quality. ">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362295384182" ID="ID_564997245" MODIFIED="1362295393446" TEXT="oalTouch ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295393447" ID="ID_135955093" MODIFIED="1362295394784" TEXT="iPhone example to play a single audio source using OpenAL."/>
+<node COLOR="#111111" CREATED="1362295419390" ID="ID_172384759" MODIFIED="1362295420032" TEXT="The code uses OpenAL to play a single audio source. Move source or listener position by dragging icons around on the grid. Turn accelerometer functionality on to set listener orientation by tilting the device."/>
+<node COLOR="#111111" CREATED="1362295444790" ID="ID_1073172051" LINK="https://developer.apple.com/library/ios/#samplecode/oalTouch/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007769" MODIFIED="1362295455138" TEXT="Code Download"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1362128733863" ID="ID_759399298" MODIFIED="1362129365568" TEXT="OpenGLES">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -1231,6 +1240,38 @@
 <node COLOR="#00b439" CREATED="1362128560338" ID="ID_321522240" MODIFIED="1362129365569" TEXT="Accounts">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362295522493" ID="ID_586035904" MODIFIED="1362295562155" TEXT="Accounts Constants Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295562156" ID="ID_1097692277" MODIFIED="1362295563222" TEXT="The Accounts framework constants."/>
+</node>
+<node COLOR="#990000" CREATED="1362295528829" ID="ID_1138678394" MODIFIED="1362295567553" TEXT="ACAccountType Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295567554" ID="ID_1508969732" MODIFIED="1362295569472" TEXT="Encapsulates information about all accounts of a particular type.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362295535363" ID="ID_1343775635" MODIFIED="1362295573178" TEXT="ACAccountStore Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295573178" ID="ID_1831813756" MODIFIED="1362295574644" TEXT="Provides an interface for accessing, manipulating, and storing accounts.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362295542116" ID="ID_425840699" MODIFIED="1362295579368" TEXT="Accounts Framework Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295579368" ID="ID_1374909399" MODIFIED="1362295580380" TEXT="Describes classes for creating system accounts."/>
+</node>
+<node COLOR="#990000" CREATED="1362295549178" ID="ID_1850825556" MODIFIED="1362295584284" TEXT="ACAccountCredential Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295584285" ID="ID_242060799" MODIFIED="1362295586089" TEXT="Encapsulates the information needed to authenticate a user.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362295555298" ID="ID_1368847458" MODIFIED="1362295589742" TEXT="ACAccount Class Reference ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362295589743" ID="ID_1717047126" MODIFIED="1362295591680" TEXT="Encapsulates information about a user account stored in the Accounts database.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1362128564354" ID="ID_1095100307" MODIFIED="1362129365569" TEXT="AdSupport">
 <edge STYLE="bezier" WIDTH="thin"/>
