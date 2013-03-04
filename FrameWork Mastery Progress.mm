@@ -8,7 +8,7 @@
 <node COLOR="#0033ff" CREATED="1362128446766" ID="ID_681906256" MODIFIED="1362130238268" POSITION="right" TEXT="COCOA TOUCH LAYER">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1362128754510" FOLDED="true" ID="ID_202494856" MODIFIED="1362251755793" TEXT="AddressBookUI">
+<node COLOR="#00b439" CREATED="1362128754510" FOLDED="true" ID="ID_202494856" MODIFIED="1362420754708" TEXT="AddressBookUI">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1362130036272" ID="ID_1698909205" MODIFIED="1362130117887" TEXT="FUNCTIONS">
@@ -191,7 +191,7 @@
 <node COLOR="#111111" CREATED="1362139855987" ID="ID_1856490518" LINK="https://developer.apple.com/library/ios/#documentation/ContactData/Conceptual/AddressBookProgrammingGuideforiPhone/Chapters/QuickStart.html#//apple_ref/doc/uid/TP40007744-CH2-SW1" MODIFIED="1362139886742" TEXT="Quick Start Tutorial"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1362128761694" ID="ID_1813765939" MODIFIED="1362251758969" TEXT="EventKitUI">
+<node COLOR="#00b439" CREATED="1362128761694" FOLDED="true" ID="ID_1813765939" MODIFIED="1362404472852" TEXT="EventKitUI">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1362154736683" FOLDED="true" ID="ID_1891733307" MODIFIED="1362251761947" TEXT="CLASSES">
@@ -325,7 +325,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1362128774782" FOLDED="true" ID="ID_1733681097" MODIFIED="1362192201828" TEXT="MapKit">
+<node COLOR="#00b439" CREATED="1362128774782" FOLDED="true" ID="ID_1733681097" MODIFIED="1362420751346" TEXT="MapKit">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1362192065016" ID="ID_563224089" MODIFIED="1362192130406" TEXT="MKLocalSearchResponse Class Reference Describes a map-based search response.">
@@ -440,7 +440,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1362128779398" FOLDED="true" ID="ID_840542795" MODIFIED="1362198211439" TEXT="MessageUI">
+<node COLOR="#00b439" CREATED="1362128779398" FOLDED="true" ID="ID_840542795" MODIFIED="1362404438664" TEXT="MessageUI">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1362192285247" ID="ID_355531874" MODIFIED="1362192286863" TEXT="MFMessageComposeViewController Class Reference Describes an SMS composition interface.">
@@ -465,7 +465,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1362128781838" FOLDED="true" ID="ID_1491894348" MODIFIED="1362251768322" TEXT="Twitter">
+<node COLOR="#00b439" CREATED="1362128781838" FOLDED="true" ID="ID_1491894348" MODIFIED="1362404467908" TEXT="Twitter">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1362198230619" ID="ID_611333869" MODIFIED="1362198232211" TEXT="Send tweets from your app using the Twitter framework. You can also use this framework to simplify the authorization process when using the Twitter API. ">
@@ -481,7 +481,7 @@
 <node COLOR="#00b439" CREATED="1362128785918" ID="ID_1864374232" MODIFIED="1362293962787" TEXT="UIKit">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1362253893242" FOLDED="true" ID="ID_1468509457" MODIFIED="1362293969438" TEXT="Part 1">
+<node COLOR="#990000" CREATED="1362253893242" FOLDED="true" ID="ID_1468509457" MODIFIED="1362420743584" TEXT="Part 1">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362253997548" ID="ID_679080022" MODIFIED="1362253997548" TEXT="Tabster - An eclectic-style application designed to show how to build a tab-bar based iOS application."/>
 <node COLOR="#111111" CREATED="1362253997553" ID="ID_612299364" MODIFIED="1362253997553" TEXT="PageControl - Demonstrates how to display pages of data differently between the iPhone and iPad."/>
@@ -514,7 +514,7 @@
 <node COLOR="#111111" CREATED="1362253997609" ID="ID_1937680448" MODIFIED="1362253997609" TEXT="WWDC 2012: Accessibility for iOS - Best practices for working with VoiceOver and how to integrate accessibility into your apps."/>
 <node COLOR="#111111" CREATED="1362253997612" ID="ID_1111881331" MODIFIED="1362253997612" TEXT="TableMultiSelect - Demonstrates how to use multiple selection of table cells in UITableView."/>
 </node>
-<node COLOR="#990000" CREATED="1362253897993" FOLDED="true" ID="ID_1845886743" MODIFIED="1362293972262" TEXT="Part 2">
+<node COLOR="#990000" CREATED="1362253897993" FOLDED="true" ID="ID_1845886743" MODIFIED="1362420747052" TEXT="Part 2">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362254019173" ID="ID_296059411" MODIFIED="1362254019173" TEXT="Reflection - This sample shows how to implement a &quot;reflection&quot; special effect on a given UIImageView."/>
 <node COLOR="#111111" CREATED="1362254019174" ID="ID_857628746" MODIFIED="1362254019174" TEXT="CollectionView-Simple - Demonstrates how to use UICollectionView, a way to present ordered data to users in a grid-like fashion."/>
@@ -1174,7 +1174,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1362128723135" ID="ID_1755830352" MODIFIED="1362129365567" TEXT="ImageIO">
+<node COLOR="#00b439" CREATED="1362128723135" FOLDED="true" ID="ID_1755830352" MODIFIED="1362420764337" TEXT="ImageIO">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1362295199403" ID="ID_909341478" MODIFIED="1362295285840" TEXT="CGImageSource Reference ">
@@ -1212,7 +1212,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1362128730431" ID="ID_190636183" MODIFIED="1362129365568" TEXT="OpenAL">
+<node COLOR="#00b439" CREATED="1362128730431" FOLDED="true" ID="ID_190636183" MODIFIED="1362420766468" TEXT="OpenAL">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1362295374943" ID="ID_707694931" MODIFIED="1362295375976" TEXT="Build compelling games for iOS using low-latency, positional audio playback. OpenAL enables you to immerse users in directional sound that tracks onscreen animations. Built upon Core Audio, OpenAL in iOS provides high performance and excellent audio quality. ">
@@ -1288,6 +1288,850 @@
 <node COLOR="#00b439" CREATED="1362128584034" ID="ID_239290433" MODIFIED="1362129365571" TEXT="CoreData">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362421327435" ID="ID_1176303424" MODIFIED="1362421327953" TEXT="Core Data Constants ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362421371658" ID="ID_1849274071" MODIFIED="1362421372620" TEXT="Error User Info Keys">
+<node COLOR="#111111" CREATED="1362421531481" ID="ID_1922789642" MODIFIED="1362421531481" TEXT="const NSString *NSDetailedErrorsKey;">
+<node COLOR="#111111" CREATED="1362421553951" ID="ID_161112462" MODIFIED="1362421553952">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If multiple validation errors occur in one operation, they are collected in an array and added with this key to the &#8220;top-level error&#8221; of the operation.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421531482" ID="ID_871538799" MODIFIED="1362421531482" TEXT="const NSString *NSValidationObjectErrorKey;">
+<node COLOR="#111111" CREATED="1362421568864" ID="ID_1684260634" MODIFIED="1362421568864">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Key for the object that failed to validate for a validation error.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421531483" ID="ID_1540913394" MODIFIED="1362421531483" TEXT="const NSString *NSValidationKeyErrorKey;">
+<node COLOR="#111111" CREATED="1362421574680" ID="ID_1546103058" MODIFIED="1362421574680">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Key for the key that failed to validate for a validation error.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421531484" ID="ID_734415179" MODIFIED="1362421531484" TEXT="const NSString *NSValidationPredicateErrorKey;">
+<node COLOR="#111111" CREATED="1362421581747" ID="ID_703774636" MODIFIED="1362421581748">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      For predicate-based validation, key for the predicate for the condition that failed to validate.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421531485" ID="ID_1706822454" MODIFIED="1362421531485" TEXT="const NSString *NSValidationValueErrorKey;">
+<node COLOR="#111111" CREATED="1362421588368" ID="ID_206671649" MODIFIED="1362421588368">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If non-nil, the key for the value for the key that failed to validate for a validation error.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421531486" ID="ID_1490450271" MODIFIED="1362421531486" TEXT="const NSString *NSAffectedStoresErrorKey;">
+<node COLOR="#111111" CREATED="1362421596375" ID="ID_1575913060" MODIFIED="1362421596375">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The key for stores prompting an error.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421531487" ID="ID_1962770529" MODIFIED="1362421531487" TEXT="const NSString *NSAffectedObjectsErrorKey;">
+<node COLOR="#111111" CREATED="1362421604550" ID="ID_1683708280" MODIFIED="1362421604550">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The key for objects prompting an error.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421531487" ID="ID_713817919" MODIFIED="1362421531488" TEXT="const NSString *NSPersistentStoreSaveConflictsErrorKey;">
+<node COLOR="#111111" CREATED="1362421610701" ID="ID_1454233972" MODIFIED="1362421610701">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The key for the array of merge conflict objects (instances of <a href="https://developer.apple.com/library/mac/documentation/CoreData/Reference/NSMergeConflict_Class/Reference/Reference.html#//apple_ref/occ/cl/NSMergeConflict" target="_self"><code>NSMergeConflict</code></a>).
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421385809" ID="ID_1217392222" MODIFIED="1362421387122" TEXT="Error Domain">
+<node COLOR="#111111" CREATED="1362421625916" ID="ID_1482006813" MODIFIED="1362421625916">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre class="declaration">const NSString *NSSQLiteErrorDomain;</pre>
+  </body>
+</html>
+</richcontent>
+<node COLOR="#111111" CREATED="1362421645003" ID="ID_481040833" MODIFIED="1362421646198" TEXT="The value of &quot;code&quot; corresponds to preexisting values in SQLite."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421392337" ID="ID_1236460433" MODIFIED="1362421394373" TEXT="Validation Error Codes">
+<node COLOR="#111111" CREATED="1362421667491" ID="ID_990082665" MODIFIED="1362421667491" TEXT="NSManagedObjectValidationError                   = 1550,">
+<node COLOR="#111111" CREATED="1362421683571" ID="ID_1062157734" MODIFIED="1362421683571">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote a generic validation error.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421667492" ID="ID_891132786" MODIFIED="1362421667492" TEXT="NSValidationMultipleErrorsError                  = 1560,">
+<node COLOR="#111111" CREATED="1362421688786" ID="ID_1869288911" MODIFIED="1362421688786">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote an error containing multiple validation errors.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421667493" ID="ID_1331509732" MODIFIED="1362421667493" TEXT="NSValidationMissingMandatoryPropertyError        = 1570,">
+<node COLOR="#111111" CREATED="1362421700041" ID="ID_354016546" MODIFIED="1362421700041">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code for a non-optional property with a nil value.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421667494" ID="ID_603591117" MODIFIED="1362421667494" TEXT="NSValidationRelationshipLacksMinimumCountError   = 1580,">
+<node COLOR="#111111" CREATED="1362421709522" ID="ID_1203095159" MODIFIED="1362421709522">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote a to-many relationship with too few destination objects.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421667495" ID="ID_1287441373" MODIFIED="1362421667495" TEXT="NSValidationRelationshipExceedsMaximumCountError = 1590,">
+<node COLOR="#111111" CREATED="1362421716529" ID="ID_342321105" MODIFIED="1362421716529">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote a bounded to-many relationship with too many destination objects.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421667496" ID="ID_487961839" MODIFIED="1362421667496" TEXT="NSValidationRelationshipDeniedDeleteError        = 1600,">
+<node COLOR="#111111" CREATED="1362421725401" ID="ID_874234338" MODIFIED="1362421725401">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote some relationship with delete rule <code>NSDeleteRuleDeny</code> is non-empty.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421667497" ID="ID_1860182999" MODIFIED="1362421667497" TEXT="NSValidationNumberTooLargeError                  = 1610,">
+<node COLOR="#111111" CREATED="1362421732522" ID="ID_957311951" MODIFIED="1362421732522">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote some numerical value is too large.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421667498" ID="ID_1732193482" MODIFIED="1362421667498" TEXT="NSValidationNumberTooSmallError                  = 1620,">
+<node COLOR="#111111" CREATED="1362421738266" ID="ID_1077340589" MODIFIED="1362421738266">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote some numerical value is too small.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421667499" ID="ID_1733799448" MODIFIED="1362421667499" TEXT="NSValidationDateTooLateError                     = 1630,">
+<node COLOR="#111111" CREATED="1362421744496" ID="ID_580138026" MODIFIED="1362421744496">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote some date value is too late.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421667499" ID="ID_1608067290" MODIFIED="1362421667499" TEXT="NSValidationDateTooSoonError                     = 1640,">
+<node COLOR="#111111" CREATED="1362421749899" ID="ID_358448014" MODIFIED="1362421749899">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote some date value is too soon.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421667500" ID="ID_1151334006" MODIFIED="1362421667500" TEXT="NSValidationInvalidDateError                     = 1650,">
+<node COLOR="#111111" CREATED="1362421756152" ID="ID_762173442" MODIFIED="1362421756153">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote some date value fails to match date pattern.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421667501" ID="ID_425499758" MODIFIED="1362421667501" TEXT="NSValidationStringTooLongError                   = 1660,">
+<node COLOR="#111111" CREATED="1362421761296" ID="ID_1261321485" MODIFIED="1362421761296">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote some string value is too long.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421667502" ID="ID_338887829" MODIFIED="1362421667502" TEXT="NSValidationStringTooShortError                  = 1670,">
+<node COLOR="#111111" CREATED="1362421766321" ID="ID_1624872300" MODIFIED="1362421766321">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote some string value is too short.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421667502" ID="ID_1386492927" MODIFIED="1362421667503" TEXT="NSValidationStringPatternMatchingError           = 1680,">
+<node COLOR="#111111" CREATED="1362421773398" ID="ID_1814268072" MODIFIED="1362421773398">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote some string value fails to match some pattern.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421387498" ID="ID_879837852" MODIFIED="1362421413084" TEXT="Object Graph Management Error Codes">
+<node COLOR="#111111" CREATED="1362421789893" ID="ID_572937034" MODIFIED="1362421789894" TEXT="NSManagedObjectContextLockingError               = 132000,">
+<node COLOR="#111111" CREATED="1362421800959" ID="ID_521375977" MODIFIED="1362421800959">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote an inability to acquire a lock in a managed object context.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421789895" ID="ID_866945670" MODIFIED="1362421789895" TEXT="NSPersistentStoreCoordinatorLockingError         = 132010,">
+<node COLOR="#111111" CREATED="1362421807631" ID="ID_1119244873" MODIFIED="1362421807631">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote an inability to acquire a lock in a persistent store.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421789896" ID="ID_1200947486" MODIFIED="1362421789896" TEXT="NSManagedObjectReferentialIntegrityError         = 133000,">
+<node COLOR="#111111" CREATED="1362421820175" ID="ID_274367405" MODIFIED="1362421820176">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote an attempt to fire a fault pointing to an object that does not exist.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421789897" ID="ID_597934470" MODIFIED="1362421789897" TEXT="NSManagedObjectExternalRelationshipError         = 133010,">
+<node COLOR="#111111" CREATED="1362421827670" ID="ID_1104746421" MODIFIED="1362421827670">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote that an object being saved has a relationship containing an object from another store.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421789898" ID="ID_999316044" MODIFIED="1362421789898" TEXT="NSManagedObjectMergeError                        = 133020,">
+<node COLOR="#111111" CREATED="1362421834127" ID="ID_1294430111" MODIFIED="1362421834127">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote that a merge policy failed&#8212;Core Data is unable to complete merging.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421423545" ID="ID_872460412" MODIFIED="1362421424546" TEXT="Persistent Store Error Codes">
+<node COLOR="#111111" CREATED="1362421849499" ID="ID_1396499471" MODIFIED="1362421849500" TEXT="NSPersistentStoreInvalidTypeError                = 134000,">
+<node COLOR="#111111" CREATED="1362421862532" ID="ID_461442864" MODIFIED="1362421862532">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote an unknown persistent store type/format/version.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421849501" ID="ID_662323200" MODIFIED="1362421849501" TEXT="NSPersistentStoreTypeMismatchError               = 134010,">
+<node COLOR="#111111" CREATED="1362421867652" ID="ID_635383703" MODIFIED="1362421867653">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code returned by a persistent store coordinator if a store is accessed that does not match the specified type.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421849502" ID="ID_1795924206" MODIFIED="1362421849502" TEXT="NSPersistentStoreIncompatibleSchemaError         = 134020,">
+<node COLOR="#111111" CREATED="1362421879643" ID="ID_1354254817" MODIFIED="1362421879643">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote that a persistent store returned an error for a save operation.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421849503" ID="ID_212673311" MODIFIED="1362421849503" TEXT="NSPersistentStoreSaveError                       = 134030,">
+<node COLOR="#111111" CREATED="1362421889676" ID="ID_1850546978" MODIFIED="1362421889676">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote that a persistent store returned an error for a save operation.
+    </p>
+    <p>
+      This code pertains to errors such as permissions problems.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421849504" ID="ID_440921748" MODIFIED="1362421849504" TEXT="NSPersistentStoreIncompleteSaveError             = 134040,">
+<node COLOR="#111111" CREATED="1362421905117" ID="ID_1988271606" MODIFIED="1362421905117">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote that one or more of the stores returned an error during a save operations.
+    </p>
+    <p>
+      The stores or objects that failed are in the corresponding user info dictionary of the <code>NSError</code> object.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421849505" ID="ID_1175630938" MODIFIED="1362421849505" TEXT="NSPersistentStoreSaveConflictsError              = 134050,">
+<node COLOR="#111111" CREATED="1362421919132" ID="ID_123336919" MODIFIED="1362421919133">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote that an unresolved merge conflict was encountered during a save. .
+    </p>
+    <p>
+      The <code>NSError</code> object&#8217;s user info dictionary contains the key <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/CoreDataFramework/Miscellaneous/CoreData_Constants/Reference/reference.html#//apple_ref/c/data/NSPersistentStoreSaveConflictsErrorKey"><code>NSPersistentStoreSaveConflictsErrorKey</code></a>.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421849506" ID="ID_1926139078" MODIFIED="1362421849506" TEXT="NSPersistentStoreOperationError                  = 134070,">
+<node COLOR="#111111" CREATED="1362421926083" ID="ID_786292544" MODIFIED="1362421926083">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote that a persistent store operation failed.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421849507" ID="ID_339391385" MODIFIED="1362421849507" TEXT="NSPersistentStoreOpenError                       = 134080,">
+<node COLOR="#111111" CREATED="1362421932444" ID="ID_1086205710" MODIFIED="1362421933372" TEXT="Error code to denote an error occurred while attempting to open a persistent store."/>
+</node>
+<node COLOR="#111111" CREATED="1362421849508" ID="ID_1078837010" MODIFIED="1362421849508" TEXT="NSPersistentStoreTimeoutError                    = 134090,">
+<node COLOR="#111111" CREATED="1362421940050" ID="ID_1318346308" MODIFIED="1362421940050">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote that Core Data failed to connect to a persistent store within the time specified by <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/CoreDataFramework/Classes/NSPersistentStoreCoordinator_Class/NSPersistentStoreCoordinator.html#//apple_ref/doc/c_ref/NSPersistentStoreTimeoutOption"><code>NSPersistentStoreTimeoutOption</code></a>.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421849509" ID="ID_450053196" MODIFIED="1362421987771" TEXT="NSPersistentStoreUnsupportedRequestTypeError">
+<node COLOR="#111111" CREATED="1362421951003" ID="ID_1959463354" MODIFIED="1362421951004">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote that an <code>NSPersistentStore</code> subclass was passed a request (an instance of <a href="https://developer.apple.com/library/mac/documentation/CoreData/Reference/NSPersistentStoreRequest_Class/NSPersistentStoreRequest.html#//apple_ref/occ/cl/NSPersistentStoreRequest" target="_self"><code>NSPersistentStoreRequest</code></a>) that it did not understand.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421999051" ID="ID_1639270367" MODIFIED="1362422030168" TEXT="NSPersistentStoreIncompatibleVersionHashError = 134100,">
+<node COLOR="#111111" CREATED="1362422004292" ID="ID_761248167" MODIFIED="1362422005206" TEXT="Error code to denote that entity version hashes in the store are incompatible with the current managed object model."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421430993" ID="ID_200558651" MODIFIED="1362421431772" TEXT="Migration Error Codes">
+<node COLOR="#111111" CREATED="1362422053679" ID="ID_1324242226" MODIFIED="1362422053679" TEXT="NSMigrationError                                 = 134110,">
+<node COLOR="#111111" CREATED="1362422072801" ID="ID_494469372" MODIFIED="1362422073824" TEXT="Error code to denote a general migration error."/>
+</node>
+<node COLOR="#111111" CREATED="1362422053680" ID="ID_1053074850" MODIFIED="1362422053681" TEXT="NSMigrationCancelledError                        = 134120,">
+<node COLOR="#111111" CREATED="1362422080297" ID="ID_1887103879" MODIFIED="1362422080297">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote that migration failed due to manual cancellation.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422053682" ID="ID_128073294" MODIFIED="1362422053682" TEXT="NSMigrationMissingSourceModelError               = 134130,">
+<node COLOR="#111111" CREATED="1362422085799" ID="ID_498001790" MODIFIED="1362422085799">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote that migration failed due to a missing source data model.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422053683" ID="ID_1654718680" MODIFIED="1362422053683" TEXT="NSMigrationMissingMappingModelError              = 134140,">
+<node COLOR="#111111" CREATED="1362422091528" ID="ID_281828667" MODIFIED="1362422091528">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote that migration failed due to a missing mapping model.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422053684" ID="ID_1639344433" MODIFIED="1362422053684" TEXT="NSMigrationManagerSourceStoreError               = 134150,">
+<node COLOR="#111111" CREATED="1362422098118" ID="ID_456030704" MODIFIED="1362422098118">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote that migration failed due to a problem with the source data store.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422053685" ID="ID_526082689" MODIFIED="1362422053685" TEXT="NSMigrationManagerDestinationStoreError          = 134160,">
+<node COLOR="#111111" CREATED="1362422105007" ID="ID_681011975" MODIFIED="1362422105008">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote that migration failed due to a problem with the destination data store.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422053686" ID="ID_1846770367" MODIFIED="1362422053686" TEXT="NSEntityMigrationPolicyError                     = 134170,">
+<node COLOR="#111111" CREATED="1362422110759" ID="ID_235103802" MODIFIED="1362422110760">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote that migration failed during processing of an entity migration policy.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422053687" ID="ID_1104847992" MODIFIED="1362422053687" TEXT="NSInferredMappingModelError                      = 134190,">
+<node COLOR="#111111" CREATED="1362422115765" ID="ID_936075855" MODIFIED="1362422115765">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote a problem with the creation of an inferred mapping model.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422053688" ID="ID_1560856736" MODIFIED="1362422053688" TEXT="NSExternalRecordImportError                      = 134200,">
+<node COLOR="#111111" CREATED="1362422120823" ID="ID_575825092" MODIFIED="1362422120823">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote a general error encountered while importing external records.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421436584" ID="ID_1603885700" MODIFIED="1362421437370" TEXT="General Error Codes">
+<node COLOR="#111111" CREATED="1362422153851" ID="ID_586940532" MODIFIED="1362422153852" TEXT="NSCoreDataError                                  = 134060,">
+<node COLOR="#111111" CREATED="1362422163820" ID="ID_726484515" MODIFIED="1362422163820">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote a general Core Data error.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422153853" ID="ID_56658497" MODIFIED="1362422153853" TEXT="NSSQLiteError                                    = 134180,">
+<node COLOR="#111111" CREATED="1362422170166" ID="ID_1947515362" MODIFIED="1362422170167">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Error code to denote a general SQLite error.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421442224" ID="ID_1737048114" MODIFIED="1362421443007" TEXT="Core Data Version Number">
+<node COLOR="#111111" CREATED="1362422195957" ID="ID_1048206347" MODIFIED="1362422195957">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <code id="jumpTo_52" class="jump constantName">NSCoreDataVersionNumber</code>
+
+    <p>
+      Specifies the version of Core Data available in the current process.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362421463767" ID="ID_386902079" MODIFIED="1362421464530" TEXT="Core Data Version Numbers">
+<node COLOR="#111111" CREATED="1362422212203" ID="ID_665588915" MODIFIED="1362422212203" TEXT="#define NSCoreDataVersionNumber10_4               46.0"/>
+<node COLOR="#111111" CREATED="1362422212204" ID="ID_431444764" MODIFIED="1362422212204" TEXT="#define NSCoreDataVersionNumber10_4_3             77.0"/>
+<node COLOR="#111111" CREATED="1362422212205" ID="ID_1240635222" MODIFIED="1362422212205" TEXT="#define NSCoreDataVersionNumber10_5              185.0"/>
+<node COLOR="#111111" CREATED="1362422212206" ID="ID_1465499189" MODIFIED="1362422212206" TEXT="#define NSCoreDataVersionNumber10_5_3            186.0"/>
+<node COLOR="#111111" CREATED="1362422212207" ID="ID_100233099" MODIFIED="1362422212207" TEXT="#define NSCoreDataVersionNumber10_6              246.0"/>
+<node COLOR="#111111" CREATED="1362422212208" ID="ID_1760502769" MODIFIED="1362422212208" TEXT="#define NSCoreDataVersionNumber10_6_2            250.0"/>
+<node COLOR="#111111" CREATED="1362422212209" ID="ID_1706150000" MODIFIED="1362422212209" TEXT="#define NSCoreDataVersionNumber10_6_3            251.0"/>
+<node COLOR="#111111" CREATED="1362422212210" ID="ID_1779327527" MODIFIED="1362422212210" TEXT="#define NSCoreDataVersionNumber_iOS_3_0          241.0"/>
+<node COLOR="#111111" CREATED="1362422212211" ID="ID_1227578039" MODIFIED="1362422212211" TEXT="#define NSCoreDataVersionNumber_iOS_3_1          248.0"/>
+<node COLOR="#111111" CREATED="1362422212212" ID="ID_1670509390" MODIFIED="1362422212212" TEXT="#define NSCoreDataVersionNumber_iOS_3_2          310.2"/>
+<node COLOR="#111111" CREATED="1362422212213" ID="ID_1900216235" MODIFIED="1362422212213" TEXT="#define NSCoreDataVersionNumber_iPhoneOS_4_0     320.5"/>
+<node COLOR="#111111" CREATED="1362422212214" ID="ID_855478598" MODIFIED="1362422212214" TEXT="#define NSCoreDataVersionNumber_iPhoneOS_4_1     320.11"/>
+<node COLOR="#111111" CREATED="1362422212215" ID="ID_859620379" MODIFIED="1362422212215" TEXT="#define NSCoreDataVersionNumber_iPhoneOS_4_2     320.15"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1362420845118" ID="ID_1788339731" MODIFIED="1362420845118" TEXT="NSAtomicStore">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845119" ID="ID_1255290132" MODIFIED="1362420845120" TEXT="NSAtomicStoreCacheNode">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845121" ID="ID_210247500" MODIFIED="1362420845122" TEXT="NSAttributeDescription">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845123" ID="ID_354910961" MODIFIED="1362420845123" TEXT="NSEntityDescription">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845124" ID="ID_1067812801" MODIFIED="1362420845124" TEXT="NSEntityMapping">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845125" ID="ID_146537098" MODIFIED="1362420845126" TEXT="NSEntityMigrationPolicy">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845127" ID="ID_1404403263" MODIFIED="1362420845127" TEXT="NSExpressionDescription">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845128" ID="ID_354187211" MODIFIED="1362420845129" TEXT="NSFetchedPropertyDescription">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845130" ID="ID_738542174" MODIFIED="1362420845138" TEXT="NSFetchRequest">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845139" ID="ID_1075631723" MODIFIED="1362420845139" TEXT="NSFetchRequestExpression">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845140" ID="ID_1040246209" MODIFIED="1362420845140" TEXT="NSIncrementalStore">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845141" ID="ID_1769902663" MODIFIED="1362420845141" TEXT="NSIncrementalStoreNode">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845142" ID="ID_927918501" MODIFIED="1362420845142" TEXT="NSManagedObject">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845143" ID="ID_148510914" MODIFIED="1362420845143" TEXT="NSManagedObjectContext">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845144" ID="ID_880887380" MODIFIED="1362420845145" TEXT="NSManagedObjectID">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845145" ID="ID_930931198" MODIFIED="1362420845146" TEXT="NSManagedObjectModel">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845147" ID="ID_891423946" MODIFIED="1362420845147" TEXT="NSMappingModel">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845148" ID="ID_481031902" MODIFIED="1362420845148" TEXT="NSMergeConflict">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845149" ID="ID_1372067430" MODIFIED="1362420845149" TEXT="NSMergePolicy">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845150" ID="ID_939987948" MODIFIED="1362420845150" TEXT="NSPersistentStore">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845151" ID="ID_553005887" MODIFIED="1362420845151" TEXT="NSPersistentStoreCoordinator">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845152" ID="ID_1000139090" MODIFIED="1362420845153" TEXT="NSPersistentStoreRequest">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845153" ID="ID_6956323" MODIFIED="1362420845154" TEXT="NSPropertyDescription">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845155" ID="ID_309794108" MODIFIED="1362420845156" TEXT="NSPropertyMapping">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1362420845156" ID="ID_1446370339" MODIFIED="1362420845157" TEXT="NSRelationshipDescription">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1362128586482" ID="ID_57136654" MODIFIED="1362129365571" TEXT="CoreFoundation">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -1531,8 +2375,7 @@
       ABPersonCopyImageData
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#990000" WIDTH="1"/>
 <node COLOR="#111111" CREATED="1362144152147" ID="ID_541596975" MODIFIED="1362144617923" TEXT="Returns the picture for a person record.">
 <edge COLOR="#111111" WIDTH="thin"/>
