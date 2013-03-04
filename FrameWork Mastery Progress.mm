@@ -2057,7 +2057,7 @@
 <node COLOR="#111111" CREATED="1362422212215" ID="ID_859620379" MODIFIED="1362422212215" TEXT="#define NSCoreDataVersionNumber_iPhoneOS_4_2     320.15"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1362420845118" ID="ID_1788339731" MODIFIED="1362420845118" TEXT="NSAtomicStore">
+<node COLOR="#990000" CREATED="1362420845118" FOLDED="true" ID="ID_1788339731" MODIFIED="1362423329631" TEXT="NSAtomicStore">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1362422380946" FOLDED="true" ID="ID_78762933" MODIFIED="1362422645708" TEXT="Methods to Override">
 <node COLOR="#111111" CREATED="1362422412631" ID="ID_1655747160" MODIFIED="1362422412631" TEXT="load:">
@@ -2593,6 +2593,152 @@
 </node>
 <node COLOR="#990000" CREATED="1362420845119" ID="ID_1255290132" MODIFIED="1362420845120" TEXT="NSAtomicStoreCacheNode">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362423367371" ID="ID_1766812431" MODIFIED="1362423367371">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      <code>NSAtomicStoreCacheNode</code> is a concrete class to represent basic nodes in a Core Data atomic store.
+    </p>
+    <p>
+      A node represents a single record in a persistent store.
+    </p>
+    <p>
+      You can subclass <code>NSAtomicStoreCacheNode</code> to provide custom behavior.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423395232" ID="ID_1279516223" MODIFIED="1362423395232" TEXT="Designated Initializer">
+<node COLOR="#111111" CREATED="1362423395233" ID="ID_1772399644" MODIFIED="1362423395233" TEXT="&#x2013; initWithObjectID:">
+<node COLOR="#111111" CREATED="1362423420505" ID="ID_1523924594" MODIFIED="1362423420506">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns a cache node for the given managed object ID.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423395234" ID="ID_226662135" MODIFIED="1362423395234" TEXT="Node Data">
+<node COLOR="#111111" CREATED="1362423395235" ID="ID_105732348" MODIFIED="1362423395235" TEXT="&#x2013; objectID">
+<node COLOR="#111111" CREATED="1362423432857" ID="ID_1097523813" MODIFIED="1362423432857">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns the managed object ID for the receiver.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423395236" ID="ID_1815360637" MODIFIED="1362423395236" TEXT="&#x2013; propertyCache">
+<node COLOR="#111111" CREATED="1362423440213" ID="ID_1581528975" MODIFIED="1362423440214">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns the property cache dictionary for the receiver.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423458289" ID="ID_1119544055" MODIFIED="1362423458289">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    This dictionary is used by <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSAtomicStoreCacheNode_class/Reference/NSAtomicStoreCacheNode.html#//apple_ref/occ/instm/NSAtomicStoreCacheNode/valueForKey:"><code>valueForKey:</code></a> and <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSAtomicStoreCacheNode_class/Reference/NSAtomicStoreCacheNode.html#//apple_ref/occ/instm/NSAtomicStoreCacheNode/setValue:forKey:"><code>setValue:forKey:</code></a> for property values. The default implementation returns <code>nil</code> unless the companion -<code>setPropertyCache:</code> method is invoked, or <code>setValue:forKey:</code> is invoked on the cache node with non-<code>nil</code> property values.
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423395237" ID="ID_1892770412" MODIFIED="1362423395237" TEXT="&#x2013; setPropertyCache:">
+<node COLOR="#111111" CREATED="1362423465712" ID="ID_736749700" MODIFIED="1362423465712">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Sets the property cache dictionary for the receiver.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423395238" ID="ID_122820893" MODIFIED="1362423395238" TEXT="&#x2013; valueForKey:">
+<node COLOR="#111111" CREATED="1362423472919" ID="ID_1585326585" MODIFIED="1362423472919">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Sets the value for the given key.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423479854" ID="ID_1654937982" MODIFIED="1362423479855">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    The default implementation forwards the request to the <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSAtomicStoreCacheNode_class/Reference/NSAtomicStoreCacheNode.html#//apple_ref/occ/instm/NSAtomicStoreCacheNode/propertyCache"><code>propertyCache</code></a> dictionary if <em>key</em> matches a property name of the entity for this cache node. If <em>key</em> does not represent a property, the standard <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Protocols/NSKeyValueCoding_Protocol/Reference/Reference.html#//apple_ref/occ/instm/NSObject/setValue:forKey:" target="_self"><code>setValue:forKey:</code></a> implementation is used.
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423395239" ID="ID_1211798469" MODIFIED="1362423395239" TEXT="&#x2013; setValue:forKey:">
+<node COLOR="#111111" CREATED="1362423494015" ID="ID_1714670576" MODIFIED="1362423494017">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns the value for a given key.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423502086" ID="ID_1082403511" MODIFIED="1362423502086">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    The default implementation forwards the request to the <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSAtomicStoreCacheNode_class/Reference/NSAtomicStoreCacheNode.html#//apple_ref/occ/instm/NSAtomicStoreCacheNode/propertyCache"><code>propertyCache</code></a> dictionary if <em>key</em> matches a property name of the entity for the cache node. If <em>key</em> does not represent a property, the standard <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Protocols/NSKeyValueCoding_Protocol/Reference/Reference.html#//apple_ref/occ/instm/NSObject/valueForKey:" target="_self"><code>valueForKey:</code></a> implementation is used.
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1362420845121" ID="ID_210247500" MODIFIED="1362420845122" TEXT="NSAttributeDescription">
 <font NAME="SansSerif" SIZE="14"/>
