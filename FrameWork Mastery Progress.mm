@@ -2742,6 +2742,432 @@
 </node>
 <node COLOR="#990000" CREATED="1362420845121" ID="ID_210247500" MODIFIED="1362420845122" TEXT="NSAttributeDescription">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362423565958" ID="ID_376667284" MODIFIED="1362423568406" TEXT="Overview">
+<node COLOR="#111111" CREATED="1362423552431" ID="ID_1232367470" MODIFIED="1362423552433">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      The <code>NSAttributeDescription</code> class is used to describe attributes of an entity described by an instance of <code>NSEntityDescription</code>.
+    </p>
+    <p>
+      <code>NSAttributeDescription</code> inherits from <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/CoreDataFramework/Classes/NSPropertyDescription_Class/NSPropertyDescription.html#//apple_ref/occ/cl/NSPropertyDescription" target="_self"><code>NSPropertyDescription</code></a>, which provides most of the basic behavior. Instances of <code>NSAttributeDescription</code> are used to describe attributes, as distinct from relationships. The class adds the ability to specify the attribute type, and to specify a default value. In a managed object model, you must specify the type of all attributes&#8212;you can only use the undefined attribute type (<a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/CoreDataFramework/Classes/NSAttributeDescription_Class/reference.html#//apple_ref/doc/c_ref/NSUndefinedAttributeType"><code>NSUndefinedAttributeType</code></a>) for transient attributes.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423575374" ID="ID_1189345185" MODIFIED="1362423575826" TEXT="Editing Attribute Descriptions">
+<node COLOR="#111111" CREATED="1362423602465" ID="ID_751474406" MODIFIED="1362423602466">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Attribute descriptions are editable until they are used by an object graph manager. This allows you to create or modify them dynamically. However, once a description is used (when the managed object model to which it belongs is associated with a persistent store coordinator), it <em>must not</em> (indeed cannot) be changed. This is enforced at runtime: any attempt to mutate a model or any of its sub-objects after the model is associated with a persistent store coordinator causes an exception to be thrown. If you need to modify a model that is in use, create a copy, modify the copy, and then discard the objects with the old model.
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423619699" ID="ID_972027289" MODIFIED="1362423619699" TEXT="Getting and Setting Type Information">
+<node COLOR="#111111" CREATED="1362423619700" ID="ID_1418640517" MODIFIED="1362423619700" TEXT="&#x2013; attributeType">
+<node COLOR="#111111" CREATED="1362423663059" ID="ID_687519059" MODIFIED="1362423663059">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns the type of the receiver.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423619701" ID="ID_1614734607" MODIFIED="1362423619701" TEXT="&#x2013; setAttributeType:">
+<node COLOR="#111111" CREATED="1362423702940" ID="ID_277694394" MODIFIED="1362423702941">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Sets the type of the receiver.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423708772" ID="ID_617095126" MODIFIED="1362423708773">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This method raises an exception if the receiver&#8217;s model has been used by an object graph manager.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423619702" ID="ID_292113106" MODIFIED="1362423619702" TEXT="&#x2013; attributeValueClassName">
+<node COLOR="#111111" CREATED="1362423675694" ID="ID_1286850241" MODIFIED="1362423675694">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns the name of the class used to represent the receiver.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423619703" ID="ID_1610993931" MODIFIED="1362423619703" TEXT="&#x2013; setAttributeValueClassName:">
+<node COLOR="#111111" CREATED="1362423719587" ID="ID_646299373" MODIFIED="1362423719588">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Sets the name of the class used to represent the receiver.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423753364" ID="ID_811222402" MODIFIED="1362423753364">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If you set the value class name, Core Data can check the class of any instance set as the value of an attribute.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423619704" ID="ID_383554470" MODIFIED="1362423619704" TEXT="Getting and Setting the Default Value">
+<node COLOR="#111111" CREATED="1362423619705" ID="ID_601714036" MODIFIED="1362423619705" TEXT="&#x2013; defaultValue">
+<node COLOR="#111111" CREATED="1362423682550" ID="ID_419863183" MODIFIED="1362423682550">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns the default value of the receiver.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423619706" ID="ID_1463981155" MODIFIED="1362423619706" TEXT="&#x2013; setDefaultValue:">
+<node COLOR="#111111" CREATED="1362423767560" ID="ID_1360937331" MODIFIED="1362423767561">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Sets the default value of the receiver.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423782825" ID="ID_135080301" MODIFIED="1362423782825">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Default values are retained by a managed object model, not copied. This means that attribute values do not have to implement the <code>NSCopying</code> protocol, however it also means that you should not modify any objects after they have been set as default values.
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423791561" ID="ID_221166229" MODIFIED="1362423791561">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This method raises an exception if the receiver&#8217;s model has been used by an object graph manager.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423619707" ID="ID_719266858" MODIFIED="1362423619707" TEXT="Versioning Support">
+<node COLOR="#111111" CREATED="1362423619708" ID="ID_1491783171" MODIFIED="1362423619708" TEXT="&#x2013; versionHash">
+<node COLOR="#111111" CREATED="1362423839411" ID="ID_211338555" MODIFIED="1362423839411">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns the version hash for the receiver.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423849395" ID="ID_395063643" MODIFIED="1362423849395">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    The version hash is used to uniquely identify an attribute based on its configuration. This value includes the <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/CoreDataFramework/Classes/NSPropertyDescription_Class/NSPropertyDescription.html#//apple_ref/occ/instm/NSPropertyDescription/versionHash" target="_self"><code>versionHash</code></a> information from <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/CoreDataFramework/Classes/NSPropertyDescription_Class/NSPropertyDescription.html#//apple_ref/occ/cl/NSPropertyDescription" target="_self"><code>NSPropertyDescription</code></a> and the attribute type.
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423619709" ID="ID_263745258" MODIFIED="1362423619709" TEXT="Value Transformers">
+<node COLOR="#111111" CREATED="1362423619709" ID="ID_477517837" MODIFIED="1362423619710" TEXT="&#x2013; valueTransformerName">
+<node COLOR="#111111" CREATED="1362423821731" ID="ID_17272335" MODIFIED="1362423821731">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns the name of the transformer used to transform the attribute value.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423832385" ID="ID_1817014089" MODIFIED="1362423832385">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The receiver must be an attribute of type <code>NSTransformedAttributeType</code>.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423619710" ID="ID_959693549" MODIFIED="1362423619710" TEXT="&#x2013; setValueTransformerName:">
+<node COLOR="#111111" CREATED="1362423800322" ID="ID_1369707377" MODIFIED="1362423800322">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Sets the name of the transformer to use to transform the attribute value.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423813490" ID="ID_325094847" MODIFIED="1362423813490">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The receiver must be an attribute of type <code>NSTransformedAttributeType</code>.
+    </p>
+    <p>
+      If this value is not set, or is set to <code>nil</code>, Core Data will default to using a transformer which uses <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html#//apple_ref/occ/intf/NSCoding" target="_self"><code>NSCoding</code></a> to archive and unarchive the attribute value.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423619711" ID="ID_1723292559" MODIFIED="1362423619711" TEXT="External Binary Storage">
+<node COLOR="#111111" CREATED="1362423619712" ID="ID_1218131891" MODIFIED="1362423619712" TEXT="&#x2013; allowsExternalBinaryDataStorage">
+<node COLOR="#111111" CREATED="1362423646807" ID="ID_1848186931" MODIFIED="1362423646809">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns a Boolean value that indicates whether the attribute allows external binary storage.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423654407" ID="ID_675617827" MODIFIED="1362423654407">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If this value is <code>YES</code>, the corresponding attribute may be stored in a file external to the persistent store itself.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423619713" ID="ID_1471560526" MODIFIED="1362423619713" TEXT="&#x2013; setAllowsExternalBinaryDataStorage:">
+<node COLOR="#111111" CREATED="1362423690132" ID="ID_780026154" MODIFIED="1362423690132">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Sets whether the atribute allows
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423860867" FOLDED="true" ID="ID_997027922" MODIFIED="1362424016539" TEXT="Constants">
+<node COLOR="#111111" CREATED="1362423884448" ID="ID_1452264835" MODIFIED="1362423884448" TEXT="NSUndefinedAttributeType = 0,">
+<node COLOR="#111111" CREATED="1362423906889" ID="ID_1164309279" MODIFIED="1362423906889">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Specifies an undefined attribute type.
+    </p>
+    <p>
+      <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/CoreDataFramework/Classes/NSAttributeDescription_Class/reference.html#//apple_ref/doc/c_ref/NSUndefinedAttributeType"><code>NSUndefinedAttributeType</code></a> is valid for <em>transient</em> properties&#8212;Core Data will still track the property as an <code>id</code> value and register undo/redo actions, and so on. <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/CoreDataFramework/Classes/NSAttributeDescription_Class/reference.html#//apple_ref/doc/c_ref/NSUndefinedAttributeType"><code>NSUndefinedAttributeType</code></a> is illegal for non-transient properties.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423884449" ID="ID_407643688" MODIFIED="1362423884449" TEXT="NSInteger16AttributeType = 100,">
+<node COLOR="#111111" CREATED="1362423920016" ID="ID_1388188780" MODIFIED="1362423920934" TEXT="Specifies a 16-bit signed integer attribute."/>
+</node>
+<node COLOR="#111111" CREATED="1362423884450" ID="ID_995112886" MODIFIED="1362423884450" TEXT="NSInteger32AttributeType = 200,"/>
+<node COLOR="#111111" CREATED="1362423884451" ID="ID_1546238961" MODIFIED="1362423884451" TEXT="NSInteger64AttributeType = 300,"/>
+<node COLOR="#111111" CREATED="1362423884452" ID="ID_373602430" MODIFIED="1362423884452" TEXT="NSDecimalAttributeType = 400,">
+<node COLOR="#111111" CREATED="1362423975551" ID="ID_1992951068" MODIFIED="1362423975551">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Specifies an <code>NSDecimalNumber</code> attribute.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423884453" ID="ID_1425013293" MODIFIED="1362423884453" TEXT="NSDoubleAttributeType = 500,"/>
+<node COLOR="#111111" CREATED="1362423884454" ID="ID_457634397" MODIFIED="1362423884454" TEXT="NSFloatAttributeType = 600,"/>
+<node COLOR="#111111" CREATED="1362423884455" ID="ID_455421577" MODIFIED="1362423884455" TEXT="NSStringAttributeType = 700,">
+<node COLOR="#111111" CREATED="1362423965744" ID="ID_222457050" MODIFIED="1362423965744">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Specifies an <code>NSString</code> attribute.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423884456" ID="ID_490985837" MODIFIED="1362423884456" TEXT="NSBooleanAttributeType = 800,"/>
+<node COLOR="#111111" CREATED="1362423884456" ID="ID_1197463098" MODIFIED="1362423884456" TEXT="NSDateAttributeType = 900,">
+<node COLOR="#111111" CREATED="1362423959328" ID="ID_192037416" MODIFIED="1362423959328">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Specifies an <code>NSDate</code> attribute.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423884457" ID="ID_1644924023" MODIFIED="1362423884457" TEXT="NSBinaryDataAttributeType = 1000,">
+<node COLOR="#111111" CREATED="1362423990608" ID="ID_1899183522" MODIFIED="1362423990609">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Specifies an <code>NSData</code> attribute.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423884458" ID="ID_164950510" MODIFIED="1362423884458" TEXT="NSTransformableAttributeType = 1800,">
+<node COLOR="#111111" CREATED="1362423999140" ID="ID_876361997" MODIFIED="1362423999141">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Specifies an attribute that uses a value transformer.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362423884459" ID="ID_88749007" MODIFIED="1362423884459" TEXT="NSObjectIDAttributeType = 2000">
+<node COLOR="#111111" CREATED="1362424005717" ID="ID_53270548" MODIFIED="1362424005717">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Specifies the object ID attribute.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1362420845123" ID="ID_354910961" MODIFIED="1362420845123" TEXT="NSEntityDescription">
 <font NAME="SansSerif" SIZE="14"/>
@@ -2862,7 +3288,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1362127964849" ID="ID_1100270849" MODIFIED="1362129388043" TEXT="Foundation Framework">
+<node COLOR="#00b439" CREATED="1362127964849" FOLDED="true" ID="ID_1100270849" MODIFIED="1362423746289" TEXT="Foundation Framework">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1362127782389" ID="ID_447185692" MODIFIED="1362129365576" TEXT="NSNotificationQueue Class">
