@@ -1288,9 +1288,9 @@
 <node COLOR="#00b439" CREATED="1362128584034" ID="ID_239290433" MODIFIED="1362129365571" TEXT="CoreData">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1362421327435" ID="ID_1176303424" MODIFIED="1362421327953" TEXT="Core Data Constants ">
+<node COLOR="#990000" CREATED="1362421327435" FOLDED="true" ID="ID_1176303424" MODIFIED="1362422293355" TEXT="Core Data Constants ">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1362421371658" ID="ID_1849274071" MODIFIED="1362421372620" TEXT="Error User Info Keys">
+<node COLOR="#111111" CREATED="1362421371658" FOLDED="true" ID="ID_1849274071" MODIFIED="1362422290734" TEXT="Error User Info Keys">
 <node COLOR="#111111" CREATED="1362421531481" ID="ID_1922789642" MODIFIED="1362421531481" TEXT="const NSString *NSDetailedErrorsKey;">
 <node COLOR="#111111" CREATED="1362421553951" ID="ID_161112462" MODIFIED="1362421553952">
 <richcontent TYPE="NODE"><html>
@@ -1412,7 +1412,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1362421385809" ID="ID_1217392222" MODIFIED="1362421387122" TEXT="Error Domain">
+<node COLOR="#111111" CREATED="1362421385809" FOLDED="true" ID="ID_1217392222" MODIFIED="1362422287691" TEXT="Error Domain">
 <node COLOR="#111111" CREATED="1362421625916" ID="ID_1482006813" MODIFIED="1362421625916">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1426,7 +1426,7 @@
 <node COLOR="#111111" CREATED="1362421645003" ID="ID_481040833" MODIFIED="1362421646198" TEXT="The value of &quot;code&quot; corresponds to preexisting values in SQLite."/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1362421392337" ID="ID_1236460433" MODIFIED="1362421394373" TEXT="Validation Error Codes">
+<node COLOR="#111111" CREATED="1362421392337" FOLDED="true" ID="ID_1236460433" MODIFIED="1362422286300" TEXT="Validation Error Codes">
 <node COLOR="#111111" CREATED="1362421667491" ID="ID_990082665" MODIFIED="1362421667491" TEXT="NSManagedObjectValidationError                   = 1550,">
 <node COLOR="#111111" CREATED="1362421683571" ID="ID_1062157734" MODIFIED="1362421683571">
 <richcontent TYPE="NODE"><html>
@@ -1638,7 +1638,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1362421387498" ID="ID_879837852" MODIFIED="1362421413084" TEXT="Object Graph Management Error Codes">
+<node COLOR="#111111" CREATED="1362421387498" FOLDED="true" ID="ID_879837852" MODIFIED="1362422284991" TEXT="Object Graph Management Error Codes">
 <node COLOR="#111111" CREATED="1362421789893" ID="ID_572937034" MODIFIED="1362421789894" TEXT="NSManagedObjectContextLockingError               = 132000,">
 <node COLOR="#111111" CREATED="1362421800959" ID="ID_521375977" MODIFIED="1362421800959">
 <richcontent TYPE="NODE"><html>
@@ -1715,7 +1715,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1362421423545" ID="ID_872460412" MODIFIED="1362421424546" TEXT="Persistent Store Error Codes">
+<node COLOR="#111111" CREATED="1362421423545" FOLDED="true" ID="ID_872460412" MODIFIED="1362422282141" TEXT="Persistent Store Error Codes">
 <node COLOR="#111111" CREATED="1362421849499" ID="ID_1396499471" MODIFIED="1362421849500" TEXT="NSPersistentStoreInvalidTypeError                = 134000,">
 <node COLOR="#111111" CREATED="1362421862532" ID="ID_461442864" MODIFIED="1362421862532">
 <richcontent TYPE="NODE"><html>
@@ -1867,7 +1867,7 @@
 <node COLOR="#111111" CREATED="1362422004292" ID="ID_761248167" MODIFIED="1362422005206" TEXT="Error code to denote that entity version hashes in the store are incompatible with the current managed object model."/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1362421430993" ID="ID_200558651" MODIFIED="1362421431772" TEXT="Migration Error Codes">
+<node COLOR="#111111" CREATED="1362421430993" FOLDED="true" ID="ID_200558651" MODIFIED="1362422279900" TEXT="Migration Error Codes">
 <node COLOR="#111111" CREATED="1362422053679" ID="ID_1324242226" MODIFIED="1362422053679" TEXT="NSMigrationError                                 = 134110,">
 <node COLOR="#111111" CREATED="1362422072801" ID="ID_494469372" MODIFIED="1362422073824" TEXT="Error code to denote a general migration error."/>
 </node>
@@ -1992,7 +1992,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1362421436584" ID="ID_1603885700" MODIFIED="1362421437370" TEXT="General Error Codes">
+<node COLOR="#111111" CREATED="1362421436584" FOLDED="true" ID="ID_1603885700" MODIFIED="1362422278622" TEXT="General Error Codes">
 <node COLOR="#111111" CREATED="1362422153851" ID="ID_586940532" MODIFIED="1362422153852" TEXT="NSCoreDataError                                  = 134060,">
 <node COLOR="#111111" CREATED="1362422163820" ID="ID_726484515" MODIFIED="1362422163820">
 <richcontent TYPE="NODE"><html>
@@ -2024,7 +2024,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1362421442224" ID="ID_1737048114" MODIFIED="1362421443007" TEXT="Core Data Version Number">
+<node COLOR="#111111" CREATED="1362421442224" FOLDED="true" ID="ID_1737048114" MODIFIED="1362422277666" TEXT="Core Data Version Number">
 <node COLOR="#111111" CREATED="1362422195957" ID="ID_1048206347" MODIFIED="1362422195957">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2041,7 +2041,7 @@
 </richcontent>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1362421463767" ID="ID_386902079" MODIFIED="1362421464530" TEXT="Core Data Version Numbers">
+<node COLOR="#111111" CREATED="1362421463767" FOLDED="true" ID="ID_386902079" MODIFIED="1362422276327" TEXT="Core Data Version Numbers">
 <node COLOR="#111111" CREATED="1362422212203" ID="ID_665588915" MODIFIED="1362422212203" TEXT="#define NSCoreDataVersionNumber10_4               46.0"/>
 <node COLOR="#111111" CREATED="1362422212204" ID="ID_431444764" MODIFIED="1362422212204" TEXT="#define NSCoreDataVersionNumber10_4_3             77.0"/>
 <node COLOR="#111111" CREATED="1362422212205" ID="ID_1240635222" MODIFIED="1362422212205" TEXT="#define NSCoreDataVersionNumber10_5              185.0"/>
@@ -2059,6 +2059,537 @@
 </node>
 <node COLOR="#990000" CREATED="1362420845118" ID="ID_1788339731" MODIFIED="1362420845118" TEXT="NSAtomicStore">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362422380946" FOLDED="true" ID="ID_78762933" MODIFIED="1362422645708" TEXT="Methods to Override">
+<node COLOR="#111111" CREATED="1362422412631" ID="ID_1655747160" MODIFIED="1362422412631" TEXT="load:">
+<node COLOR="#111111" CREATED="1362422412632" ID="ID_1231931093" MODIFIED="1362422412632" TEXT="Loads the cache nodes for the receiver."/>
+</node>
+<node COLOR="#111111" CREATED="1362422412633" ID="ID_565946946" MODIFIED="1362422412633" TEXT="newReferenceObjectForManagedObject:">
+<node COLOR="#111111" CREATED="1362422412634" ID="ID_636467340" MODIFIED="1362422412634" TEXT="Returns a new reference object for a given managed object."/>
+</node>
+<node COLOR="#111111" CREATED="1362422412635" ID="ID_1515616629" MODIFIED="1362422412635" TEXT="save:">
+<node COLOR="#111111" CREATED="1362422412636" ID="ID_309495400" MODIFIED="1362422412636" TEXT="Saves the cache nodes."/>
+</node>
+<node COLOR="#111111" CREATED="1362422412637" ID="ID_1528046729" MODIFIED="1362422412637" TEXT="updateCacheNode:fromManagedObject:">
+<node COLOR="#111111" CREATED="1362422412638" ID="ID_1311426948" MODIFIED="1362422412638" TEXT="Updates the given cache node using the values in a given managed object."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422447704" FOLDED="true" ID="ID_1906238092" MODIFIED="1362422629298" TEXT=" methods you must override for a subclass of NSPersistentStore:">
+<node COLOR="#111111" CREATED="1362422480612" ID="ID_907995438" MODIFIED="1362422480612" TEXT="type">
+<node COLOR="#111111" CREATED="1362422480613" ID="ID_451074718" MODIFIED="1362422480613" TEXT="Returns the type string of the receiver."/>
+</node>
+<node COLOR="#111111" CREATED="1362422480614" ID="ID_710486227" MODIFIED="1362422480614" TEXT="identifier">
+<node COLOR="#111111" CREATED="1362422480615" ID="ID_1129915362" MODIFIED="1362422480615" TEXT="Returns the unique identifier for the receiver."/>
+</node>
+<node COLOR="#111111" CREATED="1362422480616" ID="ID_1095364295" MODIFIED="1362422480616" TEXT="setIdentifier:">
+<node COLOR="#111111" CREATED="1362422480617" ID="ID_1932856534" MODIFIED="1362422480617" TEXT="Sets the unique identifier for the receiver."/>
+</node>
+<node COLOR="#111111" CREATED="1362422480618" ID="ID_1680898248" MODIFIED="1362422480618" TEXT="metadata">
+<node COLOR="#111111" CREATED="1362422480619" ID="ID_166441646" MODIFIED="1362422480619" TEXT="Returns the metadata for the receiver."/>
+</node>
+<node COLOR="#111111" CREATED="1362422480620" ID="ID_619838514" MODIFIED="1362422480620" TEXT="metadataForPersistentStoreWithURL:error:">
+<node COLOR="#111111" CREATED="1362422480621" ID="ID_1797364206" MODIFIED="1362422480621" TEXT="Returns the metadata from the persistent store at the given URL."/>
+</node>
+<node COLOR="#111111" CREATED="1362422480622" ID="ID_1898314384" MODIFIED="1362422480622" TEXT="setMetadata:forPersistentStoreWithURL:error:">
+<node COLOR="#111111" CREATED="1362422480622" ID="ID_310936646" MODIFIED="1362422480623" TEXT="Sets the metadata for the store at a given URL."/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422554820" ID="ID_1664474767" MODIFIED="1362422554822" TEXT="nitializing a Store">
+<node COLOR="#111111" CREATED="1362422554828" FOLDED="true" ID="ID_379461832" MODIFIED="1362422776442" TEXT="&#x2013; initWithPersistentStoreCoordinator:configurationName:URL:options:">
+<node COLOR="#111111" CREATED="1362422674154" ID="ID_703957923" MODIFIED="1362422674154">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns an atomic store, initialized with the given arguments.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362422692770" ID="ID_250852310" MODIFIED="1362422692770">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h5>
+      
+    </h5>
+    <p>
+      You typically do not invoke this method yourself; it is invoked by the persistent store coordinator during <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/CoreDataFramework/Classes/NSPersistentStoreCoordinator_Class/NSPersistentStoreCoordinator.html#//apple_ref/occ/instm/NSPersistentStoreCoordinator/addPersistentStoreWithType:configuration:URL:options:error:" target="_self"><code>addPersistentStoreWithType:configuration:URL:options:error:</code></a>, both when a new store is created and when an existing store is opened.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362422704673" ID="ID_1637531446" MODIFIED="1362422715915">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    In your implementation, you should check whether a file already exists at
+
+    <p>
+      <em>url</em>; if it does not, then you should either create a file here or ensure that your <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSAtomicStore_class/Reference/NSAtomicStore.html#//apple_ref/occ/instm/NSAtomicStore/load:"><code>load:</code></a>&#160;method does not fail if the file does not exist.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362422738932" ID="ID_616744108" MODIFIED="1362422763506">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="api discussion">
+      <p>
+        Any subclass of <code>NSAtomicStore</code>&#160;must be able to handle being initialized with a URL pointing to a zero-length file. This serves as an indicator that a new store is to be constructed at the specified location and allows you to securely create reservation files in known locations which can then be passed to Core Data to construct stores. You may choose to create zero-length reservation files during <code>initWithPersistentStoreCoordinator:configurationName:URL:options:</code>&#160; or <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSAtomicStore_class/Reference/NSAtomicStore.html#//apple_ref/occ/instm/NSAtomicStore/load:"><code>load:</code></a>. If you do so, you must remove the reservation file if the store is removed from the coordinator before it is saved.
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        You should ensure that you load metadata during initialization and set it using <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSAtomicStore_class/Reference/NSAtomicStore.html#//apple_ref/occ/instm/NSAtomicStore/setMetadata:"><code>setMetadata:</code></a>.
+      </p>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362422747286" ID="ID_119244658" MODIFIED="1362422747291">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="api specialConsiderations">
+      <h5>
+        Special Considerations
+      </h5>
+      <p>
+        You must invoke <code>super</code>&#8217;s implementation to ensure that the store is correctly initialized.
+      </p>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422554829" FOLDED="true" ID="ID_725907839" MODIFIED="1362423279063" TEXT="Loading a Store">
+<node COLOR="#111111" CREATED="1362422554830" FOLDED="true" ID="ID_1223277665" MODIFIED="1362422816610" TEXT="&#x2013; load:">
+<node COLOR="#111111" CREATED="1362422780430" ID="ID_16829543" MODIFIED="1362422780430">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Loads the cache nodes for the receiver.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362422791889" ID="ID_1009371475" MODIFIED="1362422806191">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="api discussion">
+      <p>
+        You override this method to to load the data from the URL specified in <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSAtomicStore_class/Reference/NSAtomicStore.html#//apple_ref/occ/instm/NSAtomicStore/initWithPersistentStoreCoordinator:configurationName:URL:options:"><code>initWithPersistentStoreCoordinator:configurationName:URL:options:</code></a>&#160;and create cache nodes for the represented objects. You must respect the configuration specified for the store, as well as the options.
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        Any subclass of <code>NSAtomicStore</code>&#160;must be able to handle being initialized with a URL pointing to a zero-length file. This serves as an indicator that a new store is to be constructed at the specified location and allows you to securely create reservation files in known locations which can then be passed to Core Data to construct stores. You may choose to create zero-length reservation files during <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSAtomicStore_class/Reference/NSAtomicStore.html#//apple_ref/occ/instm/NSAtomicStore/initWithPersistentStoreCoordinator:configurationName:URL:options:"><code>initWithPersistentStoreCoordinator:configurationName:URL:options:</code></a>&#160; or <code>load:</code>. If you do so, you must remove the reservation file if the store is removed from the coordinator before it is saved.
+      </p>
+    </div>
+    <div class="api specialConsiderations">
+      <h5>
+        Special Considerations
+      </h5>
+      <p>
+        You must override this method.
+      </p>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422554831" ID="ID_120695288" MODIFIED="1362422554831" TEXT="&#x2013; objectIDForEntity:referenceObject:">
+<node COLOR="#111111" CREATED="1362423057672" ID="ID_1388821645" MODIFIED="1362423057672">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns a managed object ID from the reference data for a specified entity.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423069440" ID="ID_648304410" MODIFIED="1362423069441">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      You use this method to create managed object IDs which are then used to create cache nodes for information being loaded into the store.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422554832" ID="ID_360254616" MODIFIED="1362422554832" TEXT="&#x2013; addCacheNodes:">
+<node COLOR="#111111" CREATED="1362423264998" ID="ID_357612594" MODIFIED="1362423265000">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Registers a set of cache nodes with the receiver.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423270451" ID="ID_1981583940" MODIFIED="1362423270452">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      You should invoke this method in a subclass during the call to <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSAtomicStore_class/Reference/NSAtomicStore.html#//apple_ref/occ/instm/NSAtomicStore/load:"><code>load:</code></a> to register the loaded information with the store.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422592603" FOLDED="true" ID="ID_1237597693" MODIFIED="1362423285715" TEXT="Updating Cache Nodes">
+<node COLOR="#111111" CREATED="1362422592604" ID="ID_518882744" MODIFIED="1362422592605" TEXT="&#x2013; newCacheNodeForManagedObject:">
+<node COLOR="#111111" CREATED="1362422879294" ID="ID_1742459416" MODIFIED="1362422879294">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns a new cache node for a given managed object.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362422932365" ID="ID_1042924470" MODIFIED="1362422932365">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This method is invoked by the framework after a save operation on a managed object content, once for each newly-inserted <code>NSManagedObject</code> instance.
+    </p>
+    <p>
+      <code>NSAtomicStore</code> provides a default implementation that returns a suitable cache node. You can override this method to take the information from the managed object and return a custom cache node.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422592605" ID="ID_1255352014" MODIFIED="1362422592606" TEXT="&#x2013; newReferenceObjectForManagedObject:">
+<node COLOR="#111111" CREATED="1362422941451" ID="ID_1056232335" MODIFIED="1362422941451">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns a new reference object for a given managed object.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362422986933" ID="ID_1318870336" MODIFIED="1362422999705">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="api discussion">
+      <p>
+        This method is invoked by the framework after a save operation on a managed object context, once for each newly-inserted managed object. The value returned is used to create a permanent ID for the object and must be unique for an instance within its entity's inheritance hierarchy (in this store).
+      </p>
+    </div>
+    <div class="api specialConsiderations">
+      <h5>
+        Special Considerations
+      </h5>
+      <p>
+        You must override this method.
+      </p>
+      <p>
+        This method must return a stable (unchanging) value for a given object, otherwise Save As and migration will not work correctly. This means that you can use arbitrary numbers, UUIDs, or other random values only if they are persisted with the raw data. If you cannot save the originally-assigned reference object with the data, then the method must derive the reference object from the managed object&#8217;s values.
+      </p>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362422999747" ID="ID_1550583447" LINK="https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/AtomicStore_Concepts/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004521" MODIFIED="1362423029112">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="api specialConsiderations">
+      <p>
+        For more details, see <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/AtomicStore_Concepts/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004521" target="_self"><em>Atomic Store Programming Topics</em></a>.
+      </p>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422592606" ID="ID_310394691" MODIFIED="1362422592607" TEXT="&#x2013; updateCacheNode:fromManagedObject:">
+<node COLOR="#111111" CREATED="1362423141429" ID="ID_1807785788" MODIFIED="1362423141429">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Updates the given cache node using the values in a given managed object.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423150855" ID="ID_337548327" MODIFIED="1362423150855">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This method is invoked by the framework after a save operation on a managed object context, once for each updated <code>NSManagedObject</code> instance.
+    </p>
+    <p>
+      You override this method in a subclass to take the information from <em>managedObject</em> and update <em>node</em>.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422592607" ID="ID_885522002" MODIFIED="1362422592607" TEXT="&#x2013; willRemoveCacheNodes:">
+<node COLOR="#111111" CREATED="1362423164199" ID="ID_1529206754" MODIFIED="1362423164201">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Method invoked before the store removes the given collection of cache nodes.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423184926" ID="ID_1652579134" MODIFIED="1362423184927">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      his method is invoked by the store before the call to <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSAtomicStore_class/Reference/NSAtomicStore.html#//apple_ref/occ/instm/NSAtomicStore/save:"><code>save:</code></a> with the collection of cache nodes marked as deleted by a managed object context. You can override this method to track the nodes which will not be made persistent in the <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSAtomicStore_class/Reference/NSAtomicStore.html#//apple_ref/occ/instm/NSAtomicStore/save:"><code>save:</code></a> method.
+    </p>
+    <p>
+      You should not invoke this method directly in a subclass.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422592608" ID="ID_946156233" MODIFIED="1362422592608" TEXT="Saving a Store">
+<node COLOR="#111111" CREATED="1362422592609" FOLDED="true" ID="ID_837008016" MODIFIED="1362423289377" TEXT="&#x2013; save:">
+<node COLOR="#111111" CREATED="1362423100574" ID="ID_626375707" MODIFIED="1362423100574">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Saves the cache nodes.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423112125" ID="ID_518194440" MODIFIED="1362423112125">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      You override this method to make persistent the necessary information from the cache nodes to the URL specified for the receiver.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422592610" FOLDED="true" ID="ID_1057116496" MODIFIED="1362423293090" TEXT="Utility Methods">
+<node COLOR="#111111" CREATED="1362422592611" ID="ID_275065194" MODIFIED="1362422592611" TEXT="&#x2013; cacheNodes">
+<node COLOR="#111111" CREATED="1362423218244" ID="ID_1403078565" MODIFIED="1362423218244">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns the set of cache nodes registered with the receiver.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423225893" ID="ID_1156598523" MODIFIED="1362423225893">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      You should modify this collection using <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSAtomicStore_class/Reference/NSAtomicStore.html#//apple_ref/occ/instm/NSAtomicStore/addCacheNodes:"><code>addCacheNodes:</code></a>: and <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSAtomicStore_class/Reference/NSAtomicStore.html#//apple_ref/occ/instm/NSAtomicStore/willRemoveCacheNodes:"><code>willRemoveCacheNodes:</code></a>.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422592612" ID="ID_1327196326" MODIFIED="1362422592612" TEXT="&#x2013; cacheNodeForObjectID:">
+<node COLOR="#111111" CREATED="1362423234492" ID="ID_636401391" MODIFIED="1362423234492">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns the cache node for a given managed object ID.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423240366" ID="ID_1820978597" MODIFIED="1362423240366">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This method is normally used by cache nodes to locate related cache nodes (by relationships).
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422592613" ID="ID_856479053" MODIFIED="1362422592613" TEXT="&#x2013; referenceObjectForObjectID:">
+<node COLOR="#111111" CREATED="1362423082719" ID="ID_948434530" MODIFIED="1362423082720">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns the reference object for a given managed object ID.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362423091008" ID="ID_1654217283" MODIFIED="1362423091008">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Subclasses should invoke this method to extract the reference data from the object ID for each cache node if the data is to be made persistent.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422592614" FOLDED="true" ID="ID_230056975" MODIFIED="1362423296779" TEXT="Managing Metadata">
+<node COLOR="#111111" CREATED="1362422592615" ID="ID_1266346829" MODIFIED="1362422592615" TEXT="&#x2013; metadata">
+<node COLOR="#111111" CREATED="1362422827502" ID="ID_1953065198" MODIFIED="1362422827502">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Returns the metadata for the receiver.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1362422860477" ID="ID_1640110371" MODIFIED="1362422860477">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <code>NSAtomicStore</code> provides a default dictionary of metadata. This dictionary contains the store type and identifier (<a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/CoreDataFramework/Classes/NSPersistentStoreCoordinator_Class/NSPersistentStoreCoordinator.html#//apple_ref/c/data/NSStoreTypeKey" target="_self"><code>NSStoreTypeKey</code></a> and <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/CoreDataFramework/Classes/NSPersistentStoreCoordinator_Class/NSPersistentStoreCoordinator.html#//apple_ref/c/data/NSStoreUUIDKey" target="_self"><code>NSStoreUUIDKey</code></a>) as well as store versioning information. Subclasses must ensure that the metadata is saved along with the store data.
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1362422592615" ID="ID_517907172" MODIFIED="1362422592615" TEXT="&#x2013; setMetadata:">
+<node COLOR="#111111" CREATED="1362423123561" ID="ID_543124780" MODIFIED="1362423123561">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="abstract">
+      Sets the metadata for the receiver.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1362420845119" ID="ID_1255290132" MODIFIED="1362420845120" TEXT="NSAtomicStoreCacheNode">
 <font NAME="SansSerif" SIZE="14"/>
